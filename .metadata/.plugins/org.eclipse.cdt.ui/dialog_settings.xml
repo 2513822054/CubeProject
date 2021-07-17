@@ -17,4 +17,10 @@
 	<section name="OptionalMessageDialog.hide.">
 		<item key="askReindex.detail" value="0"/>
 	</section>
+	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration.internal">
+		<item key="size.width" value="1516"/>
+		<item key="size.height" value="307"/>
+	</section>
+	<section name="NewClassWizardPage">
+	</section>
 </section>

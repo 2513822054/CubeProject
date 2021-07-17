@@ -46,25 +46,25 @@
 extern uint16_t chufazhuangtai;
 //全局变量
 extern int count_caiyang,count_pinlv;      //定时器计数器
-//水平刻度     0�?????????????????????1ms档位     1,10ms档位       2,100ms档位
+//水平刻度     0�?????????????????????????1ms档位     1,10ms档位       2,100ms档位
 extern uint8_t shuiping_scale;
-//水平刻度对应的分�?????????????????????
+//水平刻度对应的分�?????????????????????????
 extern int fenpin_count[3];
-//采样总时间（�?????????????????????大计数器计数值）
+//采样总时间（�?????????????????????????大计数器计数值）
 extern int max_count[3];
-//采样到的�?????????????????????
+//采样到的�?????????????????????????
 extern uint16_t ch1_values[500],ch2_values[500];
-//两个通道采样到的点的�?????????????????????大�?�和�?????????????????????小�??
+//两个通道采样到的点的�?????????????????????????大�?�和�?????????????????????????小�??
 extern uint16_t ch1_max,ch2_max,ch1_min,ch2_min;
 //触发电平
 extern uint16_t chufa_volts;
-//触发模式   0上升沿触�?????????????????????    1下降沿触�?????????????????????
+//触发模式   0上升沿触�?????????????????????????    1下降沿触�?????????????????????????
 extern uint8_t chufa_mode;
-//触发通道  0,�?????????????????????通道   1，二通道
+//触发通道  0,�?????????????????????????通道   1，二通道
 extern uint8_t chufa_ch;
 //两个通道的合计�??  （用来测量平均�?�）
 
-//�?????????????????些暂存�??
+//�?????????????????????些暂存�??
 int xiabiao;
 uint16_t ad_temp;
 /* USER CODE END PM */
@@ -80,7 +80,7 @@ extern uint16_t ads_data[2];
 extern uint8_t txbuf[2];
 extern uint16_t trigger_volt;
 uint8_t CH=0;
-
+extern uint8_t chufa_ch;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -91,10 +91,10 @@ uint8_t CH=0;
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 
-//收到的指�????????
+//收到的指�????????????
 extern uint8_t R_alldata[256];   //指令完整内容
 extern uint8_t R_onedata;    //指令单元
-extern uint16_t R_place;         //接收指令的位�????????
+extern uint16_t R_place;         //接收指令的位�????????????
 /* USER CODE END 0 */
 
 /* External variables --------------------------------------------------------*/
@@ -258,6 +258,8 @@ void DMA1_Stream6_IRQHandler(void)
   HAL_DMA_IRQHandler(&hdma_usart2_tx);
   /* USER CODE BEGIN DMA1_Stream6_IRQn 1 */
   huart2.gState=HAL_UART_STATE_READY;
+//  HAL_NVIC_SetPriority(EXTI9_5_IRQn, 3, 0);
+//  HAL_NVIC_EnableIRQ(EXTI9_5_IRQn);
   /* USER CODE END DMA1_Stream6_IRQn 1 */
 }
 
@@ -275,20 +277,100 @@ void TIM3_IRQHandler(void)
   ch1_values[count_caiyang] = ads_data[0];
   ch2_values[count_caiyang] = ads_data[1];
 
+
+
+  if(chufazhuangtai  && count_caiyang>3)
+  {
+	if(chufa_mode==0)
+	{
+	  if(chufa_ch==0)
+	  {
+				 if(ch1_values[count_caiyang]>trigger_volt
+						&&ch1_values[count_caiyang-1]>=trigger_volt
+						&&ch1_values[count_caiyang-2]<=trigger_volt
+						&&ch1_values[count_caiyang-3]<trigger_volt
+				 )
+				 {
+						chufazhuangtai=0;
+						ch1_maxdata=0;
+						ch1_mindata=65535;
+						ch2_maxdata=0;
+						ch2_mindata=65535;
+						count_caiyang=0;
+				 }
+	  	 }
+	  if(chufa_ch==1)
+	  {
+				 if(ch2_values[count_caiyang]>trigger_volt
+						&&ch2_values[count_caiyang-1]>=trigger_volt
+						&&ch2_values[count_caiyang-2]<=trigger_volt
+						&&ch2_values[count_caiyang-3]<trigger_volt
+				 )
+				 {
+						chufazhuangtai=0;
+						ch1_maxdata=0;
+						ch1_mindata=65535;
+						ch2_maxdata=0;
+						ch2_mindata=65535;
+						count_caiyang=0;
+				 }
+	  	 }
+	  }
+	if(chufa_mode==1)
+	{
+		  if(chufa_ch==0)
+		  {
+					 if(ch1_values[count_caiyang]<trigger_volt
+							&&ch1_values[count_caiyang-1]<=trigger_volt
+							&&ch1_values[count_caiyang-2]>=trigger_volt
+							&&ch1_values[count_caiyang-3]>trigger_volt
+					 )
+					 {
+							chufazhuangtai=0;
+							ch1_maxdata=0;
+							ch1_mindata=65535;
+							ch2_maxdata=0;
+							ch2_mindata=65535;
+							count_caiyang=0;
+					 }
+		  	 }
+		  if(chufa_ch==1)
+		  {
+					 if(ch2_values[count_caiyang]<trigger_volt
+							&&ch2_values[count_caiyang-1]<=trigger_volt
+							&&ch2_values[count_caiyang-2]>=trigger_volt
+							&&ch2_values[count_caiyang-3]>trigger_volt
+					 )
+					 {
+							chufazhuangtai=0;
+							ch1_maxdata=0;
+							ch1_mindata=65535;
+							ch2_maxdata=0;
+							ch2_mindata=65535;
+							count_caiyang=0;
+					 }
+		  	 }
+	}
+
+  }
+
   if(ads_data[0]>ch1_maxdata)ch1_maxdata=ads_data[0];
   if(ads_data[0]>ch2_maxdata)ch2_maxdata=ads_data[1];
   if(ads_data[0]<ch1_mindata)ch1_mindata=ads_data[0];
   if(ads_data[0]<ch2_mindata)ch2_mindata=ads_data[1];
 
-  if(chufazhuangtai && ch1_values[count_caiyang]>32768 && ch1_values[count_caiyang-1]<32768)
-  {
-	  count_caiyang=0;
-	  chufazhuangtai=0;
-	  ch1_maxdata=0;
-	  ch1_mindata=65535;
-	  ch2_maxdata=0;
-	  ch2_mindata=65535;
-  }
+//  if(
+//		  chufazhuangtai &&
+//		  ch1_values[count_caiyang]>32768
+//		  )
+//  {
+//	  count_caiyang=0;
+//	  chufazhuangtai=0;
+//	  ch1_maxdata=0;
+//	  ch1_mindata=65535;
+//	  ch2_maxdata=0;
+//	  ch2_mindata=65535;
+//  }
 
 
   if(++count_caiyang>=402)
@@ -305,7 +387,7 @@ void TIM3_IRQHandler(void)
 //      HAL_UART_Transmit(&huart2, ads_data, 4, 5);
 //      HAL_UART_Transmit(&huart2, "\0", 1, 5);
 
-//        //先判断预分频系数和count，看此次中断是否�????????????????要采�????????????????
+//        //先判断预分频系数和count，看此次中断是否�????????????????????要采�????????????????????
 //        if(count_caiyang%fenpin_count[shuiping_scale]==0)
 //        {
 //      	  ADS_Read_All_Raw(&ads, ads_data);

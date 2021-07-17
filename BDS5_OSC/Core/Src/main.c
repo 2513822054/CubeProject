@@ -63,13 +63,13 @@
 
 /* USER CODE BEGIN PV */
 
-uint8_t ch1_freq_tft[20]={0xEE,0xB1,0x10,0x00,0x00,0x00,0x0A,0x30,0x30,0x30,0x30,0x2E,0x30,0x30,0x30,0x30FF,0xFC,0xFF,0xFF};
-uint8_t ch1_vpp_tft[20]={0xEE,0xB1,0x10,0x00,0x00,0x00,0x15,0x30,0x30,0x30,0x30,0x2E,0x30,0x30,0x30,0x30FF,0xFC,0xFF,0xFF};
-uint8_t ch1_avg_tft[20]={0xEE,0xB1,0x10,0x00,0x00,0x00,0x16,0x30,0x30,0x30,0x30,0x2E,0x30,0x30,0x30,0x30FF,0xFC,0xFF,0xFF};
+uint8_t ch1_freq_tft[20]={0xEE,0xB1,0x10,0x00,0x00,0x00,0x0A,0x30,0x30,0x30,0x30,0x2E,0x30,0x30,0x30,0x30,0xFF,0xFC,0xFF,0xFF};
+uint8_t ch1_vpp_tft[20]={0xEE,0xB1,0x10,0x00,0x00,0x00,0x15,0x30,0x30,0x30,0x30,0x2E,0x30,0x30,0x30,0x30,0xFF,0xFC,0xFF,0xFF};
+uint8_t ch1_avg_tft[20]={0xEE,0xB1,0x10,0x00,0x00,0x00,0x16,0x30,0x30,0x30,0x30,0x2E,0x30,0x30,0x30,0x30,0xFF,0xFC,0xFF,0xFF};
 
-uint8_t ch2_freq_tft[20]={0xEE,0xB1,0x10,0x00,0x00,0x00,0x17,0x30,0x30,0x30,0x30,0x2E,0x30,0x30,0x30,0x30FF,0xFC,0xFF,0xFF};
-uint8_t ch2_vpp_tft[20]={0xEE,0xB1,0x10,0x00,0x00,0x00,0x18,0x30,0x30,0x30,0x30,0x2E,0x30,0x30,0x30,0x30FF,0xFC,0xFF,0xFF};
-uint8_t ch2_avg_tft[20]={0xEE,0xB1,0x10,0x00,0x00,0x00,0x19,0x30,0x30,0x30,0x30,0x2E,0x30,0x30,0x30,0x30FF,0xFC,0xFF,0xFF};
+uint8_t ch2_freq_tft[20]={0xEE,0xB1,0x10,0x00,0x00,0x00,0x17,0x30,0x30,0x30,0x30,0x2E,0x30,0x30,0x30,0x30,0xFF,0xFC,0xFF,0xFF};
+uint8_t ch2_vpp_tft[20]={0xEE,0xB1,0x10,0x00,0x00,0x00,0x18,0x30,0x30,0x30,0x30,0x2E,0x30,0x30,0x30,0x30,0xFF,0xFC,0xFF,0xFF};
+uint8_t ch2_avg_tft[20]={0xEE,0xB1,0x10,0x00,0x00,0x00,0x19,0x30,0x30,0x30,0x30,0x2E,0x30,0x30,0x30,0x30,0xFF,0xFC,0xFF,0xFF};
 
 uint16_t ch1_maxdata,ch1_mindata;
 float ch1_maxvolt,ch1_minvolt;
@@ -79,9 +79,9 @@ float ch1Vpp,ch2Vpp;
 float freq1,freq2;
 float ch1_avg,ch2_avg;
 // ADS variables
-//大彩屏指�?????????????????
+//大彩屏指�????????????????????????
 uint8_t scream_head=0xEE,screen_end[4]={0xFF,0xFC,0xFF,0xFF};
-//触发状�??   0已触�??????????????    1未触�??????????????
+//触发状�??   0已触�?????????????????????    1未触�?????????????????????
 uint8_t chufazhuangtai=0;
 
 //触发电平
@@ -93,26 +93,26 @@ uint8_t trigger_mode;
 uint8_t ch1_show=1,ch2_show=1;
 
 int count_caiyang=0,count_pinlv=0;      //定时器计数器
-//垂直刻度    0�?????????????????10mv        1�?????????????????100mv          2�?????????????????1v
+//垂直刻度    0�????????????????????????10mv        1�????????????????????????100mv          2�????????????????????????1v
 uint8_t chuizhi_scale=2;
 
 uint16_t count1ms=0;
 
-//水平刻度     0�???????????????????????????????1ms档位     1,10ms档位       2,100ms档位
+//水平刻度     0�??????????????????????????????????????1ms档位     1,10ms档位       2,100ms档位
 uint8_t shuiping_scale=2;
-//水平刻度对应的分�???????????????????????????????
+//水平刻度对应的分�??????????????????????????????????????
 int fenpin_count[3]={1,10,100};
-//采样总时间（�???????????????????????????????大计数器计数值）
+//采样总时间（�??????????????????????????????????????大计数器计数值）
 int max_count[3]={502,5020,50200};
-//采样到的�???????????????????????????????
+//采样到的�??????????????????????????????????????
 uint16_t ch1_values[502],ch2_values[502];
-//两个通道采样到的点的�???????????????????????????????大�?�和�???????????????????????????????小�??
+//两个通道采样到的点的�??????????????????????????????????????大�?�和�??????????????????????????????????????小�??
 //uint16_t ch1_max,ch2_max,ch1_min,ch2_min;
 //触发电平
 uint16_t chufa_volts=0;
-//触发模式   0上升沿触�???????????????????????????????    1下降沿触�???????????????????????????????
+//触发模式   0上升沿触�??????????????????????????????????????    1下降沿触�??????????????????????????????????????
 uint8_t chufa_mode=0;
-//触发通道  0,�???????????????????????????????通道   1，二通道
+//触发通道  0,�??????????????????????????????????????通道   1，二通道
 uint8_t chufa_ch=0;
 //两个通道的合计�??  （用来测量平均�?�）
 int total_ch1,total_ch2;
@@ -131,19 +131,19 @@ uint8_t ch_showall[948]=
 0xEE,0xB1,0x32,0x00,0x00,0x00,0x02,0x01,0x01,0x90,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xFF,0xFC,0xFF,0xFF
 };
 
-//收到的指�?????????????
+//收到的指�????????????????????
 uint8_t R_alldata[256];   //指令完整内容
 uint8_t R_onedata;    //指令单元
-uint16_t R_place=0;         //接收指令的位�?????????????
+uint16_t R_place=0;         //接收指令的位�????????????????????
 
 
 
-//两个通道的方波周期和占空�????????????????????
+//两个通道的方波周期和占空�???????????????????????????
 uint32_t ch1_period=0,ch1_duty,ch2_period,ch2_duty;
 
 
 ADS8688 ads;
-//采样到的�???????????????????????????????
+//采样到的�??????????????????????????????????????
 uint16_t ads_data[2];
 
 uint8_t rxbuf[2] = {0};
@@ -180,7 +180,7 @@ int main(void)
 //	memcpy(ch_showall+928*sizeof(uint8_t),ch2_avg_tft,sizeof(ch2_avg_tft));
   /* USER CODE END 1 */
 
-  /* MCU Configuration---- ----------------------------------------------------*/
+  /* MCU Configuration--------------------------------------------------------*/
 
   /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
   HAL_Init();
@@ -210,7 +210,7 @@ int main(void)
   HAL_TIM_IC_Start_DMA(&htim2,TIM_CHANNEL_1,&ch1_period,1);
   htim2.State = HAL_TIM_STATE_READY;
   HAL_TIM_Base_Start(&htim5);
-  HAL_TIM_IC_Start_DMA(&htim5,TIM_CHANNEL_2,&ch2_period,1);
+  HAL_TIM_IC_Start_DMA(&htim5,TIM_CHANNEL_1,&ch2_period,1);
   htim5.State = HAL_TIM_STATE_READY;
   //HAL_TIM_IC_Start_DMA(&htim2,TIM_CHANNEL_2,&ch1_duty,1);
 
@@ -296,27 +296,46 @@ void SystemClock_Config(void)
 }
 
 /* USER CODE BEGIN 4 */
-//计数完后处理数据的函�???????????????????????????????
+//计数完后处理数据的函�??????????????????????????????????????
 void FinishCount(){
 //	if(++count1ms<5 && shuiping_scale==0)
 //	{
 //		return;
 //	}
 //	count1ms=0;
+	int temp1,temp2;
+
 	if(chuizhi_scale==1)
 	{
 		for(i=0;i<=402;i++)
 			{
-			ch1_values[i]=(uint16_t)((short int)ch1_values[i]-32768)*10+32768;
-			ch2_values[i]=(uint16_t)((short int)ch2_values[i]-32768)*10+32768;
+			temp1=((int)ch1_values[i]-32768)*10+32768;
+			temp2=((int)ch2_values[i]-32768)*10+32768;
+			if(temp1>65535)ch1_values[i]=65535;
+			else if(temp1<0)ch1_values[i]=0;
+			else ch1_values[i]=(uint16_t)temp1;
+			if(temp2>65535)ch2_values[i]=65535;
+			else if(temp2<0)ch2_values[i]=0;
+			else ch2_values[i]=(uint16_t)temp2;
+//			ch1_values[i]=(uint16_t)((int)ch1_values[i]-32768)*10+32768;
+//			ch2_values[i]=(uint16_t)((int)ch2_values[i]-32768)*10+32768;
+
 			}
 	}
 	if(chuizhi_scale==0)
 	{
 		for(i=0;i<=402;i++)
 			{
-				ch1_values[i]=(uint16_t)((short int)ch1_values[i]-32768)*100+32768;
-				ch2_values[i]=(uint16_t)((short int)ch2_values[i]-32768)*100+32768;
+			temp1=((int)ch1_values[i]-32768)*100+32768;
+			temp2=((int)ch2_values[i]-32768)*100+32768;
+
+			if(temp1>65535)ch1_values[i]=65535;
+			else if(temp1<0)ch1_values[i]=0;
+			else ch1_values[i]=(uint16_t)temp1;
+
+			if(temp2>65535)ch2_values[i]=65535;
+			else if(temp2<0)ch2_values[i]=0;
+			else ch2_values[i]=(uint16_t)temp2;
 			}
 	}
 	for(i=0;i<=402;i++)
@@ -325,7 +344,7 @@ void FinishCount(){
 			  ch2_values[i]=(uint16_t)(ch2_values[i]<<8|ch2_values[i]>>8);
 	}
 
-	//�??大�?�最小�?�计�??
+	//�?????????大�?�最小�?�计�?????????
 	ch1_maxvolt=ch1_maxdata*1.0/65535*10.24-5.12;
 	ch1_minvolt=ch1_mindata*1.0/65535*10.24-5.12;
 	ch2_maxvolt=ch2_maxdata*1.0/65535*10.24-5.12;
@@ -342,15 +361,20 @@ void FinishCount(){
 	memcpy(ch_showall+908*sizeof(uint8_t),ch2_vpp_tft,sizeof(ch2_vpp_tft));
 	memcpy(ch_showall+928*sizeof(uint8_t),ch2_avg_tft,sizeof(ch2_avg_tft));
 	//计算频率
-	sprintf(&ch1_freq_tft[7],"%.3f",84000000.0/ch1_period);
-	sprintf(&ch2_freq_tft[7],"%.3f",84000000.0/ch2_period);
+	if(84000000.0/ch1_period<=1001)freq1=84000000.0/ch1_period;
+	//else freq1=1001;
+	if(84000000.0/ch2_period<=1001)freq2=84000000.0/ch2_period;
+	//else freq2=1001;
+
+	sprintf(&ch1_freq_tft[7],"%.3f",freq1);
+	sprintf(&ch2_freq_tft[7],"%.3f",freq2);
 
 	//将发送的数据填入指令
 
 	sprintf(&ch1_vpp_tft[7],"%.5f",ch1Vpp);
 	sprintf(&ch2_vpp_tft[7],"%.5f",ch2Vpp);
-//	sprintf(&ch1_avg_tft[7],"%.5f",(ch1_maxvolt+ch1_minvolt)/2);
-//	sprintf(&ch2_avg_tft[7],"%.5f",(ch2_maxvolt+ch2_minvolt)/2);
+	sprintf(&ch1_avg_tft[7],"%.5f",ch1_avg);
+	sprintf(&ch2_avg_tft[7],"%.5f",ch2_avg);
 
 
 	if(ch1_show==1)
@@ -380,39 +404,49 @@ void FinishCount(){
 
 
 
-
-	HAL_UART_Transmit_DMA(&huart2, ch_showall, 948);
-	HAL_Delay(10);
+	if(shuiping_scale==0)
+	{
+		if(++count_pinlv>=10)
+		{
+			HAL_UART_Transmit_DMA(&huart2, ch_showall, 948);
+			count_pinlv=0;
+		}
+	}
+	else HAL_UART_Transmit_DMA(&huart2, ch_showall, 948);
+	//HAL_Delay(10);
 	//huart2->State=HAL_USART_STATE_READY;
-	chufazhuangtai=1;
-	ch1_maxdata=0;
-	ch1_mindata=65535;
-	ch2_maxdata=0;
-	ch2_mindata=65535;
-	count_caiyang=0;
-
+//	chufazhuangtai=1;
+//	ch1_maxdata=0;
+//	ch1_mindata=65535;
+//	ch2_maxdata=0;
+//	ch2_mindata=65535;
+//	count_caiyang=0;
 //
-//	  HAL_TIM_Base_Start(&htim2);
-//	  HAL_TIM_IC_Start_DMA(&htim2,TIM_CHANNEL_1,&ch1_period,1);
-//	  HAL_TIM_Base_Start(&htim5);
-//	  HAL_TIM_IC_Start_DMA(&htim5,TIM_CHANNEL_2,&ch2_period,1);
-//	  htim2.State = HAL_TIM_STATE_READY;
-//	  htim3.State = HAL_TIM_STATE_READY;
-
-
-
+////
+////	  HAL_TIM_Base_Start(&htim2);
+////	  HAL_TIM_IC_Start_DMA(&htim2,TIM_CHANNEL_1,&ch1_period,1);
+////	  HAL_TIM_Base_Start(&htim5);
+////	  HAL_TIM_IC_Start_DMA(&htim5,TIM_CHANNEL_2,&ch2_period,1);
+////	  htim2.State = HAL_TIM_STATE_READY;
+////	  htim3.State = HAL_TIM_STATE_READY;
+//
+//
+//
+	//while(huart2.gState!=HAL_UART_STATE_READY);
+	chufazhuangtai = 1;
 	HAL_TIM_Base_Start_IT(&htim3);
+
 
 }
 
 int Dosomething(){
-	//如果按钮被按�?????????????
+	//如果按钮被按�????????????????????
 	if(R_alldata[1]==0xB1&&R_alldata[2]==0x11&&R_alldata[3]==0x00&&R_alldata[4]==0x00&&R_alldata[5]==0x00&&R_alldata[7]==0x10&&R_alldata[8]==0x01)
 	{
-		//ch1通道�?????????????启按钮按�?????????????
+		//ch1通道�????????????????????启按钮按�????????????????????
 		if(R_alldata[6]==0x05)
 		{
-			//�?????????????启�?�道1
+			//�????????????????????启�?�道1
 			if(R_alldata[9]==0x01)
 			{
 				ch1_show=1;
@@ -425,10 +459,10 @@ int Dosomething(){
 				count_caiyang=0;
 			}
 		}
-		//ch2通道�?????????????启按钮按�?????????????
+		//ch2通道�????????????????????启按钮按�????????????????????
 		if(R_alldata[6]==0x06)
 		{
-					//�?????????????启�?�道2
+					//�????????????????????启�?�道2
 			if(R_alldata[9]==0x01)
 			{
 				ch2_show=1;
@@ -447,6 +481,7 @@ int Dosomething(){
 			//CH1触发
 			if(R_alldata[9]==0x00)
 			{
+				chufa_ch=0;
 				count_caiyang=0;
 			}
 			//ch2触发
@@ -456,14 +491,82 @@ int Dosomething(){
 				count_caiyang=0;
 			}
 		}
+		//上升下降沿触�?
+		if(R_alldata[6]==0x1A)
+		{
+			if(R_alldata[9]==0x00)chufa_mode=0;
+			if(R_alldata[9]==0x01)chufa_mode=1;
+		}
 
+		//自动设置被按�?
+		if(R_alldata[6]==0x1B)
+		{
+			if(chufa_ch==0)
+			{
+
+				if(ch1Vpp>0.9)
+				{
+					chuizhi_scale=2;
+				}
+				else if(ch1Vpp>0.09)
+				{
+					chuizhi_scale=1;
+				}
+				else
+				{
+					chuizhi_scale=0;
+				}
+
+				if(freq1>298)
+				{
+					shuiping_scale=0;TIM3->PSC=0;count_caiyang=0;
+
+				}
+				else if(freq1>29.5)
+				{
+					shuiping_scale=1;TIM3->PSC=9;count_caiyang=0;
+				}
+				else
+				{
+					shuiping_scale=1;TIM3->PSC=99;count_caiyang=0;
+				}
+			}
+			if(chufa_ch==1)
+			{
+				if(ch2Vpp>0.9)
+				{
+					chuizhi_scale=2;
+				}
+				else if(ch2Vpp>0.09)
+				{
+					chuizhi_scale=1;
+				}
+				else
+				{
+					chuizhi_scale=0;
+				}
+
+				if(freq2>298)
+				{
+					shuiping_scale=0;TIM3->PSC=0;count_caiyang=0;
+				}
+				else if(freq2>29.5)
+				{
+					shuiping_scale=1;TIM3->PSC=9;count_caiyang=0;
+				}
+				else
+				{
+					shuiping_scale=1;TIM3->PSC=99;count_caiyang=0;
+				}
+			}
+		}
 
 
 	}
-	//如果滑动选择被滑�?????????????
+	//如果滑动选择被滑�????????????????????
 	else if(R_alldata[1]==0xB1&&R_alldata[2]==0x11&&R_alldata[3]==0x00&&R_alldata[4]==0x00&&R_alldata[5]==0x00&&R_alldata[7]==0x1b)
 	{
-		//幅度调节被按�?????????????
+		//幅度调节被按�????????????????????
 		if(R_alldata[6]==0x04)
 		{
 			switch(R_alldata[8])
@@ -473,7 +576,7 @@ int Dosomething(){
 				case 2:chuizhi_scale=2;break;
 			}
 		}
-		//时间调节被按�?????????????
+		//时间调节被按�????????????????????
 		if(R_alldata[6]==0x08)
 		{
 			switch(R_alldata[8])
@@ -483,16 +586,24 @@ int Dosomething(){
 				case 2:shuiping_scale=2;TIM3->PSC=99;count_caiyang=0;break;
 			}
 		}
+
 	}
 
 	//如果滑动触发电平选择器被按下
 	else if(R_alldata[1]==0xB1&&R_alldata[2]==0x11&&R_alldata[3]==0x00&&R_alldata[4]==0x00&&R_alldata[5]==0x00&&R_alldata[6]==0x03&&R_alldata[7]==0x13)
 	{
 		if(chuizhi_scale==2)trigger_volt=(uint16_t)R_alldata[11]*256;
-		if(chuizhi_scale==1)trigger_volt=(uint16_t)R_alldata[11]*256/10;
-		if(chuizhi_scale==0)trigger_volt=(uint16_t)R_alldata[11]*256/100;
+		if(chuizhi_scale==1)trigger_volt=(uint16_t)((float)R_alldata[11]*25.6)+29491;
+		//if(chuizhi_scale==1)trigger_volt=((short int)R_alldata[11]*256-32768)/10;
+		if(chuizhi_scale==0)trigger_volt=(uint16_t)((float)R_alldata[11]*2.56)+29819;
 	}
 
+	//如果上升下降沿触发按键按�?
+	else if(R_alldata[1]==0xB1&&R_alldata[2]==0x11&&R_alldata[3]==0x00&&R_alldata[4]==0x00&&R_alldata[5]==0x00&&R_alldata[6]==0x1A&&R_alldata[7]==0x10&&R_alldata[8]==0x01)
+	{
+//		if(R_alldata[9]==0x00)chufa_mode=0;
+//		if(R_alldata[9]==0x01)chufa_mode=1;
+	}
 
 
 
@@ -509,15 +620,15 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 					R_alldata[R_place]=R_onedata;     //保存指令单元
 				//如果指令单元为指令头
 				if(R_onedata==0xEE){
-					R_place++;                                      //�?????????????始获取下�?????????????个指令单�?????????????
+					R_place++;                                      //�????????????????????始获取下�????????????????????个指令单�????????????????????
 				}
 				else if(R_place>=1)R_place++;
-				//超过五个指令单元后判断是否结束指�?????????????
+				//超过五个指令单元后判断是否结束指�????????????????????
 				if(R_place>5){
 						if(R_alldata[R_place-1]==0xFF&&R_alldata[R_place-2]==0xFF&&R_alldata[R_place-3]==0xFC&&R_alldata[R_place-4]==0xFF){
 							Dosomething();                            //调用指令处理函数
 							for(i=0;i<=255;i++)R_alldata[i]=0;            //指令清空
-							R_place=0;                                                  //指令位置�?????????????
+							R_place=0;                                                  //指令位置�????????????????????
 						}
 					}
 
@@ -525,6 +636,30 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 					HAL_UART_Receive_IT(&huart1, (uint8_t *)&R_onedata, 1);
 	}
 }
+
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
+{
+	if(GPIO_Pin == GPIO_PIN_7)
+	{
+			//HAL_NVIC_DisableIRQ(EXTI9_5_IRQn);
+			chufazhuangtai=1;
+			ch1_maxdata=0;
+			ch1_mindata=65535;
+			ch2_maxdata=0;
+			ch2_mindata=65535;
+			count_caiyang=0;
+			//HAL_TIM_Base_Start_IT(&htim3);
+		//
+		//	  HAL_TIM_Base_Start(&htim2);
+		//	  HAL_TIM_IC_Start_DMA(&htim2,TIM_CHANNEL_1,&ch1_period,1);
+		//	  HAL_TIM_Base_Start(&htim5);
+		//	  HAL_TIM_IC_Start_DMA(&htim5,TIM_CHANNEL_2,&ch2_period,1);
+		//	  htim2.State = HAL_TIM_STATE_READY;
+		//	  htim3.State = HAL_TIM_STATE_READY;
+
+	}
+}
+
 
 
 

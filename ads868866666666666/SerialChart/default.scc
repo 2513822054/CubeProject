@@ -1,0 +1,39 @@
+[_setup_]
+port=COM7
+baudrate=115200
+
+width=1000
+height=400
+background_color = white
+
+grid_h_origin = 200
+grid_h_step = 10
+grid_h_color = #EEE
+grid_h_origin_color = #AAA
+grid_v_origin = 0
+grid_v_step = 10
+grid_v_color = #EEE
+grid_v_origin_color = #CCC 
+
+ 
+[_default_]
+min=0
+max=2000
+
+[port1]
+color = green
+min=-30000
+max=30000
+
+[port2]
+color = red
+min=-30000
+max=30000
+
+[port3]
+color = blue
+min=0
+max=2000
+
+[port4]
+color = yellow

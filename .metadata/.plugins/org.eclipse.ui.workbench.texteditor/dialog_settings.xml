@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="ch2_show_head"/>
+		<item key="selection" value="showError();"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
-			<item value="ch2_show_head"/>
-			<item value="ch1_show"/>
-			<item value="isend"/>
-			<item value="state"/>
-			<item value="DMA1_Stream"/>
-			<item value="ch2_show"/>
-			<item value="R_onedata"/>
-			<item value="Finish"/>
-			<item value="FinishCount();"/>
-			<item value="ads"/>
+			<item value="showError();"/>
+			<item value="ch4_L"/>
+			<item value="judge"/>
+			<item value="tim3mo"/>
+			<item value="showMode0"/>
+			<item value="VppTrue"/>
+			<item value="if(ch1max&lt;ads_data[0])ch1max=ads_data[0];"/>
+			<item value="vpp2_print"/>
 		</list>
 		<list key="replacehistory">
 		</list>
