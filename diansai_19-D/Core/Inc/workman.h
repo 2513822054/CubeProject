@@ -3,6 +3,7 @@
 
 #include "main.h"
 
+
 //不同模式的开启和停止
 void stateMode0_Start();
 void stateMode1_Start();
@@ -27,6 +28,9 @@ void tim3Mode2();
 //校准模式
 void tim3Mode3();
 
+//tim2测c1double
+void tim2Mode2();
+
 //1模式下定时器5的操作函数
 void tim5Mode1();
 //不同模式下显示界面的函数
@@ -44,4 +48,5 @@ void Dosomething3();
 void Dosomething3Mode0();
 void Dosomething3Mode2();
 void Dosomething3Mode3();
+void Dosomething_tim2Mode2();
 #endif

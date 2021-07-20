@@ -36,6 +36,8 @@ extern "C" {
 #include "ADS8688.h"
 #include "tft.h"
 #include <stdio.h>
+#include "arm_math.h"
+#include "outputdata.h"
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/
@@ -52,25 +54,27 @@ extern "C" {
 /* USER CODE BEGIN EM */
 
 extern SPI_HandleTypeDef hspi3;
-
+extern TIM_HandleTypeDef htim2;
 extern TIM_HandleTypeDef htim3;
 extern TIM_HandleTypeDef htim4;
 extern TIM_HandleTypeDef htim5;
 extern UART_HandleTypeDef huart1;
 extern UART_HandleTypeDef huart6;
 
+extern float Input[1024];
+extern float Output[1024], Real_Output[1024]; //�?终幅值结果数�?
+extern arm_rfft_fast_instance_f32 S;//结构�?
 
-
-//设置状�?�机模式     0 测试模式  1幅频特�?�模�???   2故障�???测模�???
+//设置状�?�机模式     0 测试模式  1幅频特�?�模�????   2故障�????测模�????
 extern uint8_t stateMode;
 
 
-//PE0电平状�??           �???1则输出继电器相连，输出带�???        0为空�???
+//PE0电平状�??           �????1则输出继电器相连，输出带�????        0为空�????
 extern uint8_t PE0;
 
 extern uint16_t count3,count4,count5;
 
-//采样�???  和buf
+//采样�????  和buf
 extern uint16_t ads_data[8];
 extern uint8_t txbuf[4];
 extern uint8_t rxbuf[4];
@@ -78,28 +82,32 @@ extern uint8_t rxbuf[4];
 extern ADS8688 ads;
 
 
-//幅频特�?�采样数�?
+//幅频特�?�采样数�??
 extern uint16_t AF[400];
 
-//各个通道的最大�?�和�???小�??
+//各个通道的最大�?�和�????小�??
 extern uint16_t ch1max,ch2max,ch3max,ch4max,ch1min,ch2min,ch3min,ch4min;
-//�???大�?�最小�?�和各种值的浮点�???
+//�????大�?�最小�?�和各种值的浮点�????
 extern float ch1max_f,ch2max_f,ch3max_f,ch4max_f,ch1min_f,ch2min_f,ch3min_f,ch4min_f;
-//峰峰�??? 平均�???
+//峰峰�???? 平均�????
 extern float Vpp1,Vpp2,Vdc1,Vdc2;
 extern float Vpp3Noload,Vpp3Load,Vdc3Noload,Vdc3Load;
 //输入输出电阻
 extern float Ri[5],Ro,Au;
 
 
-//幅频特�?�采样数�?
+//幅频特�?�采样数�??
 extern uint16_t AF[400];
 extern uint16_t AF_max,AF_place;
 extern uint8_t AF_print[400];
 
 
-
-
+//测c1double
+extern float ch1Mode2[850];
+extern float ch3Mode2[850];
+extern uint32_t count2;
+extern float c1DoubleMax;
+extern float c2DoubleMin;
 
 /* USER CODE END EM */
 

@@ -1,7 +1,7 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:ad9959_spi_test Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:diansai_19-D Debug
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:ad9959_spi_test Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:diansai_19-D Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:diansai_20_E Debug
 eclipse.preferences.version=1
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:ADS8688_444444444444444444444444444444444444444\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:ADS8688_444444444444444444444444444444444444444\ Debug/activeLaunchTarget=null\:---
@@ -11,10 +11,12 @@ org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Debug\ BDS5_OSC/activeLaunchMod
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Debug\ BDS5_OSC/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Debug\ F4_12SimpleOSC/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Debug\ F4_12SimpleOSC/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Encapsolution\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:ad9959_spi_test\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:ad9959_spi_test\ Debug/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:ads8688_5555555555555555555\ Debug/activeLaunchMode=run
-org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:diansai_19-D\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:diansai_19-D\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:diansai_20_E\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:fault_detection\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:fault_detection\ Debug/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:freq_test\ Debug/activeLaunchMode=debug

@@ -17,7 +17,7 @@
   ******************************************************************************
   */
 /* USER CODE END Header */
-/* Includes ----------------------------------------------------------------*/
+/* Includes ------------------------------------------------------------------*/
 #include "main.h"
 
 /* Private includes ----------------------------------------------------------*/
@@ -42,6 +42,7 @@
 /* Private variables ---------------------------------------------------------*/
 SPI_HandleTypeDef hspi3;
 
+TIM_HandleTypeDef htim2;
 TIM_HandleTypeDef htim3;
 TIM_HandleTypeDef htim4;
 TIM_HandleTypeDef htim5;
@@ -62,42 +63,65 @@ static void MX_TIM4_Init(void);
 static void MX_USART1_UART_Init(void);
 static void MX_USART6_UART_Init(void);
 static void MX_TIM5_Init(void);
+static void MX_TIM2_Init(void);
 /* USER CODE BEGIN PFP */
 
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+//void arm_rfft_fast_f32(arm_rfft_fast_instance_f32 *s,float *p,float *pOut,u8 ifftflag);
+#define FFT_SIZE 1024 //å®æ•°åºåˆ—çš„é•¿ï¿½?
+float Input[1024];
+float Output[1024], Real_Output[1024]; //ï¿½?ç»ˆå¹…å€¼ç»“æœæ•°ï¿½?
+arm_rfft_fast_instance_f32 S;//ç»“æ„ï¿½?
+//
+//
+//arm_rfft_fast_f32(&S, Input, Output, 0);//ifft_flag=0æ˜¯æ­£å˜æ¢ï¿½? ï¿½?1åˆ™æ˜¯ï¿½? å˜æ¢
+////å†å¯¹å¤æ•°ç»“æœæ±‚æ¨¡
+//arm_cmplx_mag_f32(Output, Real_Output, 1024);
 
-//ÉèÖÃ×´Ì¬»úÄ£Ê½     0 ²âÊÔÄ£Ê½  1·ùÆµÌØĞÔÄ£Ê½   2¹ÊÕÏ¼ì²âÄ£Ê½
+
+
+
+//è®¾ç½®çŠ¶ï¿½?ï¿½æœºæ¨¡å¼     0 æµ‹è¯•æ¨¡å¼  1å¹…é¢‘ç‰¹ï¿½?ï¿½æ¨¡ï¿½?   2æ•…éšœï¿½?æµ‹æ¨¡ï¿½?
 uint8_t stateMode=0;
 
 
-//PE0µçÆ½×´Ì¬           Îª1ÔòÊä³ö¼ÌµçÆ÷ÏàÁ¬£¬Êä³ö´øÔØ        0Îª¿ÕÔØ
+//PE0ç”µå¹³çŠ¶ï¿½??           ï¿½?1åˆ™è¾“å‡ºç»§ç”µå™¨ç›¸è¿ï¼Œè¾“å‡ºå¸¦ï¿½?        0ä¸ºç©ºï¿½?
 uint8_t PE0=0;
 
-//¶¨Ê±Æ÷¼ÆÊıÆ÷
+//å®šæ—¶å™¨è®¡æ•°å™¨
 uint16_t count3=0,count4=0,count5=0;
 
-//²ÉÑùÖµ  ºÍbuf
+//é‡‡æ ·ï¿½?  å’Œbuf
 uint16_t ads_data[8];
 uint8_t txbuf[4] = {0};
 uint8_t rxbuf[4] = {0};
 
 ADS8688 ads;
 
-//¸÷¸öÍ¨µÀµÄ×î´óÖµºÍ×îĞ¡Öµ
+//å„ä¸ªé€šé“çš„æœ€å¤§ï¿½?ï¿½å’Œï¿½?å°ï¿½??
 uint16_t ch1max,ch2max,ch3max,ch4max,ch1min,ch2min,ch3min,ch4min;
-//×î´óÖµ×îĞ¡ÖµºÍ¸÷ÖÖÖµµÄ¸¡µãĞÍ
+//ï¿½?å¤§ï¿½?ï¿½æœ€å°ï¿½?ï¿½å’Œå„ç§å€¼çš„æµ®ç‚¹ï¿½?
 float ch1max_f,ch2max_f,ch3max_f,ch4max_f,ch1min_f,ch2min_f,ch3min_f,ch4min_f;
-//·å·åÖµ Æ½¾ùÖµ
+//å³°å³°ï¿½? å¹³å‡ï¿½?
 float Vpp1,Vpp2,Vdc1,Vdc2;
 float Vpp3Noload,Vpp3Load,Vdc3Noload,Vdc3Load;
-//ÊäÈëÊä³öµç×è
+//è¾“å…¥è¾“å‡ºç”µé˜»
 float Ri[5],Ro,Au;
 
 
-//·ùÆµÌØĞÔ²ÉÑùÊı×é
+//æµ‹c1double
+float ch1Mode2[850];
+float ch3Mode2[850];
+uint32_t count2;
+float c1DoubleMax;
+float c2DoubleMin;
+
+
+
+//å¹…é¢‘ç‰¹ï¿½?ï¿½é‡‡æ ·æ•°ï¿½?
 uint16_t AF[400];
 uint16_t AF_max=0,AF_place;
 uint8_t AF_print[400];
@@ -139,15 +163,20 @@ int main(void)
   MX_USART1_UART_Init();
   MX_USART6_UART_Init();
   MX_TIM5_Init();
+  MX_TIM2_Init();
   /* USER CODE BEGIN 2 */
+  arm_rfft_fast_init_f32(&S,1024);//åˆå§‹åŒ–è¯¥ç»“æ„ï¿½?
+
+
   ADS8688_Init(&ads,&hspi3,SPI3_CS_GPIO_Port, SPI3_CS_Pin);
   Init_AD9959();
   //TIM5->ARR=3999;
-  TIM3->ARR=3188;
+  TIM3->ARR=3146;
   //HAL_TIM_Base_Start_IT(&htim4);
   //HAL_TIM_Base_Start_IT(&htim3);
   HAL_UART_Receive_IT(RECEIVE, (uint8_t *)&R_onedata, 1);
   //HAL_TIM_Base_Start_IT(&htim5);
+
 
   /*
   while(1)
@@ -160,6 +189,31 @@ int main(void)
 	  L_freq = freq;
 	}
   }*/
+
+  //FFT test
+  /*
+  åŠŸèƒ½ï¼šè®¡ç®—FFT
+  (ç»“æ„ä½“ï¼Œè¾“â¼Šï¼Œè¾“å‡ºï¼Œifftæ ‡å¿—ï¿½?)
+  */
+  //void arm_rfft_fast_f32(arm_rfft_fast_instance_f32 *s,float *p,float *pOut,u8 ifftflag);
+  //æœ¬å‡½æ•°å¯¹é•¿ä¸ºNçš„å®æ•°æ•°ç»„å…ˆè¿›â¾FFTè®¡ç®—ï¼Œç”±äºåªè®¡ç®—äº†å‰ï¿½?åŠå¹…é¢‘ï¼Œæ•…è¾“å‡ºç»“æœä»ä¸ºNï¼Œé¢‘ç‡æˆªâ½Œåˆ°Fs/2ï¿½?.
+//  #define FFT_SIZE 1024 //å®æ•°åºåˆ—çš„é•¿ï¿½?
+//  float Output[1024], Real_Output[1024]; //ï¿½?ç»ˆå¹…å€¼ç»“æœæ•°ï¿½?
+//  arm_rfft_fast_instance_f32 S;//ç»“æ„ï¿½?
+//  arm_rfft_fast_init_f32(&S,FFT_SIZE);//åˆå§‹åŒ–è¯¥ç»“æ„ï¿½?
+//  arm_rfft_fast_f32(&S, Input, Output, 0);//ifft_flag=0æ˜¯æ­£å˜æ¢ï¿½? ï¿½?1åˆ™æ˜¯ï¿½? å˜æ¢
+//  //å†å¯¹å¤æ•°ç»“æœæ±‚æ¨¡
+//  arm_cmplx_mag_f32(Output, Real_Output, 1024);
+
+
+
+
+
+
+
+
+
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -251,6 +305,51 @@ static void MX_SPI3_Init(void)
   /* USER CODE BEGIN SPI3_Init 2 */
 
   /* USER CODE END SPI3_Init 2 */
+
+}
+
+/**
+  * @brief TIM2 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_TIM2_Init(void)
+{
+
+  /* USER CODE BEGIN TIM2_Init 0 */
+
+  /* USER CODE END TIM2_Init 0 */
+
+  TIM_ClockConfigTypeDef sClockSourceConfig = {0};
+  TIM_MasterConfigTypeDef sMasterConfig = {0};
+
+  /* USER CODE BEGIN TIM2_Init 1 */
+
+  /* USER CODE END TIM2_Init 1 */
+  htim2.Instance = TIM2;
+  htim2.Init.Prescaler = 0;
+  htim2.Init.CounterMode = TIM_COUNTERMODE_UP;
+  htim2.Init.Period = 8399;
+  htim2.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
+  htim2.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
+  if (HAL_TIM_Base_Init(&htim2) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sClockSourceConfig.ClockSource = TIM_CLOCKSOURCE_INTERNAL;
+  if (HAL_TIM_ConfigClockSource(&htim2, &sClockSourceConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sMasterConfig.MasterOutputTrigger = TIM_TRGO_RESET;
+  sMasterConfig.MasterSlaveMode = TIM_MASTERSLAVEMODE_DISABLE;
+  if (HAL_TIMEx_MasterConfigSynchronization(&htim2, &sMasterConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN TIM2_Init 2 */
+
+  /* USER CODE END TIM2_Init 2 */
 
 }
 
