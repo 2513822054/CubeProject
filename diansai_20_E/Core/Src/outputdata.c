@@ -52,6 +52,8 @@ void OutPut_Data(void)
 }
 
 
+
+
 void OutputAll(uint8_t channel,float *Pdata,uint32_t len)
 {
 	uint32_t i;

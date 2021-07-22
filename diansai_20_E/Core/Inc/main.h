@@ -40,7 +40,7 @@ extern "C" {
 
 /* Exported types ------------------------------------------------------------*/
 /* USER CODE BEGIN ET */
-#define FFT_SIZE 2048 //实数序列的长度
+#define FFT_SIZE 2048 //实数序列的长�?
 
 
 extern uint32_t count1;
@@ -48,7 +48,7 @@ extern float dataCh1[2048];
 //FFT
 float dataCh1FFT[2048];
 
-
+extern uint32_t showtimes;
 extern arm_rfft_fast_instance_f32 S;
 
 

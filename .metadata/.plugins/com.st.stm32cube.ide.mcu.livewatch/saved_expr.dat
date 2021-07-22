@@ -1,9 +1,3 @@
-R_onedata
-R_alldata
-controlbuf
-all
-ads_data
-ads_data[0]
-dataCh1
-OutData[channel]
+dataOutput
+i
 dataCh1

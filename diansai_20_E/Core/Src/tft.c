@@ -72,7 +72,7 @@ void tft_form(uint8_t screen,uint8_t id,uint8_t *text,uint16_t len,uint8_t chann
 	uint8_t head[10]={0xEE,0xB1,0x32,0x00,screen,0x00,id,channel,(uint8_t)(len>>8),(uint8_t)(len)};
 	uint8_t end[4]={0xFF,0xFC,0xFF,0xFF};
 	HAL_UART_Transmit(TFT_SEND, head, 10, 5);
-	HAL_UART_Transmit(TFT_SEND, text, len, 5);
+	HAL_UART_Transmit(TFT_SEND, text, len, 20);
 	HAL_UART_Transmit(TFT_SEND, end, 4, 5);
 }
 
@@ -135,7 +135,7 @@ uint8_t tft_receive()
 {
 	uint8_t state;
 	R_alldata[R_place]=R_onedata;
-	//Èç¹ûÖ¸Áîµ¥ÔªÎªÖ¸ÁîÍ·
+
 	if(R_onedata==0xEE){
 	R_place++;
 	}

@@ -28,15 +28,21 @@
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
 
-//本函数对长为N的实数数组先进⾏FFT计算，由于只计算了前⼀半幅频，故输出结果仍为N，频率截⽌到Fs/2处.
+//本函数对长为N的实数数组先进⾏FFT计算，由于只计算了前�??半幅频，故输出结果仍为N，频率截⽌到Fs/2�??.
 arm_rfft_fast_instance_f32 S;
 
 
-//ch1采样�???
+//ch1采样�?????
 float dataCh1[2048];
 
 //FFT
 float dataCh1FFT[2048];
+
+//显示次数
+uint32_t showtimes=0;
+
+//失真类型    0  无失真     1
+uint8_t Dtype=0;
 
 
 /* USER CODE END PTD */
@@ -116,9 +122,11 @@ int main(void)
 
   ADS8688_Init(&ads,&hspi3,SPI3_CS_GPIO_Port, SPI3_CS_Pin);
 
-  HAL_TIM_Base_Start_IT(&htim1);
+  //HAL_TIM_Base_Start_IT(&htim1);
 
   arm_rfft_fast_init_f32(&S,FFT_SIZE);//初始化该结构
+  HAL_TIM_Base_Start_IT(&htim1);
+
 
   /* USER CODE END 2 */
 
@@ -349,7 +357,7 @@ static void MX_GPIO_Init(void)
   HAL_GPIO_WritePin(SPI3_CS_GPIO_Port, SPI3_CS_Pin, GPIO_PIN_SET);
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOD, GPIO_PIN_2|GPIO_PIN_3, GPIO_PIN_SET);
+  HAL_GPIO_WritePin(GPIOD, GPIO_PIN_0|GPIO_PIN_1|GPIO_PIN_2|GPIO_PIN_3, GPIO_PIN_SET);
 
   /*Configure GPIO pin : SPI3_CS_Pin */
   GPIO_InitStruct.Pin = SPI3_CS_Pin;
@@ -358,8 +366,8 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
   HAL_GPIO_Init(SPI3_CS_GPIO_Port, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : PD2 PD3 */
-  GPIO_InitStruct.Pin = GPIO_PIN_2|GPIO_PIN_3;
+  /*Configure GPIO pins : PD0 PD1 PD2 PD3 */
+  GPIO_InitStruct.Pin = GPIO_PIN_0|GPIO_PIN_1|GPIO_PIN_2|GPIO_PIN_3;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_PULLUP;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_HIGH;
