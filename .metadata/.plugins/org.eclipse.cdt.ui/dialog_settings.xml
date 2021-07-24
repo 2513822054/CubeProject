@@ -7,7 +7,7 @@
 	<item key="org.eclipse.cdt.uiformatter_pagemodify_dialog.preferred_height" value="1030"/>
 	<item key="org.eclipse.cdt.uiformatter_pagemodify_dialog.preferred_x" value="281"/>
 	<item key="org.eclipse.cdt.uiformatter_pagemodify_dialog.preferred_y" value="0"/>
-	<item key="org.eclipse.cdt.utils.ui.controls.FileListControl" value="../Core/DSP/Inc"/>
+	<item key="org.eclipse.cdt.utils.ui.controls.FileListControl" value="ARM_MATH_CM4"/>
 	<section name="completion_proposal_size">
 	</section>
 	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration">

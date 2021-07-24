@@ -29859,3 +29859,1440 @@ java.util.ConcurrentModificationException
 2021-07-22 10:50:08,091 [INFO] DbMcusDocs:143 - JSON generation date=Mon Jun 07 16:53:21 CST 2021 (1623056001)
 2021-07-22 10:50:08,374 [INFO] DbMcusDocs:79 - Found 669 MCUs documents
 2021-07-22 11:17:50,871 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Warning: NLS unused message: CommonTab_AttributeLabel_TerminateDescendants in: org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsMessages
+2021-07-22 14:37:02,778 [INFO] NvicIntPanel:90 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,561x284,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-07-22 14:37:17,060 [INFO] NvicIntPanel:90 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-07-22 14:37:24,035 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 360211808 Bytes (596639744)
+2021-07-22 14:37:24,160 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 375940448 Bytes (596639744)
+2021-07-22 14:37:25,671 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 444097888 Bytes (596639744)
+2021-07-22 14:37:26,147 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SPI
+2021-07-22 14:37:26,147 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: TIM1_8
+2021-07-22 14:37:26,147 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SYS
+2021-07-22 14:37:26,148 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: RCC
+2021-07-22 14:37:26,148 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: NVIC
+2021-07-22 14:37:26,148 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: USART
+2021-07-22 14:37:26,148 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: USART
+2021-07-22 14:37:26,148 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: GPIO
+2021-07-22 14:37:26,150 [INFO] CodeGenerator:641 - code generatio: config db path: G:\cubeide\STM32CubeIDE_1.6.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.1.202103241236\\db\
+2021-07-22 14:37:26,953 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_20_E\MXTmpFiles\license.tmp_save
+2021-07-22 14:37:27,272 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_20_E\MXTmpFiles\license.tmp
+2021-07-22 14:37:27,326 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_20_E\MXTmpFiles\gpio.tmp_save
+2021-07-22 14:37:27,397 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_20_E\MXTmpFiles\gpio.tmp
+2021-07-22 14:37:27,693 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-22 14:37:27,694 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-22 14:37:27,695 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-22 14:37:27,711 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_20_E\Core\Src\stm32f4xx_it.c_save
+2021-07-22 14:37:27,867 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_20_E\Core\Src\stm32f4xx_it.c
+2021-07-22 14:37:27,874 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_20_E\Core\Inc\stm32f4xx_it.h_save
+2021-07-22 14:37:27,949 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_20_E\Core\Inc\stm32f4xx_it.h
+2021-07-22 14:37:27,961 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_20_E\Core\Src\stm32f4xx_hal_msp.c_save
+2021-07-22 14:37:28,081 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_20_E\Core\Src\stm32f4xx_hal_msp.c
+2021-07-22 14:37:28,085 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_20_E\MXTmpFiles\system.tmp_save
+2021-07-22 14:37:28,129 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_20_E\MXTmpFiles\system.tmp
+2021-07-22 14:37:28,138 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_20_E\Core\Inc\stm32f4xx_hal_conf.h_save
+2021-07-22 14:37:28,200 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_20_E\Core\Inc\stm32f4xx_hal_conf.h
+2021-07-22 14:37:28,238 [WARN] IPConfigManager:2976 - IP not found : TIM
+2021-07-22 14:37:28,240 [WARN] CodeGenerator:3191 - IP not found : null
+2021-07-22 14:37:28,247 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_20_E\Core\Inc\main.h_save
+2021-07-22 14:37:28,308 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_20_E\Core\Inc\main.h
+2021-07-22 14:37:28,314 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_20_E\Core\Src\main.c_save
+2021-07-22 14:37:28,435 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_20_E\Core\Src\main.c
+2021-07-22 14:37:29,351 [INFO] ProjectBuilder:2460 - Time for Copy HAL[1] : 187mS.
+2021-07-22 14:37:29,358 [INFO] ProjectBuilder:3418 - Project Generator version: 3.13.0-B3
+2021-07-22 14:37:29,829 [INFO] ConfigFileManager:1242 - The Die is : DIE413
+2021-07-22 14:37:29,845 [INFO] ApiDbMcu:458 - Load IP Config File for FATFS
+2021-07-22 14:37:29,872 [INFO] ApiDbMcu:458 - Load IP Config File for FREERTOS
+2021-07-22 14:37:29,877 [INFO] ApiDbMcu:458 - Load IP Config File for LIBJPEG
+2021-07-22 14:37:29,939 [INFO] ApiDbMcu:458 - Load IP Config File for LWIP
+2021-07-22 14:37:29,975 [INFO] ApiDbMcu:458 - Load IP Config File for MBEDTLS
+2021-07-22 14:37:30,008 [INFO] ApiDbMcu:458 - Load IP Config File for USB_DEVICE
+2021-07-22 14:37:30,018 [INFO] ApiDbMcu:458 - Load IP Config File for USB_HOST
+2021-07-22 14:37:32,654 [INFO] ProjectBuilder:3584 - Time for Generating toolchain IDE Files: 3295mS.
+2021-07-22 14:37:32,655 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 1mS.
+2021-07-22 14:37:32,670 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 0mS.
+2021-07-22 17:02:40,292 [INFO] MainUpdater:2661 - connection check result : 10
+2021-07-22 17:02:40,294 [INFO] MainUpdater:2661 - connection check result : 10
+2021-07-22 17:02:40,835 [INFO] MicroXplorer:442 - Change Database Path : 
+2021-07-22 17:02:40,836 [INFO] MicroXplorer:472 - Change Database Version : DB.6.0.21
+2021-07-22 17:02:40,836 [WARN] ThirdParty:796 - waiting for thirdparty lock release [close project]
+2021-07-22 17:02:40,836 [INFO] ThirdParty:798 - entering critical section [close project]
+2021-07-22 17:02:40,836 [INFO] ThirdParty:809 - exiting critical section [close project]
+2021-07-22 17:02:40,837 [INFO] PinOutPanel:1435 - setPackage(No Configuration,No Configuration)
+2021-07-22 17:02:40,844 [WARN] IpParametersView:138 - Warning: This peripheral hasn't parameters
+2021-07-22 17:02:40,850 [WARN] MainPanel:236 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2021-07-22 17:02:40,871 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 412412696 Bytes (827326464)
+2021-07-22 17:02:40,872 [INFO] MicroXplorer:442 - Change Database Path : 
+2021-07-22 17:02:40,872 [INFO] MicroXplorer:472 - Change Database Version : DB.6.0.21
+2021-07-22 17:02:40,872 [INFO] OpenFileManager:303 - Change cursor
+2021-07-22 17:02:40,904 [INFO] RulesReader:52 - Compatibility file has been processed (237 Rules)
+2021-07-22 17:02:42,933 [INFO] Context:587 - Trying to add GPIOservice into a context  which must be forbidden
+2021-07-22 17:02:43,310 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.1.0: no header file found
+2021-07-22 17:02:43,310 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.1.0: no header file found
+2021-07-22 17:02:43,310 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.1.0: no header file found
+2021-07-22 17:02:43,312 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-22 17:02:43,312 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-22 17:02:43,313 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-22 17:02:43,313 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-22 17:02:43,313 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-22 17:02:43,313 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-22 17:02:43,313 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-22 17:02:43,313 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-22 17:02:43,313 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-22 17:02:43,313 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-22 17:02:43,314 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-22 17:02:43,314 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-22 17:02:43,314 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-22 17:02:43,314 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-22 17:02:43,314 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-22 17:02:43,314 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-22 17:02:43,314 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-22 17:02:43,314 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-22 17:02:43,314 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-22 17:02:43,315 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-22 17:02:43,315 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-22 17:02:43,315 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-22 17:02:43,315 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-22 17:02:43,315 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-22 17:02:43,315 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-22 17:02:43,315 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-22 17:02:43,315 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-22 17:02:43,460 [WARN] ApiManager:294 - Cannot register API 'Board Extension:IKS01A3' from pack STMicroelectronics.X-CUBE-MEMS1.9.0.0: no header file found
+2021-07-22 17:02:43,460 [WARN] ApiManager:294 - Cannot register API 'Board Extension:IKS01A2' from pack STMicroelectronics.X-CUBE-MEMS1.9.0.0: no header file found
+2021-07-22 17:02:43,460 [WARN] ApiManager:294 - Cannot register API 'Board Extension:IKS02A1' from pack STMicroelectronics.X-CUBE-MEMS1.9.0.0: no header file found
+2021-07-22 17:02:43,469 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SUBG2.4.2.0: no header file found
+2021-07-22 17:02:43,469 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SUBG2.4.2.0: no header file found
+2021-07-22 17:02:43,469 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SUBG2.4.2.0: no header file found
+2021-07-22 17:02:43,471 [INFO] RtosManager:470 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2021-07-22 17:02:43,471 [INFO] RtosManager:470 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2021-07-22 17:02:43,471 [INFO] RtosManager:470 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2021-07-22 17:02:43,471 [INFO] RtosManager:470 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2021-07-22 17:02:43,471 [WARN] ModelIntegratedComponent:182 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2021-07-22 17:02:43,472 [WARN] ApiManager:294 - Cannot register API 'Board Extension:EEPRMA1' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.1.0: no header file found
+2021-07-22 17:02:43,473 [WARN] ApiManager:294 - Cannot register API 'Board Extension:EEPRMA2' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.1.0: no header file found
+2021-07-22 17:02:43,473 [WARN] ApiManager:294 - Cannot register API 'Wireless:BlueNRG-MS' from pack STMicroelectronics.X-CUBE-BLE1.6.2.1: no header file found
+2021-07-22 17:02:43,474 [WARN] ApiManager:294 - Cannot register API 'Wireless:BlueNRG-2' from pack STMicroelectronics.X-CUBE-BLE2.3.2.1: no header file found
+2021-07-22 17:02:43,475 [WARN] ApiManager:294 - Cannot register API 'Board Extension:NFC04A1' from pack STMicroelectronics.X-CUBE-NFC4.2.0.3: no header file found
+2021-07-22 17:02:43,686 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Parameter (48MHZClocksFreq_Value) has invalid value (84000000)
+2021-07-22 17:02:43,687 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Parameter (RTCHSEDivFreq_Value) has invalid value (4000000)
+2021-07-22 17:02:44,006 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 605483256 Bytes (827326464)
+2021-07-22 17:02:44,007 [WARN] ThirdParty:762 - waiting for thirdparty lock release [change project]
+2021-07-22 17:02:44,008 [INFO] ThirdParty:764 - entering critical section [change project]
+2021-07-22 17:02:44,008 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 3.1.0
+2021-07-22 17:02:44,008 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2021-07-22 17:02:44,008 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2021-07-22 17:02:44,008 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 2.0.0
+2021-07-22 17:02:44,008 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2021-07-22 17:02:44,008 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2021-07-22 17:02:44,008 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2021-07-22 17:02:44,008 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.0.0
+2021-07-22 17:02:44,008 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 4.2.0
+2021-07-22 17:02:44,008 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.1
+2021-07-22 17:02:44,008 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2021-07-22 17:02:44,009 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 7.0.0
+2021-07-22 17:02:44,009 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.2.1
+2021-07-22 17:02:44,009 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2021-07-22 17:02:44,009 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2021-07-22 17:02:44,009 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 3.1.0
+2021-07-22 17:02:44,009 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2021-07-22 17:02:44,009 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2021-07-22 17:02:44,009 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.1
+2021-07-22 17:02:44,009 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.2.1
+2021-07-22 17:02:44,009 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2021-07-22 17:02:44,009 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.3
+2021-07-22 17:02:44,009 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2021-07-22 17:02:44,009 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2021-07-22 17:02:44,009 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2021-07-22 17:02:44,010 [INFO] ThirdParty:770 - exiting critical section [change project]
+2021-07-22 17:02:44,262 [INFO] PinOutPanel:1435 - setPackage(No Configuration,No Configuration)
+2021-07-22 17:02:44,263 [INFO] PinOutPanel:1435 - setPackage(STM32F407ZGTx,LQFP144)
+2021-07-22 17:02:44,580 [INFO] UtilMem:74 - Before build in PCC Used Memory: 494785792 Bytes (827326464)
+2021-07-22 17:02:44,724 [INFO] SharedServices:72 - Folder for power plug-in: C:/Users/86182/.stm32cubemx/plugins/power
+2021-07-22 17:02:44,758 [INFO] SharedServices:72 - Folder for power plug-in: C:/Users/86182/.stm32cubemx/plugins/power
+2021-07-22 17:02:44,787 [INFO] SharedServices:72 - Folder for power plug-in: C:/Users/86182/.stm32cubemx/plugins/power
+2021-07-22 17:02:44,790 [INFO] SharedServices:72 - Folder for power plug-in: C:/Users/86182/.stm32cubemx/plugins/power
+2021-07-22 17:02:44,829 [INFO] UtilMem:74 - After build in PCC Used Memory: 569234688 Bytes (827326464)
+2021-07-22 17:02:44,848 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,849 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,849 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,849 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,849 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,849 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,850 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,850 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,850 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,850 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,850 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,850 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,851 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,851 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,851 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,851 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,851 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,851 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,852 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,852 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,852 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,853 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,853 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,853 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,854 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,854 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,854 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,855 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,855 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,855 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,856 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,856 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,856 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,857 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,858 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,858 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,858 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,859 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,859 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,860 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,860 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,860 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,861 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,861 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,862 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,862 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,863 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,863 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,864 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,865 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,866 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,866 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,867 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,868 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,868 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,869 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,870 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,871 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-22 17:02:44,874 [INFO] ApiDbMcu:458 - Load IP Config File for PDM2PCM
+2021-07-22 17:02:44,890 [INFO] OpenFileManager:323 - Restore cursor
+2021-07-22 17:03:05,857 [INFO] Gpio:248 - dependency for GPIO [RCC, SPI3, USART1, USART6]
+2021-07-22 17:03:58,203 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 371212528 Bytes (827326464)
+2021-07-22 17:03:58,330 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 386941168 Bytes (827326464)
+2021-07-22 17:04:00,154 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 529547504 Bytes (827326464)
+2021-07-22 17:04:00,483 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SPI
+2021-07-22 17:04:00,484 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: TIM1_8
+2021-07-22 17:04:00,484 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: TIM1_8
+2021-07-22 17:04:00,484 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: TIM1_8
+2021-07-22 17:04:00,484 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: TIM1_8
+2021-07-22 17:04:00,484 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SYS
+2021-07-22 17:04:00,484 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: RCC
+2021-07-22 17:04:00,484 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: NVIC
+2021-07-22 17:04:00,484 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: USART
+2021-07-22 17:04:00,484 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: USART
+2021-07-22 17:04:00,485 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: GPIO
+2021-07-22 17:04:00,487 [INFO] CodeGenerator:641 - code generatio: config db path: G:\cubeide\STM32CubeIDE_1.6.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.1.202103241236\\db\
+2021-07-22 17:04:01,349 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19-D\MXTmpFiles\license.tmp_save
+2021-07-22 17:04:01,447 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19-D\MXTmpFiles\license.tmp
+2021-07-22 17:04:01,497 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19-D\MXTmpFiles\gpio.tmp_save
+2021-07-22 17:04:01,556 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19-D\MXTmpFiles\gpio.tmp
+2021-07-22 17:04:01,929 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-22 17:04:01,930 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-22 17:04:01,932 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-22 17:04:01,951 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19-D\Core\Src\stm32f4xx_it.c_save
+2021-07-22 17:04:02,056 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19-D\Core\Src\stm32f4xx_it.c
+2021-07-22 17:04:02,061 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19-D\Core\Inc\stm32f4xx_it.h_save
+2021-07-22 17:04:02,117 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19-D\Core\Inc\stm32f4xx_it.h
+2021-07-22 17:04:02,128 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19-D\Core\Src\stm32f4xx_hal_msp.c_save
+2021-07-22 17:04:02,257 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19-D\Core\Src\stm32f4xx_hal_msp.c
+2021-07-22 17:04:02,261 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19-D\MXTmpFiles\system.tmp_save
+2021-07-22 17:04:02,304 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19-D\MXTmpFiles\system.tmp
+2021-07-22 17:04:02,312 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19-D\Core\Inc\stm32f4xx_hal_conf.h_save
+2021-07-22 17:04:02,374 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19-D\Core\Inc\stm32f4xx_hal_conf.h
+2021-07-22 17:04:02,405 [WARN] IPConfigManager:2976 - IP not found : TIM
+2021-07-22 17:04:02,406 [WARN] CodeGenerator:3191 - IP not found : null
+2021-07-22 17:04:02,413 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19-D\Core\Inc\main.h_save
+2021-07-22 17:04:02,470 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19-D\Core\Inc\main.h
+2021-07-22 17:04:02,474 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19-D\Core\Src\main.c_save
+2021-07-22 17:04:02,614 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19-D\Core\Src\main.c
+2021-07-22 17:04:03,312 [INFO] ProjectBuilder:2460 - Time for Copy HAL[1] : 121mS.
+2021-07-22 17:04:03,316 [INFO] ProjectBuilder:3418 - Project Generator version: 3.13.0-B3
+2021-07-22 17:04:03,766 [INFO] ConfigFileManager:1242 - The Die is : DIE413
+2021-07-22 17:04:03,778 [INFO] ApiDbMcu:458 - Load IP Config File for FATFS
+2021-07-22 17:04:03,811 [INFO] ApiDbMcu:458 - Load IP Config File for FREERTOS
+2021-07-22 17:04:03,816 [INFO] ApiDbMcu:458 - Load IP Config File for LIBJPEG
+2021-07-22 17:04:03,927 [INFO] ApiDbMcu:458 - Load IP Config File for LWIP
+2021-07-22 17:04:03,980 [INFO] ApiDbMcu:458 - Load IP Config File for MBEDTLS
+2021-07-22 17:04:04,019 [INFO] ApiDbMcu:458 - Load IP Config File for USB_DEVICE
+2021-07-22 17:04:04,032 [INFO] ApiDbMcu:458 - Load IP Config File for USB_HOST
+2021-07-22 17:04:06,912 [INFO] ProjectBuilder:3584 - Time for Generating toolchain IDE Files: 3596mS.
+2021-07-22 17:04:06,914 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 1mS.
+2021-07-22 17:04:06,916 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 0mS.
+2021-07-22 17:21:23,346 [INFO] NvicIntPanel:90 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,561x300,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-07-22 21:11:54,036 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 522813184 Bytes (860880896)
+2021-07-22 21:11:54,191 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 535396096 Bytes (860880896)
+2021-07-22 21:11:54,585 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 566852936 Bytes (860880896)
+2021-07-22 21:11:54,929 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SPI
+2021-07-22 21:11:54,929 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: TIM1_8
+2021-07-22 21:11:54,930 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: TIM1_8
+2021-07-22 21:11:54,930 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: TIM1_8
+2021-07-22 21:11:54,930 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: TIM1_8
+2021-07-22 21:11:54,930 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SYS
+2021-07-22 21:11:54,930 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: RCC
+2021-07-22 21:11:54,930 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: NVIC
+2021-07-22 21:11:54,930 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: USART
+2021-07-22 21:11:54,930 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: USART
+2021-07-22 21:11:54,931 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: GPIO
+2021-07-22 21:11:54,933 [INFO] CodeGenerator:641 - code generatio: config db path: G:\cubeide\STM32CubeIDE_1.6.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.1.202103241236\\db\
+2021-07-22 21:11:55,779 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19-D\MXTmpFiles\license.tmp_save
+2021-07-22 21:11:55,886 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19-D\MXTmpFiles\license.tmp
+2021-07-22 21:11:55,929 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19-D\MXTmpFiles\gpio.tmp_save
+2021-07-22 21:11:56,009 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19-D\MXTmpFiles\gpio.tmp
+2021-07-22 21:11:56,403 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-22 21:11:56,405 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-22 21:11:56,407 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-22 21:11:56,432 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19-D\Core\Src\stm32f4xx_it.c_save
+2021-07-22 21:11:56,532 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19-D\Core\Src\stm32f4xx_it.c
+2021-07-22 21:11:56,537 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19-D\Core\Inc\stm32f4xx_it.h_save
+2021-07-22 21:11:56,605 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19-D\Core\Inc\stm32f4xx_it.h
+2021-07-22 21:11:56,617 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19-D\Core\Src\stm32f4xx_hal_msp.c_save
+2021-07-22 21:11:56,810 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19-D\Core\Src\stm32f4xx_hal_msp.c
+2021-07-22 21:11:56,814 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19-D\MXTmpFiles\system.tmp_save
+2021-07-22 21:11:56,860 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19-D\MXTmpFiles\system.tmp
+2021-07-22 21:11:56,869 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19-D\Core\Inc\stm32f4xx_hal_conf.h_save
+2021-07-22 21:11:56,932 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19-D\Core\Inc\stm32f4xx_hal_conf.h
+2021-07-22 21:11:56,964 [WARN] IPConfigManager:2976 - IP not found : TIM
+2021-07-22 21:11:56,965 [WARN] CodeGenerator:3191 - IP not found : null
+2021-07-22 21:11:56,972 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19-D\Core\Inc\main.h_save
+2021-07-22 21:11:57,029 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19-D\Core\Inc\main.h
+2021-07-22 21:11:57,034 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19-D\Core\Src\main.c_save
+2021-07-22 21:11:57,174 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19-D\Core\Src\main.c
+2021-07-22 21:11:57,936 [INFO] ProjectBuilder:2460 - Time for Copy HAL[1] : 128mS.
+2021-07-22 21:11:57,941 [INFO] ProjectBuilder:3418 - Project Generator version: 3.13.0-B3
+2021-07-22 21:11:58,253 [INFO] ConfigFileManager:1242 - The Die is : DIE413
+2021-07-22 21:12:00,483 [INFO] ProjectBuilder:3584 - Time for Generating toolchain IDE Files: 2542mS.
+2021-07-22 21:12:00,485 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 1mS.
+2021-07-22 21:12:00,487 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 0mS.
+2021-07-22 21:12:02,993 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2021-07-23 11:20:44,063 [INFO] Activator:170 - 
+
+
+2021-07-23 11:20:44,064 [INFO] Activator:171 - !SESSION log4j initialized
+2021-07-23 11:20:46,735 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Warning: NLS unused message: RemoveAllSearchesAction_confirm_label in: org.eclipse.search2.internal.ui.SearchMessages
+2021-07-23 12:44:32,014 [INFO] Activator:170 - 
+
+
+2021-07-23 12:44:32,015 [INFO] Activator:171 - !SESSION log4j initialized
+2021-07-23 12:44:34,276 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Warning: NLS unused message: RemoveAllSearchesAction_confirm_label in: org.eclipse.search2.internal.ui.SearchMessages
+2021-07-23 12:44:38,792 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 7?? 23, 2021 12:44:38 ???? org.glassfish.grizzly.http.server.NetworkListener start
+2021-07-23 12:44:38,795 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] ???: Started listener bound to [localhost:1595]
+2021-07-23 12:44:38,795 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2021-07-23 12:44:38,797 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 7?? 23, 2021 12:44:38 ???? org.glassfish.grizzly.http.server.HttpServer start
+2021-07-23 12:44:38,798 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] ???: [HttpServer] Started.
+2021-07-23 12:44:38,798 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2021-07-23 12:45:13,407 [INFO] RetryExec:97 - I/O exception (java.net.SocketException) caught when processing request to {}->http://127.0.0.1:7890->http://sw-center.st.com:80: Software caused connection abort: recv failed
+2021-07-23 12:45:13,408 [INFO] RetryExec:113 - Retrying request to {}->http://127.0.0.1:7890->http://sw-center.st.com:80
+2021-07-23 12:45:15,611 [INFO] RetryExec:97 - I/O exception (java.net.SocketException) caught when processing request to {}->http://127.0.0.1:7890->http://sw-center.st.com:80: Software caused connection abort: recv failed
+2021-07-23 12:45:15,612 [INFO] RetryExec:113 - Retrying request to {}->http://127.0.0.1:7890->http://sw-center.st.com:80
+2021-07-23 12:45:17,740 [INFO] RetryExec:97 - I/O exception (java.net.SocketException) caught when processing request to {}->http://127.0.0.1:7890->http://sw-center.st.com:80: Software caused connection abort: recv failed
+2021-07-23 12:45:17,740 [INFO] RetryExec:113 - Retrying request to {}->http://127.0.0.1:7890->http://sw-center.st.com:80
+2021-07-23 12:45:19,967 [INFO] RetryExec:97 - I/O exception (java.net.SocketException) caught when processing request to {}->http://127.0.0.1:7890->http://sw-center.st.com:80: Software caused connection abort: recv failed
+2021-07-23 12:45:19,967 [INFO] RetryExec:113 - Retrying request to {}->http://127.0.0.1:7890->http://sw-center.st.com:80
+2021-07-23 12:45:22,528 [INFO] RetryExec:97 - I/O exception (java.net.SocketException) caught when processing request to {}->http://127.0.0.1:7890->http://sw-center.st.com:80: Software caused connection abort: recv failed
+2021-07-23 12:45:22,528 [INFO] RetryExec:113 - Retrying request to {}->http://127.0.0.1:7890->http://sw-center.st.com:80
+2021-07-23 12:45:25,454 [INFO] RetryExec:97 - I/O exception (java.net.SocketException) caught when processing request to {}->http://127.0.0.1:7890->http://sw-center.st.com:80: Software caused connection abort: recv failed
+2021-07-23 12:45:25,455 [INFO] RetryExec:113 - Retrying request to {}->http://127.0.0.1:7890->http://sw-center.st.com:80
+2021-07-23 12:45:30,403 [INFO] RetryExec:97 - I/O exception (java.net.SocketException) caught when processing request to {}->http://127.0.0.1:7890->http://sw-center.st.com:80: Software caused connection abort: recv failed
+2021-07-23 12:45:30,403 [INFO] RetryExec:113 - Retrying request to {}->http://127.0.0.1:7890->http://sw-center.st.com:80
+2021-07-23 12:45:31,116 [INFO] RetryExec:97 - I/O exception (java.net.SocketException) caught when processing request to {}->http://127.0.0.1:7890->http://sw-center.st.com:80: Software caused connection abort: recv failed
+2021-07-23 12:45:31,116 [INFO] RetryExec:113 - Retrying request to {}->http://127.0.0.1:7890->http://sw-center.st.com:80
+2021-07-23 12:45:32,020 [INFO] RetryExec:97 - I/O exception (java.net.SocketException) caught when processing request to {}->http://127.0.0.1:7890->http://mirrors.ustc.edu.cn:80: Software caused connection abort: recv failed
+2021-07-23 12:45:32,020 [INFO] RetryExec:113 - Retrying request to {}->http://127.0.0.1:7890->http://mirrors.ustc.edu.cn:80
+2021-07-23 12:45:41,562 [INFO] RetryExec:97 - I/O exception (java.net.SocketException) caught when processing request to {}->http://127.0.0.1:7890->http://downloads.genuitec.com:80: Software caused connection abort: recv failed
+2021-07-23 12:45:41,562 [INFO] RetryExec:113 - Retrying request to {}->http://127.0.0.1:7890->http://downloads.genuitec.com:80
+2021-07-23 12:45:54,632 [INFO] RetryExec:97 - I/O exception (java.net.SocketException) caught when processing request to {}->http://127.0.0.1:7890->http://downloads.genuitec.com:80: Software caused connection abort: recv failed
+2021-07-23 12:45:54,633 [INFO] RetryExec:113 - Retrying request to {}->http://127.0.0.1:7890->http://downloads.genuitec.com:80
+2021-07-23 15:15:18,618 [INFO] McuFinderGlobals:39 - Set McuFinder mode to 2 (CubeIDE integrated)
+2021-07-23 15:15:18,925 [INFO] ApplicationProperties:181 - Using Application install path: G:\cubeide\STM32CubeIDE_1.6.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.1.202103241236
+2021-07-23 15:15:18,939 [INFO] DbMcusXml:74 - Set database path to: G:\cubeide\STM32CubeIDE_1.6.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.1.202103241236\\db\/mcu/
+2021-07-23 15:15:18,943 [INFO] DbBoardsPdsc:56 - Set plugin database path to: G:\cubeide\STM32CubeIDE_1.6.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.1.202103241236\\db\/plugins/boardmanager/
+2021-07-23 15:15:18,944 [INFO] DbMcus:258 - Set plugin images path to: G:\cubeide\STM32CubeIDE_1.6.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.1.202103241236\\db\/plugins/mcufinder/images/
+2021-07-23 15:15:18,944 [INFO] DbBoards:264 - Set plugin images path to: G:\cubeide\STM32CubeIDE_1.6.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.1.202103241236\\db\/plugins/mcufinder/images/
+2021-07-23 15:15:18,947 [INFO] DbExamples:333 - Set plugin images path to: G:\cubeide\STM32CubeIDE_1.6.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.1.202103241236\\db\/plugins/mcufinder/images/
+2021-07-23 15:15:18,959 [INFO] DbMcusAds:85 - Set database path to: C:\Users\86182\.stmcufinder\plugins\mcufinder//mcu/
+2021-07-23 15:15:18,960 [INFO] DbMcusDocs:110 - Set database path to: C:\Users\86182\.stmcufinder\plugins\mcufinder//mcu/
+2021-07-23 15:15:18,962 [INFO] DbMcusJson:65 - Set database path to: C:\Users\86182\.stmcufinder\plugins\mcufinder//mcu/
+2021-07-23 15:15:18,963 [INFO] DbBoardsDocs:110 - Set database path to: C:\Users\86182\.stmcufinder\plugins\mcufinder//mcu/
+2021-07-23 15:15:18,965 [INFO] DbBoardsJson:58 - Set database path to: C:\Users\86182\.stmcufinder\plugins\mcufinder//mcu/
+2021-07-23 15:15:19,426 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\86182\.stmcufinder\plugins\mcufinder//mcu/cs/
+2021-07-23 15:15:19,429 [INFO] DbExamplesSqlite:690 - Set database path to: C:\Users\86182\.stmcufinder\plugins\mcufinder//mcu/
+2021-07-23 15:15:19,535 [INFO] RulesReader:52 - Compatibility file has been processed (237 Rules)
+2021-07-23 15:15:19,611 [INFO] MicroXplorer:622 - Detected Java Version = 11.0.9.1
+2021-07-23 15:15:19,612 [INFO] DbMcusXml:74 - Set database path to: G:\cubeide\STM32CubeIDE_1.6.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.1.202103241236\\db\/mcu/
+2021-07-23 15:15:19,612 [INFO] DbBoardsPdsc:56 - Set plugin database path to: G:\cubeide\STM32CubeIDE_1.6.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.1.202103241236\\db\/plugins/boardmanager/
+2021-07-23 15:15:19,612 [INFO] DbMcus:258 - Set plugin images path to: G:\cubeide\STM32CubeIDE_1.6.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.1.202103241236\\db\/plugins/mcufinder/images/
+2021-07-23 15:15:19,612 [INFO] DbBoards:264 - Set plugin images path to: G:\cubeide\STM32CubeIDE_1.6.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.1.202103241236\\db\/plugins/mcufinder/images/
+2021-07-23 15:15:19,612 [INFO] DbExamples:333 - Set plugin images path to: G:\cubeide\STM32CubeIDE_1.6.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.1.202103241236\\db\/plugins/mcufinder/images/
+2021-07-23 15:15:19,612 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\86182\.stmcufinder\plugins\mcufinder/ => C:\Users\86182\.stmcufinder\plugins\mcufinder
+2021-07-23 15:15:19,613 [INFO] DbMcusAds:85 - Set database path to: C:\Users\86182\.stmcufinder\plugins\mcufinder//mcu/
+2021-07-23 15:15:19,613 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\86182\.stmcufinder\plugins\mcufinder/ => C:\Users\86182\.stmcufinder\plugins\mcufinder
+2021-07-23 15:15:19,613 [INFO] DbMcusDocs:110 - Set database path to: C:\Users\86182\.stmcufinder\plugins\mcufinder//mcu/
+2021-07-23 15:15:19,613 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\86182\.stmcufinder\plugins\mcufinder/ => C:\Users\86182\.stmcufinder\plugins\mcufinder
+2021-07-23 15:15:19,613 [INFO] DbMcusJson:65 - Set database path to: C:\Users\86182\.stmcufinder\plugins\mcufinder//mcu/
+2021-07-23 15:15:19,613 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\86182\.stmcufinder\plugins\mcufinder/ => C:\Users\86182\.stmcufinder\plugins\mcufinder
+2021-07-23 15:15:19,613 [INFO] DbBoardsDocs:110 - Set database path to: C:\Users\86182\.stmcufinder\plugins\mcufinder//mcu/
+2021-07-23 15:15:19,613 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\86182\.stmcufinder\plugins\mcufinder/ => C:\Users\86182\.stmcufinder\plugins\mcufinder
+2021-07-23 15:15:19,613 [INFO] DbBoardsJson:58 - Set database path to: C:\Users\86182\.stmcufinder\plugins\mcufinder//mcu/
+2021-07-23 15:15:19,613 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\86182\.stmcufinder\plugins\mcufinder/ => C:\Users\86182\.stmcufinder\plugins\mcufinder
+2021-07-23 15:15:19,613 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\86182\.stmcufinder\plugins\mcufinder/ => C:\Users\86182\.stmcufinder\plugins\mcufinder
+2021-07-23 15:15:19,614 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\86182\.stmcufinder\plugins\mcufinder//mcu/cs/
+2021-07-23 15:15:19,614 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\86182\.stmcufinder\plugins\mcufinder/ => C:\Users\86182\.stmcufinder\plugins\mcufinder
+2021-07-23 15:15:19,614 [INFO] DbExamplesSqlite:690 - Set database path to: C:\Users\86182\.stmcufinder\plugins\mcufinder//mcu/
+2021-07-23 15:15:19,673 [INFO] MainPanel:204 - HeapMemory: 769654784
+2021-07-23 15:15:19,741 [INFO] DbMcusXml:74 - Set database path to: G:\cubeide\STM32CubeIDE_1.6.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.1.202103241236\\db\/mcu/
+2021-07-23 15:15:19,742 [INFO] DbBoardsPdsc:56 - Set plugin database path to: G:\cubeide\STM32CubeIDE_1.6.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.1.202103241236\\db\/plugins/boardmanager/
+2021-07-23 15:15:19,742 [INFO] DbMcus:258 - Set plugin images path to: G:\cubeide\STM32CubeIDE_1.6.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.1.202103241236\\db\/plugins/mcufinder/images/
+2021-07-23 15:15:19,742 [INFO] DbBoards:264 - Set plugin images path to: G:\cubeide\STM32CubeIDE_1.6.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.1.202103241236\\db\/plugins/mcufinder/images/
+2021-07-23 15:15:19,742 [INFO] DbExamples:333 - Set plugin images path to: G:\cubeide\STM32CubeIDE_1.6.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.1.202103241236\\db\/plugins/mcufinder/images/
+2021-07-23 15:15:19,742 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\86182\.stmcufinder\plugins\mcufinder/ => C:\Users\86182\.stmcufinder\plugins\mcufinder
+2021-07-23 15:15:19,742 [INFO] DbMcusAds:85 - Set database path to: C:\Users\86182\.stmcufinder\plugins\mcufinder//mcu/
+2021-07-23 15:15:19,742 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\86182\.stmcufinder\plugins\mcufinder/ => C:\Users\86182\.stmcufinder\plugins\mcufinder
+2021-07-23 15:15:19,743 [INFO] DbMcusDocs:110 - Set database path to: C:\Users\86182\.stmcufinder\plugins\mcufinder//mcu/
+2021-07-23 15:15:19,743 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\86182\.stmcufinder\plugins\mcufinder/ => C:\Users\86182\.stmcufinder\plugins\mcufinder
+2021-07-23 15:15:19,743 [INFO] DbMcusJson:65 - Set database path to: C:\Users\86182\.stmcufinder\plugins\mcufinder//mcu/
+2021-07-23 15:15:19,743 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\86182\.stmcufinder\plugins\mcufinder/ => C:\Users\86182\.stmcufinder\plugins\mcufinder
+2021-07-23 15:15:19,743 [INFO] DbBoardsDocs:110 - Set database path to: C:\Users\86182\.stmcufinder\plugins\mcufinder//mcu/
+2021-07-23 15:15:19,743 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\86182\.stmcufinder\plugins\mcufinder/ => C:\Users\86182\.stmcufinder\plugins\mcufinder
+2021-07-23 15:15:19,743 [INFO] DbBoardsJson:58 - Set database path to: C:\Users\86182\.stmcufinder\plugins\mcufinder//mcu/
+2021-07-23 15:15:19,743 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\86182\.stmcufinder\plugins\mcufinder/ => C:\Users\86182\.stmcufinder\plugins\mcufinder
+2021-07-23 15:15:19,743 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\86182\.stmcufinder\plugins\mcufinder/ => C:\Users\86182\.stmcufinder\plugins\mcufinder
+2021-07-23 15:15:19,743 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\86182\.stmcufinder\plugins\mcufinder//mcu/cs/
+2021-07-23 15:15:19,743 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\86182\.stmcufinder\plugins\mcufinder/ => C:\Users\86182\.stmcufinder\plugins\mcufinder
+2021-07-23 15:15:19,743 [INFO] DbExamplesSqlite:690 - Set database path to: C:\Users\86182\.stmcufinder\plugins\mcufinder//mcu/
+2021-07-23 15:15:19,760 [INFO] ApplicationProperties:181 - Using Application install path: G:\cubeide\STM32CubeIDE_1.6.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.1.202103241236
+2021-07-23 15:15:19,761 [INFO] PluginManage:178 - Search for loadable plugins [exclusion list=, ]
+2021-07-23 15:15:19,762 [INFO] PluginManage:292 - Check plugin analytics
+2021-07-23 15:15:19,911 [INFO] AnalyticsPlugin:233 - Accepted Software Licenses: STM32CubeMX.5.6.1
+2021-07-23 15:15:19,911 [INFO] AnalyticsPlugin:235 - Accepted CMSIS Pack Licenses: 
+2021-07-23 15:15:19,912 [INFO] AnalyticsPlugin:237 - Accepted Firmware Licenses: 
+2021-07-23 15:15:19,912 [INFO] PluginManage:342 - Loaded plugin analytics (category:tool,tabindex:-1)
+2021-07-23 15:15:19,912 [INFO] PluginManage:292 - Check plugin clock
+2021-07-23 15:15:19,925 [INFO] PluginManage:342 - Loaded plugin clock (category:base,tabindex:2)
+2021-07-23 15:15:19,925 [INFO] PluginManage:292 - Check plugin ddr
+2021-07-23 15:15:19,927 [INFO] PluginManage:342 - Loaded plugin ddr (category:tool,tabindex:6)
+2021-07-23 15:15:19,927 [INFO] PluginManage:292 - Check plugin filemanager
+2021-07-23 15:15:20,038 [INFO] PluginManage:342 - Loaded plugin filemanager (category:base,tabindex:10)
+2021-07-23 15:15:20,038 [INFO] PluginManage:292 - Check plugin ipmanager
+2021-07-23 15:15:20,046 [INFO] PluginManage:342 - Loaded plugin ipmanager (category:base,tabindex:5)
+2021-07-23 15:15:20,046 [INFO] PluginManage:292 - Check plugin pinoutandconfiguration
+2021-07-23 15:15:20,056 [INFO] PluginManage:342 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2021-07-23 15:15:20,056 [INFO] PluginManage:292 - Check plugin pinoutconfig
+2021-07-23 15:15:20,092 [INFO] PluginManage:342 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2021-07-23 15:15:20,093 [INFO] PluginManage:292 - Check plugin power
+2021-07-23 15:15:20,102 [INFO] PluginManage:342 - Loaded plugin power (category:power,tabindex:4)
+2021-07-23 15:15:20,103 [INFO] PluginManage:292 - Check plugin projectmanager
+2021-07-23 15:15:20,118 [INFO] PluginManage:342 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2021-07-23 15:15:20,118 [INFO] PluginManage:292 - Check plugin thirdparty
+2021-07-23 15:15:20,219 [INFO] PluginManage:342 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2021-07-23 15:15:20,219 [INFO] PluginManage:292 - Check plugin tools
+2021-07-23 15:15:20,219 [WARN] IntegrityCheckThread:59 - waiting for thirdparty lock release [integrity check]
+2021-07-23 15:15:20,221 [INFO] IntegrityCheckThread:61 - entering critical section [integrity check]
+2021-07-23 15:15:20,221 [INFO] ThirdPartyUpdaterWithRetryManager:56 - Updater plugin not ready yet. [1/15]
+2021-07-23 15:15:20,222 [INFO] PluginManage:342 - Loaded plugin tools (category:base,tabindex:7)
+2021-07-23 15:15:20,222 [INFO] PluginManage:292 - Check plugin tutovideos
+2021-07-23 15:15:20,424 [INFO] PluginManage:342 - Loaded plugin tutovideos (category:base,tabindex:-1)
+2021-07-23 15:15:20,424 [INFO] PluginManage:292 - Check plugin updater
+2021-07-23 15:15:20,437 [INFO] PluginManage:342 - Loaded plugin updater (category:base,tabindex:12)
+2021-07-23 15:15:20,437 [INFO] PluginManage:265 - PluginManage : Loaded plugins [13]
+2021-07-23 15:15:20,613 [INFO] PinOutPanel:1435 - setPackage(No Configuration,No Configuration)
+2021-07-23 15:15:20,717 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:15:20,718 [INFO] PluginManager:203 - loadIPPluginJar : add adc
+2021-07-23 15:15:20,721 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:15:20,721 [INFO] PluginManager:203 - loadIPPluginJar : add aes
+2021-07-23 15:15:20,723 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:15:20,724 [INFO] PluginManager:203 - loadIPPluginJar : add can
+2021-07-23 15:15:20,726 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:15:20,726 [INFO] PluginManager:203 - loadIPPluginJar : add comp
+2021-07-23 15:15:20,728 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:15:20,729 [INFO] PluginManager:203 - loadIPPluginJar : add cryp
+2021-07-23 15:15:20,731 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:15:20,732 [INFO] PluginManager:203 - loadIPPluginJar : add dfsdm
+2021-07-23 15:15:20,739 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:15:20,740 [INFO] PluginManager:203 - loadIPPluginJar : add dma
+2021-07-23 15:15:20,742 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:15:20,742 [INFO] PluginManager:203 - loadIPPluginJar : add fatfs
+2021-07-23 15:15:20,747 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:15:20,747 [INFO] PluginManager:203 - loadIPPluginJar : add fmc
+2021-07-23 15:15:20,755 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:15:20,755 [INFO] PluginManager:203 - loadIPPluginJar : add freertos
+2021-07-23 15:15:20,757 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:15:20,757 [INFO] PluginManager:203 - loadIPPluginJar : add genericplugin
+2021-07-23 15:15:20,759 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:15:20,760 [INFO] PluginManager:203 - loadIPPluginJar : add gfxmmu
+2021-07-23 15:15:20,765 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:15:20,765 [INFO] PluginManager:203 - loadIPPluginJar : add gic
+2021-07-23 15:15:20,769 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:15:20,770 [INFO] PluginManager:203 - loadIPPluginJar : add gpio
+2021-07-23 15:15:20,772 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:15:20,772 [INFO] PluginManager:203 - loadIPPluginJar : add gtzc
+2021-07-23 15:15:20,775 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:15:20,775 [INFO] PluginManager:203 - loadIPPluginJar : add hash
+2021-07-23 15:15:20,777 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:15:20,777 [INFO] PluginManager:203 - loadIPPluginJar : add i2c
+2021-07-23 15:15:20,780 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:15:20,780 [INFO] PluginManager:203 - loadIPPluginJar : add i2s
+2021-07-23 15:15:20,783 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:15:20,783 [INFO] PluginManager:203 - loadIPPluginJar : add ipddr
+2021-07-23 15:15:20,786 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:15:20,786 [INFO] PluginManager:203 - loadIPPluginJar : add lorawan
+2021-07-23 15:15:20,788 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:15:20,788 [INFO] PluginManager:203 - loadIPPluginJar : add ltdc
+2021-07-23 15:15:20,792 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:15:20,792 [INFO] PluginManager:203 - loadIPPluginJar : add mdma
+2021-07-23 15:15:20,796 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:15:20,796 [INFO] PluginManager:203 - loadIPPluginJar : add nvic
+2021-07-23 15:15:20,800 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:15:20,800 [INFO] PluginManager:203 - loadIPPluginJar : add opamp
+2021-07-23 15:15:20,803 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:15:20,803 [INFO] PluginManager:203 - loadIPPluginJar : add openamp
+2021-07-23 15:15:20,806 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:15:20,806 [INFO] PluginManager:203 - loadIPPluginJar : add pdm2pcm
+2021-07-23 15:15:20,813 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:15:20,816 [INFO] PluginManager:203 - loadIPPluginJar : add plateformsettings
+2021-07-23 15:15:20,818 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:15:20,818 [INFO] PluginManager:203 - loadIPPluginJar : add quadspi
+2021-07-23 15:15:20,822 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:15:20,822 [INFO] PluginManager:203 - loadIPPluginJar : add resmgrutility
+2021-07-23 15:15:20,835 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:15:20,835 [INFO] PluginManager:203 - loadIPPluginJar : add sai
+2021-07-23 15:15:20,838 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:15:20,838 [INFO] PluginManager:203 - loadIPPluginJar : add spi
+2021-07-23 15:15:20,843 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:15:20,843 [INFO] PluginManager:203 - loadIPPluginJar : add stm32_wpan
+2021-07-23 15:15:20,844 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:15:20,845 [INFO] PluginManager:203 - loadIPPluginJar : add tim
+2021-07-23 15:15:20,847 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:15:20,847 [INFO] PluginManager:203 - loadIPPluginJar : add touchsensing
+2021-07-23 15:15:20,849 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:15:20,849 [INFO] PluginManager:203 - loadIPPluginJar : add tracer_emb
+2021-07-23 15:15:20,851 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:15:20,851 [INFO] PluginManager:203 - loadIPPluginJar : add ts
+2021-07-23 15:15:20,852 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:15:20,853 [INFO] PluginManager:203 - loadIPPluginJar : add tsc
+2021-07-23 15:15:20,854 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:15:20,854 [INFO] PluginManager:203 - loadIPPluginJar : add ucpd
+2021-07-23 15:15:20,857 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:15:20,857 [INFO] PluginManager:203 - loadIPPluginJar : add usart
+2021-07-23 15:15:21,150 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-07-23 15:15:21,246 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-07-23 15:15:21,250 [INFO] DbMcusAds:132 - JSON generation date=Mon Jul 12 22:30:20 CST 2021 (1626100220514)
+2021-07-23 15:15:21,250 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-07-23 15:15:21,289 [WARN] DetailPanel:315 - Failed to get advertising image, set to default
+2021-07-23 15:15:21,489 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-07-23 15:15:21,491 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-07-23 15:15:21,492 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-07-23 15:15:21,492 [WARN] DetailPanel:315 - Failed to get advertising image, set to default
+2021-07-23 15:15:21,493 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-07-23 15:15:21,535 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-07-23 15:15:21,535 [WARN] ThirdParty:796 - waiting for thirdparty lock release [close project]
+2021-07-23 15:15:23,229 [INFO] ThirdPartyUpdaterWithRetryManager:56 - Updater plugin not ready yet. [2/15]
+2021-07-23 15:15:26,237 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-07-23 15:15:26,237 [ERROR] AbstractThirdPartyUpdaterManager:153 - class java.lang.Integer cannot be cast to class java.util.List (java.lang.Integer and java.util.List are in module java.base of loader 'bootstrap')
+2021-07-23 15:15:26,238 [INFO] ThirdParty:900 - Integrity check success = false
+2021-07-23 15:15:26,238 [INFO] IntegrityCheckThread:75 - exiting critical section [integrity check]
+2021-07-23 15:15:26,238 [INFO] IntegrityCheckThread:78 - End integrity checks thread
+2021-07-23 15:15:26,238 [INFO] ThirdParty:798 - entering critical section [close project]
+2021-07-23 15:15:26,239 [INFO] ThirdParty:809 - exiting critical section [close project]
+2021-07-23 15:15:26,242 [INFO] PinOutPanel:1435 - setPackage(No Configuration,No Configuration)
+2021-07-23 15:15:26,242 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-07-23 15:15:26,256 [ERROR] Updater:1065 - MainUpdater not yet initialized. External WinMGr cannot be set.
+2021-07-23 15:15:26,258 [INFO] Updater:1002 - Updater Version found : 6.2.1
+2021-07-23 15:15:26,274 [INFO] ApplicationProperties:181 - Using Application install path: G:\cubeide\STM32CubeIDE_1.6.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.1.202103241236
+2021-07-23 15:15:26,414 [INFO] MainUpdater:2661 - connection check result : 10
+2021-07-23 15:15:26,414 [INFO] MainUpdater:255 - Updater Check For Update Now.
+2021-07-23 15:15:26,414 [INFO] MicroXplorer:472 - Change Database Version : DB.6.0.21
+2021-07-23 15:15:26,448 [INFO] CheckServerUpdateThread:102 - End of CheckServer Thread
+2021-07-23 15:15:26,523 [INFO] MainUpdater:2661 - connection check result : 10
+2021-07-23 15:15:26,593 [INFO] ServerAccessManage:348 - Download File ad.zip
+2021-07-23 15:15:27,020 [INFO] FileExtend:225 - Unzip File : ad.zip
+2021-07-23 15:15:27,021 [INFO] FileExtend:240 - Standard Zip Deflate
+2021-07-23 15:15:27,052 [INFO] LoadUrlFilesThread:135 - End of LoadUrlFiles Thread
+2021-07-23 15:15:27,242 [INFO] ServerAccessManage:348 - Download File mcusAds.json._tmp_
+2021-07-23 15:15:27,255 [INFO] LoadUrlFilesThread:135 - End of LoadUrlFiles Thread
+2021-07-23 15:15:28,489 [INFO] ServerAccessManage:348 - Download File mcusDocs.json._tmp_
+2021-07-23 15:15:29,054 [INFO] LoadUrlFilesThread:135 - End of LoadUrlFiles Thread
+2021-07-23 15:15:29,505 [INFO] ServerAccessManage:348 - Download File mcusFeaturesAndDescription.json._tmp_
+2021-07-23 15:15:32,142 [INFO] LoadUrlFilesThread:135 - End of LoadUrlFiles Thread
+2021-07-23 15:15:32,550 [INFO] ServerAccessManage:348 - Download File boardsDocs.json._tmp_
+2021-07-23 15:15:33,225 [INFO] LoadUrlFilesThread:135 - End of LoadUrlFiles Thread
+2021-07-23 15:15:33,614 [INFO] ServerAccessManage:348 - Download File boards.json._tmp_
+2021-07-23 15:15:34,399 [INFO] LoadUrlFilesThread:135 - End of LoadUrlFiles Thread
+2021-07-23 15:15:34,514 [INFO] ServerAccessManage:348 - Download File cube-finder-db.zip
+2021-07-23 15:15:36,843 [INFO] FileExtend:225 - Unzip File : cube-finder-db.zip
+2021-07-23 15:15:36,844 [INFO] FileExtend:240 - Standard Zip Deflate
+2021-07-23 15:15:37,146 [INFO] LoadUrlFilesThread:135 - End of LoadUrlFiles Thread
+2021-07-23 15:15:39,603 [INFO] ServerAccessManage:348 - Download File crdb.zip
+2021-07-23 15:15:41,909 [INFO] FileExtend:225 - Unzip File : crdb.zip
+2021-07-23 15:15:41,909 [INFO] FileExtend:240 - Standard Zip Deflate
+2021-07-23 15:15:41,931 [INFO] LoadUrlFilesThread:135 - End of LoadUrlFiles Thread
+2021-07-23 15:15:42,166 [INFO] ServerAccessManage:348 - Download File tutoVideoDB.zip
+2021-07-23 15:15:42,283 [INFO] FileExtend:225 - Unzip File : tutoVideoDB.zip
+2021-07-23 15:15:42,283 [INFO] FileExtend:240 - Standard Zip Deflate
+2021-07-23 15:15:42,300 [INFO] LoadUrlFilesThread:135 - End of LoadUrlFiles Thread
+2021-07-23 15:15:42,301 [INFO] DbMcusAds:132 - JSON generation date=Mon Jul 12 22:30:20 CST 2021 (1626100220514)
+2021-07-23 15:15:42,325 [INFO] DbMcusDocs:143 - JSON generation date=Mon Jun 07 16:53:21 CST 2021 (1623056001)
+2021-07-23 15:15:42,326 [INFO] DbMcusXml:100 - Load MCU database from G:\cubeide\STM32CubeIDE_1.6.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.1.202103241236\\db\/mcu/families.xml
+2021-07-23 15:15:43,486 [INFO] DbMcusJson:94 - JSON generation date=Mon Jun 07 16:53:21 CST 2021 (1623056001)
+2021-07-23 15:15:44,258 [INFO] DbMcus:175 - Found 1906 MCUs (1866 are supported by CubeMX, 1866 are visible in CubeMX)
+2021-07-23 15:15:44,259 [INFO] ApiDb:251 - Load user favorites file C:\Users\86182/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2021-07-23 15:15:44,259 [INFO] ApiDb:255 - User favorites MCUs=[]
+2021-07-23 15:15:44,259 [INFO] DbMcus:187 - Set 0 / 0 favorites MCUs
+2021-07-23 15:15:44,962 [INFO] DbMcusDocs:79 - Found 669 MCUs documents
+2021-07-23 15:15:44,967 [INFO] ApiDb:276 - Save user favorites file C:\Users\86182/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2021-07-23 15:15:44,967 [INFO] ApiDb:280 - User favorites MCUs=[]
+2021-07-23 15:15:44,968 [INFO] DbMcusXml:100 - Load MCU database from G:\cubeide\STM32CubeIDE_1.6.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.1.202103241236\\db\/mcu/families.xml
+2021-07-23 15:15:45,933 [INFO] DbMcusJson:94 - JSON generation date=Mon Jun 07 16:53:21 CST 2021 (1623056001)
+2021-07-23 15:15:46,635 [INFO] DbMcus:175 - Found 1906 MCUs (1866 are supported by CubeMX, 1866 are visible in CubeMX)
+2021-07-23 15:15:46,636 [INFO] ApiDb:251 - Load user favorites file C:\Users\86182/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2021-07-23 15:15:46,636 [INFO] ApiDb:255 - User favorites MCUs=[]
+2021-07-23 15:15:46,636 [INFO] DbMcus:187 - Set 0 / 0 favorites MCUs
+2021-07-23 15:15:46,667 [INFO] DbBoardsDocs:143 - JSON generation date=Tue Jun 01 13:52:40 CST 2021 (1622526760)
+2021-07-23 15:15:46,681 [INFO] DbBoardsPdsc:90 - Found 24 items
+2021-07-23 15:15:46,684 [INFO] DbBoardsPdsc:90 - Found 9 items
+2021-07-23 15:15:46,692 [INFO] DbBoardsPdsc:90 - Found 33 items
+2021-07-23 15:15:46,694 [INFO] DbBoardsPdsc:90 - Found 1 items
+2021-07-23 15:15:46,700 [INFO] DbBoardsPdsc:90 - Found 46 items
+2021-07-23 15:15:46,708 [INFO] DbBoardsPdsc:90 - Found 41 items
+2021-07-23 15:15:46,710 [INFO] DbBoardsPdsc:90 - Found 2 items
+2021-07-23 15:15:46,711 [INFO] DbBoardsPdsc:90 - Found 5 items
+2021-07-23 15:15:46,714 [WARN] DbBoardsPdsc:254 - Board NUCLEO-WB15CC: unknown feature type=, name=, username=Three user LEDs, n=1
+2021-07-23 15:15:46,714 [WARN] DbBoardsPdsc:254 - Board NUCLEO-WB15CC: unknown feature type=, name=, username=One reset and three user push-buttons, n=1
+2021-07-23 15:15:46,715 [WARN] DbBoardsPdsc:254 - Board NUCLEO-WB15CC: unknown feature type=, name=, username=Arduino Uno V3 expansion connector, n=1
+2021-07-23 15:15:46,715 [WARN] DbBoardsPdsc:254 - Board NUCLEO-WB15CC: unknown feature type=, name=, username=ST morpho extension pin headers for full access to all STM32WB I/Os, n=1
+2021-07-23 15:15:46,715 [WARN] DbBoardsPdsc:254 - Board NUCLEO-WB15CC: unknown feature type=, name=, username=Integrated PCB antenna and SMA connector footprint, n=1
+2021-07-23 15:15:46,715 [WARN] DbBoardsPdsc:254 - Board NUCLEO-WB15CC: unknown feature type=, name=, username=Flexible power-supply options: ST-LINK, USB VBUS, or external sources, n=1
+2021-07-23 15:15:46,715 [WARN] DbBoardsPdsc:254 - Board NUCLEO-WB15CC: unknown feature type=, name=, username=On-board footprint to mount a CR2032 battery socket, n=1
+2021-07-23 15:15:46,715 [WARN] DbBoardsPdsc:254 - Board NUCLEO-WB15CC: unknown feature type=, name=, username=On-board ST-LINK/V2-1 debugger/programmer with USB re-enumeration capability: mass storage, Virtual COM port, and debug port, n=1
+2021-07-23 15:15:46,715 [WARN] DbBoardsPdsc:254 - Board NUCLEO-WB15CC: unknown feature type=, name=, username=Comprehensive free software libraries and examples available with the STM32CubeWB MCU Package, n=1
+2021-07-23 15:15:46,715 [WARN] DbBoardsPdsc:254 - Board NUCLEO-WB15CC: unknown feature type=, name=, username=Support of a wide choice of Integrated Development Environments (IDEs) including IAR Embedded Workbench, MDK-ARM, STM32CubeIDE, and Mbed Studio, n=1
+2021-07-23 15:15:46,717 [WARN] DbBoardsPdsc:254 - Board STM32H7B3I-DK: unknown feature type=Audio, name=, username=Audio stereo codec with Headphone Amp (CS42L51-CNZ), n=1
+2021-07-23 15:15:46,717 [WARN] DbBoardsPdsc:254 - Board STM32H735G-DK: unknown feature type=Audio, name=, username=Audio stereo codec with Headphone Amp (WM8994ECS/R), n=1
+2021-07-23 15:15:46,717 [WARN] DbBoardsPdsc:254 - Board STM32WB5MM-DK: unknown feature type=, name=, username=Time-of-Flight and gesture-detection sensor, n=1
+2021-07-23 15:15:46,717 [WARN] DbBoardsPdsc:254 - Board STM32WB5MM-DK: unknown feature type=, name=, username=3 push-buttons (2 users and 1 reset) and 1 touch key button, n=1
+2021-07-23 15:15:46,717 [WARN] DbBoardsPdsc:254 - Board STM32WB5MM-DK: unknown feature type=, name=, username=Flexible power-supply options: ST-LINK/V2-1 USB connector, 5 V delivered by ARDUINO?? or external connector, USB charger, or USB power, n=1
+2021-07-23 15:15:46,718 [WARN] DbBoardsPdsc:254 - Board STM32WB5MM-DK: unknown feature type=, name=, username=On-board ST-LINK/V2-1 debugger/programmer with USB re-enumeration capability: Virtual COM port and debug port, n=1
+2021-07-23 15:15:46,718 [WARN] DbBoardsPdsc:254 - Board STM32WB5MM-DK: unknown feature type=, name=, username=Comprehensive free software libraries and examples available with the STM32CubeWB MCU Package, n=1
+2021-07-23 15:15:46,718 [WARN] DbBoardsPdsc:254 - Board STM32WB5MM-DK: unknown feature type=, name=, username=Support of a wide choice of Integrated Development Environments (IDEs) including IAR Embedded Workbench??, MDK-ARM, and STM32CubeIDE, n=1
+2021-07-23 15:15:46,719 [WARN] DbBoardsPdsc:254 - Board STM32H7B3I-EVAL: unknown feature type=Audio, name=, username=Multi-Channel Audio Codec (CS42L51-CNZ), n=1
+2021-07-23 15:15:46,719 [WARN] DbBoardsPdsc:254 - Board STM32H7B3I-EVAL: unknown feature type=Meter, name=, username=Power-metering and Temperature-monitoring with sigma-delta modulators, n=1
+2021-07-23 15:15:46,719 [WARN] DbBoardsPdsc:254 - Board STM32H7B3I-EVAL: unknown feature type=Motor, name=, username=Motor Control, n=1
+2021-07-23 15:15:46,736 [INFO] DbBoardsJson:87 - JSON generation date=Tue Jun 01 13:52:40 CST 2021 (1622526760)
+2021-07-23 15:15:46,744 [INFO] DbBoards:117 - Found 161 boards (158 are supported by CubeMX)
+2021-07-23 15:15:46,756 [INFO] DbBoardsDocs:143 - JSON generation date=Tue Jun 01 13:52:40 CST 2021 (1622526760)
+2021-07-23 15:15:46,778 [INFO] DbBoardsDocs:79 - Found 193 boards documents
+2021-07-23 15:15:46,782 [WARN] DbBoards:127 - board B-L462E-CELL1 has no document id list !
+2021-07-23 15:15:46,782 [WARN] DbBoards:127 - board B-L475E-IOT01A2 has no document id list !
+2021-07-23 15:15:46,783 [WARN] DbBoards:127 - board NUCLEO-G0B1RE has no document id list !
+2021-07-23 15:15:46,783 [WARN] DbBoards:127 - board NUCLEO-H743ZI has no document id list !
+2021-07-23 15:15:46,783 [WARN] DbBoards:127 - board NUCLEO-L4A6ZG has no document id list !
+2021-07-23 15:15:46,783 [WARN] DbBoards:127 - board NUCLEO-WB15CC has no document id list !
+2021-07-23 15:15:46,784 [WARN] DbBoards:127 - board NUCLEO-WB55RG has no document id list !
+2021-07-23 15:15:46,784 [WARN] DbBoards:127 - board NUCLEO-WL55JC2 has no document id list !
+2021-07-23 15:15:46,784 [WARN] DbBoards:127 - board P-NUCLEO-WB55-Nucleo has no document id list !
+2021-07-23 15:15:46,784 [WARN] DbBoards:127 - board P-NUCLEO-WB55-USBDongle has no document id list !
+2021-07-23 15:15:46,784 [WARN] DbBoards:127 - board STEVAL-BFA001V1B has no document id list !
+2021-07-23 15:15:46,784 [WARN] DbBoards:127 - board STEVAL-BFA001V2B has no document id list !
+2021-07-23 15:15:46,784 [WARN] DbBoards:127 - board STEVAL-IDP005V1 has no document id list !
+2021-07-23 15:15:46,785 [WARN] DbBoards:127 - board STEVAL-IDP005V2 has no document id list !
+2021-07-23 15:15:46,785 [WARN] DbBoards:127 - board STEVAL-MKSBOX1V1 has no document id list !
+2021-07-23 15:15:46,785 [WARN] DbBoards:127 - board STEVAL-STWINKT1 has no document id list !
+2021-07-23 15:15:46,785 [WARN] DbBoards:127 - board STEVAL-STWINKT1B has no document id list !
+2021-07-23 15:15:46,785 [WARN] DbBoards:127 - board STM32F401C-DISCO has no document id list !
+2021-07-23 15:15:46,785 [WARN] DbBoards:127 - board STM32F769I-DISC1 has no document id list !
+2021-07-23 15:15:46,786 [WARN] DbBoards:127 - board STM32G0C1E-EV has no document id list !
+2021-07-23 15:15:46,786 [WARN] DbBoards:127 - board STM32G474E-EVAL1 has no document id list !
+2021-07-23 15:15:46,786 [WARN] DbBoards:127 - board STM32H743I-EVAL2 has no document id list !
+2021-07-23 15:15:46,786 [WARN] DbBoards:127 - board STM32H747I-DISC1 has no document id list !
+2021-07-23 15:15:46,786 [WARN] DbBoards:127 - board STM32H753I-EVAL2 has no document id list !
+2021-07-23 15:15:46,786 [WARN] DbBoards:127 - board STM32L-DISCOVERY has no document id list !
+2021-07-23 15:15:46,787 [WARN] DbBoards:127 - board STM32MP157A-DK1 has no document id list !
+2021-07-23 15:15:46,787 [WARN] DbBoards:127 - board STM32MP157F-DK2 has no document id list !
+2021-07-23 15:15:46,787 [WARN] DbBoards:127 - board STM32MP157F-EV1 has no document id list !
+2021-07-23 15:15:46,787 [WARN] DbBoards:127 - board STM32WB5MM-DK has no document id list !
+2021-07-23 15:15:48,295 [INFO] ApiDb:251 - Load user favorites file C:\Users\86182/.stm32cubeide/favorites.boards.txt: 0 item(s)
+2021-07-23 15:15:48,295 [INFO] ApiDb:255 - User favorites Boards=[]
+2021-07-23 15:15:48,295 [INFO] DbBoards:206 - Set 0 / 0 favorites Boards
+2021-07-23 15:15:48,314 [INFO] DbBoardsDocs:79 - Found 386 boards documents
+2021-07-23 15:15:48,316 [INFO] ApiDb:276 - Save user favorites file C:\Users\86182/.stm32cubeide/favorites.boards.txt: 0 item(s)
+2021-07-23 15:15:48,316 [INFO] ApiDb:280 - User favorites Boards=[]
+2021-07-23 15:15:48,321 [INFO] DbBoardsPdsc:90 - Found 24 items
+2021-07-23 15:15:48,322 [INFO] DbBoardsPdsc:90 - Found 9 items
+2021-07-23 15:15:48,325 [INFO] DbBoardsPdsc:90 - Found 33 items
+2021-07-23 15:15:48,326 [INFO] DbBoardsPdsc:90 - Found 1 items
+2021-07-23 15:15:48,331 [INFO] DbBoardsPdsc:90 - Found 46 items
+2021-07-23 15:15:48,336 [INFO] DbBoardsPdsc:90 - Found 41 items
+2021-07-23 15:15:48,337 [INFO] DbBoardsPdsc:90 - Found 2 items
+2021-07-23 15:15:48,338 [INFO] DbBoardsPdsc:90 - Found 5 items
+2021-07-23 15:15:48,339 [WARN] DbBoardsPdsc:254 - Board NUCLEO-WB15CC: unknown feature type=, name=, username=Three user LEDs, n=1
+2021-07-23 15:15:48,339 [WARN] DbBoardsPdsc:254 - Board NUCLEO-WB15CC: unknown feature type=, name=, username=One reset and three user push-buttons, n=1
+2021-07-23 15:15:48,339 [WARN] DbBoardsPdsc:254 - Board NUCLEO-WB15CC: unknown feature type=, name=, username=Arduino Uno V3 expansion connector, n=1
+2021-07-23 15:15:48,339 [WARN] DbBoardsPdsc:254 - Board NUCLEO-WB15CC: unknown feature type=, name=, username=ST morpho extension pin headers for full access to all STM32WB I/Os, n=1
+2021-07-23 15:15:48,339 [WARN] DbBoardsPdsc:254 - Board NUCLEO-WB15CC: unknown feature type=, name=, username=Integrated PCB antenna and SMA connector footprint, n=1
+2021-07-23 15:15:48,339 [WARN] DbBoardsPdsc:254 - Board NUCLEO-WB15CC: unknown feature type=, name=, username=Flexible power-supply options: ST-LINK, USB VBUS, or external sources, n=1
+2021-07-23 15:15:48,339 [WARN] DbBoardsPdsc:254 - Board NUCLEO-WB15CC: unknown feature type=, name=, username=On-board footprint to mount a CR2032 battery socket, n=1
+2021-07-23 15:15:48,339 [WARN] DbBoardsPdsc:254 - Board NUCLEO-WB15CC: unknown feature type=, name=, username=On-board ST-LINK/V2-1 debugger/programmer with USB re-enumeration capability: mass storage, Virtual COM port, and debug port, n=1
+2021-07-23 15:15:48,339 [WARN] DbBoardsPdsc:254 - Board NUCLEO-WB15CC: unknown feature type=, name=, username=Comprehensive free software libraries and examples available with the STM32CubeWB MCU Package, n=1
+2021-07-23 15:15:48,340 [WARN] DbBoardsPdsc:254 - Board NUCLEO-WB15CC: unknown feature type=, name=, username=Support of a wide choice of Integrated Development Environments (IDEs) including IAR Embedded Workbench, MDK-ARM, STM32CubeIDE, and Mbed Studio, n=1
+2021-07-23 15:15:48,340 [WARN] DbBoardsPdsc:254 - Board STM32H7B3I-DK: unknown feature type=Audio, name=, username=Audio stereo codec with Headphone Amp (CS42L51-CNZ), n=1
+2021-07-23 15:15:48,341 [WARN] DbBoardsPdsc:254 - Board STM32H735G-DK: unknown feature type=Audio, name=, username=Audio stereo codec with Headphone Amp (WM8994ECS/R), n=1
+2021-07-23 15:15:48,341 [WARN] DbBoardsPdsc:254 - Board STM32WB5MM-DK: unknown feature type=, name=, username=Time-of-Flight and gesture-detection sensor, n=1
+2021-07-23 15:15:48,341 [WARN] DbBoardsPdsc:254 - Board STM32WB5MM-DK: unknown feature type=, name=, username=3 push-buttons (2 users and 1 reset) and 1 touch key button, n=1
+2021-07-23 15:15:48,341 [WARN] DbBoardsPdsc:254 - Board STM32WB5MM-DK: unknown feature type=, name=, username=Flexible power-supply options: ST-LINK/V2-1 USB connector, 5 V delivered by ARDUINO?? or external connector, USB charger, or USB power, n=1
+2021-07-23 15:15:48,341 [WARN] DbBoardsPdsc:254 - Board STM32WB5MM-DK: unknown feature type=, name=, username=On-board ST-LINK/V2-1 debugger/programmer with USB re-enumeration capability: Virtual COM port and debug port, n=1
+2021-07-23 15:15:48,341 [WARN] DbBoardsPdsc:254 - Board STM32WB5MM-DK: unknown feature type=, name=, username=Comprehensive free software libraries and examples available with the STM32CubeWB MCU Package, n=1
+2021-07-23 15:15:48,341 [WARN] DbBoardsPdsc:254 - Board STM32WB5MM-DK: unknown feature type=, name=, username=Support of a wide choice of Integrated Development Environments (IDEs) including IAR Embedded Workbench??, MDK-ARM, and STM32CubeIDE, n=1
+2021-07-23 15:15:48,342 [WARN] DbBoardsPdsc:254 - Board STM32H7B3I-EVAL: unknown feature type=Audio, name=, username=Multi-Channel Audio Codec (CS42L51-CNZ), n=1
+2021-07-23 15:15:48,342 [WARN] DbBoardsPdsc:254 - Board STM32H7B3I-EVAL: unknown feature type=Meter, name=, username=Power-metering and Temperature-monitoring with sigma-delta modulators, n=1
+2021-07-23 15:15:48,342 [WARN] DbBoardsPdsc:254 - Board STM32H7B3I-EVAL: unknown feature type=Motor, name=, username=Motor Control, n=1
+2021-07-23 15:15:48,380 [INFO] DbBoardsJson:87 - JSON generation date=Tue Jun 01 13:52:40 CST 2021 (1622526760)
+2021-07-23 15:15:48,386 [INFO] DbBoards:117 - Found 161 boards (158 are supported by CubeMX)
+2021-07-23 15:15:48,387 [WARN] DbBoards:127 - board B-L462E-CELL1 has no document id list !
+2021-07-23 15:15:48,387 [WARN] DbBoards:127 - board B-L475E-IOT01A2 has no document id list !
+2021-07-23 15:15:48,387 [WARN] DbBoards:127 - board NUCLEO-G0B1RE has no document id list !
+2021-07-23 15:15:48,387 [WARN] DbBoards:127 - board NUCLEO-H743ZI has no document id list !
+2021-07-23 15:15:48,387 [WARN] DbBoards:127 - board NUCLEO-L4A6ZG has no document id list !
+2021-07-23 15:15:48,387 [WARN] DbBoards:127 - board NUCLEO-WB15CC has no document id list !
+2021-07-23 15:15:48,388 [WARN] DbBoards:127 - board NUCLEO-WB55RG has no document id list !
+2021-07-23 15:15:48,388 [WARN] DbBoards:127 - board NUCLEO-WL55JC2 has no document id list !
+2021-07-23 15:15:48,388 [WARN] DbBoards:127 - board P-NUCLEO-WB55-Nucleo has no document id list !
+2021-07-23 15:15:48,388 [WARN] DbBoards:127 - board P-NUCLEO-WB55-USBDongle has no document id list !
+2021-07-23 15:15:48,388 [WARN] DbBoards:127 - board STEVAL-BFA001V1B has no document id list !
+2021-07-23 15:15:48,388 [WARN] DbBoards:127 - board STEVAL-BFA001V2B has no document id list !
+2021-07-23 15:15:48,388 [WARN] DbBoards:127 - board STEVAL-IDP005V1 has no document id list !
+2021-07-23 15:15:48,388 [WARN] DbBoards:127 - board STEVAL-IDP005V2 has no document id list !
+2021-07-23 15:15:48,389 [WARN] DbBoards:127 - board STEVAL-MKSBOX1V1 has no document id list !
+2021-07-23 15:15:48,389 [WARN] DbBoards:127 - board STEVAL-STWINKT1 has no document id list !
+2021-07-23 15:15:48,389 [WARN] DbBoards:127 - board STEVAL-STWINKT1B has no document id list !
+2021-07-23 15:15:48,389 [WARN] DbBoards:127 - board STM32F401C-DISCO has no document id list !
+2021-07-23 15:15:48,389 [WARN] DbBoards:127 - board STM32F769I-DISC1 has no document id list !
+2021-07-23 15:15:48,389 [WARN] DbBoards:127 - board STM32G0C1E-EV has no document id list !
+2021-07-23 15:15:48,389 [WARN] DbBoards:127 - board STM32G474E-EVAL1 has no document id list !
+2021-07-23 15:15:48,390 [WARN] DbBoards:127 - board STM32H743I-EVAL2 has no document id list !
+2021-07-23 15:15:48,390 [WARN] DbBoards:127 - board STM32H747I-DISC1 has no document id list !
+2021-07-23 15:15:48,390 [WARN] DbBoards:127 - board STM32H753I-EVAL2 has no document id list !
+2021-07-23 15:15:48,390 [WARN] DbBoards:127 - board STM32L-DISCOVERY has no document id list !
+2021-07-23 15:15:48,390 [WARN] DbBoards:127 - board STM32MP157A-DK1 has no document id list !
+2021-07-23 15:15:48,390 [WARN] DbBoards:127 - board STM32MP157F-DK2 has no document id list !
+2021-07-23 15:15:48,390 [WARN] DbBoards:127 - board STM32MP157F-EV1 has no document id list !
+2021-07-23 15:15:48,390 [WARN] DbBoards:127 - board STM32WB5MM-DK has no document id list !
+2021-07-23 15:15:49,564 [INFO] ApiDb:251 - Load user favorites file C:\Users\86182/.stm32cubeide/favorites.boards.txt: 0 item(s)
+2021-07-23 15:15:49,564 [INFO] ApiDb:255 - User favorites Boards=[]
+2021-07-23 15:15:49,565 [INFO] DbBoards:206 - Set 0 / 0 favorites Boards
+2021-07-23 15:15:49,710 [INFO] ApiDb:479 - Connected to CubeFinder SQLite database (C:\Users\86182\.stmcufinder\plugins\mcufinder\mcu\cube-finder-db.db)
+2021-07-23 15:15:50,444 [INFO] DbExamplesSqlite:401 - Ignored 36 examples not supported by CubeIDE
+2021-07-23 15:15:50,444 [INFO] DbExamplesSqlite:402 - Found 4835 examples active
+2021-07-23 15:15:50,444 [INFO] DbExamplesSqlite:403 - Found 274 examples obsolete
+2021-07-23 15:15:50,445 [INFO] DbExamplesSqlite:404 - Found 0 examples under development
+2021-07-23 15:15:50,445 [INFO] DbExamplesSqlite:405 - Found 76 examples not building
+2021-07-23 15:15:50,469 [INFO] DbExamplesSqlite:104 - CubeFinder database Data Model version=2.1
+2021-07-23 15:15:50,470 [INFO] DbExamplesSqlite:105 - CubeFinder database Configuration version=3.0-WIP12
+2021-07-23 15:15:50,470 [INFO] DbExamplesSqlite:106 - CubeFinder database generation date=2021-05-10 (1620656699)
+2021-07-23 15:15:50,470 [INFO] DbExamplesSqlite:107 - CubeFinder database FW Pack versions=[STM32Cube_FW_F4_V1.26.1, STM32Cube_FW_F7_V1.16.1, STM32Cube_FW_G0_V1.4.1, STM32Cube_FW_G4_V1.4.0, STM32Cube_FW_H7_V1.9.0, STM32Cube_FW_L5_V1.4.0, STM32Cube_FW_WB_V1.11.1, STM32Cube_FW_WL_V1.0.0, X-CUBE-AZRTOS-H7_V1.0.0, X-CUBE-BLE1_V6.2.0, X-CUBE-BLE2_V3.2.0, X-CUBE-GNSS1_V5.2.0]
+2021-07-23 15:15:50,471 [INFO] DbExamples:130 - Found 4875 examples
+2021-07-23 15:15:51,139 [ERROR] DbExamples:206 - Found 301 examples with invalid data (board or MCU)
+2021-07-23 15:15:51,139 [INFO] DbExamples:222 - Found 63 boards with related examples
+2021-07-23 15:15:51,151 [INFO] DbExamples:235 - Found 52 MCUs with related examples
+2021-07-23 15:15:51,172 [INFO] ApiDb:251 - Load user favorites file C:\Users\86182/.stm32cubeide/favorites.examples.txt: 0 item(s)
+2021-07-23 15:15:51,173 [INFO] ApiDb:255 - User favorites Examples=[]
+2021-07-23 15:15:51,173 [INFO] DbExamples:256 - Set 0 / 0 favorites Examples
+2021-07-23 15:15:51,434 [INFO] CrossSelectorPresenter:1330 - Cross Selector saved comparison directory: C:\Users\86182\.stmcufinder\plugins\mcufinder\mcu\cs_comparisons_mx
+2021-07-23 15:15:51,439 [INFO] MultiScanPanel:200 - Auto-refresh data requested => check proxy status ongoing
+2021-07-23 15:15:51,442 [INFO] FinderPluginLoader:87 - Searching for filters in installed packs
+2021-07-23 15:15:52,013 [WARN] DetailPanel:315 - Failed to get advertising image, set to default
+2021-07-23 15:21:47,331 [INFO] MainUpdater:2661 - connection check result : 10
+2021-07-23 15:21:47,331 [INFO] MainUpdater:2661 - connection check result : 10
+2021-07-23 15:21:47,384 [INFO] MicroXplorer:442 - Change Database Path : 
+2021-07-23 15:21:47,384 [INFO] MicroXplorer:472 - Change Database Version : DB.6.0.21
+2021-07-23 15:21:47,384 [WARN] ThirdParty:796 - waiting for thirdparty lock release [close project]
+2021-07-23 15:21:47,384 [INFO] ThirdParty:798 - entering critical section [close project]
+2021-07-23 15:21:47,384 [INFO] ThirdParty:809 - exiting critical section [close project]
+2021-07-23 15:21:47,386 [INFO] PinOutPanel:1435 - setPackage(No Configuration,No Configuration)
+2021-07-23 15:21:47,387 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 821617928 Bytes (1037041664)
+2021-07-23 15:21:47,388 [INFO] MicroXplorer:442 - Change Database Path : 
+2021-07-23 15:21:47,388 [INFO] MicroXplorer:472 - Change Database Version : DB.6.0.21
+2021-07-23 15:21:47,388 [INFO] OpenFileManager:303 - Change cursor
+2021-07-23 15:21:47,402 [WARN] IntegrityCheckThread:59 - waiting for thirdparty lock release [integrity check]
+2021-07-23 15:21:47,402 [INFO] IntegrityCheckThread:61 - entering critical section [integrity check]
+2021-07-23 15:21:47,549 [WARN] PackLoader:226 - Cannot read IP mode file for STMicroelectronics.X-CUBE-MEMS1.9.0.0
+2021-07-23 15:21:47,701 [WARN] PackLoader:226 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE1.6.2.1
+2021-07-23 15:21:47,706 [WARN] PackLoader:226 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE2.3.2.1
+2021-07-23 15:21:47,711 [WARN] PackLoader:226 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC4.2.0.3
+2021-07-23 15:21:47,718 [WARN] PackLoader:226 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SFXS2LP1.3.1.0
+2021-07-23 15:21:47,723 [WARN] PackLoader:226 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOF1.2.0.0
+2021-07-23 15:21:47,734 [WARN] PackLoader:226 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SUBG2.4.2.0
+2021-07-23 15:21:47,741 [WARN] PackLoader:226 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ALS.1.0.1
+2021-07-23 15:21:47,744 [WARN] PackLoader:226 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AI.7.0.0
+2021-07-23 15:21:47,749 [WARN] PackLoader:226 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ALGOBUILD.1.2.1
+2021-07-23 15:21:47,754 [WARN] PackLoader:226 - Cannot read IP mode file for STMicroelectronics.X-CUBE-EEPRMA1.3.1.0
+2021-07-23 15:21:47,755 [INFO] ThirdParty:900 - Integrity check success = true
+2021-07-23 15:21:47,755 [INFO] IntegrityCheckThread:75 - exiting critical section [integrity check]
+2021-07-23 15:21:47,755 [INFO] IntegrityCheckThread:78 - End integrity checks thread
+2021-07-23 15:21:49,939 [INFO] Context:587 - Trying to add GPIOservice into a context  which must be forbidden
+2021-07-23 15:21:50,395 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) Unable to find key (Mcu.ThirdPartyNb) in loaded IOC file
+2021-07-23 15:21:50,396 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) Unable to find key (Mcu.PinsNb) in loaded IOC file
+2021-07-23 15:21:50,396 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) Unable to find key (Mcu.IPNb) in loaded IOC file
+2021-07-23 15:21:50,458 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.1.0: no header file found
+2021-07-23 15:21:50,458 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.1.0: no header file found
+2021-07-23 15:21:50,458 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.1.0: no header file found
+2021-07-23 15:21:50,466 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-23 15:21:50,466 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-23 15:21:50,466 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-23 15:21:50,467 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-23 15:21:50,467 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-23 15:21:50,467 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-23 15:21:50,467 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-23 15:21:50,467 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-23 15:21:50,467 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-23 15:21:50,467 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-23 15:21:50,467 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-23 15:21:50,467 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-23 15:21:50,467 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-23 15:21:50,468 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-23 15:21:50,468 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-23 15:21:50,468 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-23 15:21:50,468 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-23 15:21:50,468 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-23 15:21:50,468 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-23 15:21:50,468 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-23 15:21:50,468 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-23 15:21:50,468 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-23 15:21:50,468 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-23 15:21:50,469 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-23 15:21:50,469 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-23 15:21:50,469 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-23 15:21:50,469 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-23 15:21:50,638 [WARN] ApiManager:294 - Cannot register API 'Board Extension:IKS01A3' from pack STMicroelectronics.X-CUBE-MEMS1.9.0.0: no header file found
+2021-07-23 15:21:50,638 [WARN] ApiManager:294 - Cannot register API 'Board Extension:IKS01A2' from pack STMicroelectronics.X-CUBE-MEMS1.9.0.0: no header file found
+2021-07-23 15:21:50,638 [WARN] ApiManager:294 - Cannot register API 'Board Extension:IKS02A1' from pack STMicroelectronics.X-CUBE-MEMS1.9.0.0: no header file found
+2021-07-23 15:21:50,648 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SUBG2.4.2.0: no header file found
+2021-07-23 15:21:50,648 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SUBG2.4.2.0: no header file found
+2021-07-23 15:21:50,648 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SUBG2.4.2.0: no header file found
+2021-07-23 15:21:50,651 [INFO] RtosManager:470 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2021-07-23 15:21:50,651 [INFO] RtosManager:470 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2021-07-23 15:21:50,651 [INFO] RtosManager:470 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2021-07-23 15:21:50,651 [INFO] RtosManager:470 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2021-07-23 15:21:50,651 [WARN] ModelIntegratedComponent:182 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2021-07-23 15:21:50,652 [WARN] ApiManager:294 - Cannot register API 'Board Extension:EEPRMA1' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.1.0: no header file found
+2021-07-23 15:21:50,653 [WARN] ApiManager:294 - Cannot register API 'Board Extension:EEPRMA2' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.1.0: no header file found
+2021-07-23 15:21:50,654 [WARN] ApiManager:294 - Cannot register API 'Wireless:BlueNRG-MS' from pack STMicroelectronics.X-CUBE-BLE1.6.2.1: no header file found
+2021-07-23 15:21:50,655 [WARN] ApiManager:294 - Cannot register API 'Wireless:BlueNRG-2' from pack STMicroelectronics.X-CUBE-BLE2.3.2.1: no header file found
+2021-07-23 15:21:50,656 [WARN] ApiManager:294 - Cannot register API 'Board Extension:NFC04A1' from pack STMicroelectronics.X-CUBE-NFC4.2.0.3: no header file found
+2021-07-23 15:21:51,202 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 867309040 Bytes (1037041664)
+2021-07-23 15:21:51,205 [WARN] ThirdParty:762 - waiting for thirdparty lock release [change project]
+2021-07-23 15:21:51,205 [INFO] ThirdParty:764 - entering critical section [change project]
+2021-07-23 15:21:51,205 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 3.1.0
+2021-07-23 15:21:51,205 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2021-07-23 15:21:51,205 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2021-07-23 15:21:51,206 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 2.0.0
+2021-07-23 15:21:51,206 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2021-07-23 15:21:51,206 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2021-07-23 15:21:51,206 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2021-07-23 15:21:51,206 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.0.0
+2021-07-23 15:21:51,206 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 4.2.0
+2021-07-23 15:21:51,206 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.1
+2021-07-23 15:21:51,206 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2021-07-23 15:21:51,206 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 7.0.0
+2021-07-23 15:21:51,206 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.2.1
+2021-07-23 15:21:51,206 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2021-07-23 15:21:51,206 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2021-07-23 15:21:51,207 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 3.1.0
+2021-07-23 15:21:51,207 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2021-07-23 15:21:51,207 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2021-07-23 15:21:51,207 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.1
+2021-07-23 15:21:51,207 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.2.1
+2021-07-23 15:21:51,207 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2021-07-23 15:21:51,207 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.3
+2021-07-23 15:21:51,207 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2021-07-23 15:21:51,207 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2021-07-23 15:21:51,207 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2021-07-23 15:21:51,208 [INFO] ThirdParty:770 - exiting critical section [change project]
+2021-07-23 15:21:51,650 [INFO] PinOutPanel:1435 - setPackage(No Configuration,No Configuration)
+2021-07-23 15:21:51,651 [INFO] PinOutPanel:1435 - setPackage(STM32F407ZGTx,LQFP144)
+2021-07-23 15:21:52,041 [INFO] UtilMem:74 - Before build in PCC Used Memory: 879114768 Bytes (1037041664)
+2021-07-23 15:21:52,336 [INFO] SharedServices:72 - Folder for power plug-in: C:/Users/86182/.stm32cubemx/plugins/power
+2021-07-23 15:21:52,367 [INFO] SharedServices:72 - Folder for power plug-in: C:/Users/86182/.stm32cubemx/plugins/power
+2021-07-23 15:21:52,396 [INFO] SharedServices:72 - Folder for power plug-in: C:/Users/86182/.stm32cubemx/plugins/power
+2021-07-23 15:21:52,399 [INFO] SharedServices:72 - Folder for power plug-in: C:/Users/86182/.stm32cubemx/plugins/power
+2021-07-23 15:21:52,520 [INFO] UtilMem:74 - After build in PCC Used Memory: 826822848 Bytes (1037041664)
+2021-07-23 15:21:52,538 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,538 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,538 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,538 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,538 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,538 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,539 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,539 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,539 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,539 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,539 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,539 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,540 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,540 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,540 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,540 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,540 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,540 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,541 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,541 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,541 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,541 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,542 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,542 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,542 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,543 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,543 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,543 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,544 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,544 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,544 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,545 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,545 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,545 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,546 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,546 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,546 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,547 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,547 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,548 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,548 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,548 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,549 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,549 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,550 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,550 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,551 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,551 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,552 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,552 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,553 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,553 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,554 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,555 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,556 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,557 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,557 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,558 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-23 15:21:52,599 [INFO] ApiDbMcu:458 - Load IP Config File for PDM2PCM
+2021-07-23 15:21:52,629 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] toolchainItems.length=====1
+2021-07-23 15:21:52,721 [INFO] OpenFileManager:323 - Restore cursor
+2021-07-23 15:21:53,134 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 862993008 Bytes (1037041664)
+2021-07-23 15:21:53,215 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 877658096 Bytes (1037041664)
+2021-07-23 15:21:53,521 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SYS
+2021-07-23 15:21:53,522 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: RCC
+2021-07-23 15:21:53,522 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: NVIC
+2021-07-23 15:21:53,524 [INFO] CodeGenerator:641 - code generatio: config db path: G:\cubeide\STM32CubeIDE_1.6.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.1.202103241236\\db\
+2021-07-23 15:21:54,051 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\MXTmpFiles\license.tmp_save
+2021-07-23 15:21:54,339 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\MXTmpFiles\license.tmp
+2021-07-23 15:21:54,410 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Src\stm32f4xx_it.c_save
+2021-07-23 15:21:54,499 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Src\stm32f4xx_it.c
+2021-07-23 15:21:54,503 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Inc\stm32f4xx_it.h_save
+2021-07-23 15:21:54,552 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Inc\stm32f4xx_it.h
+2021-07-23 15:21:54,562 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Src\stm32f4xx_hal_msp.c_save
+2021-07-23 15:21:54,648 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Src\stm32f4xx_hal_msp.c
+2021-07-23 15:21:54,651 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\MXTmpFiles\system.tmp_save
+2021-07-23 15:21:54,694 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\MXTmpFiles\system.tmp
+2021-07-23 15:21:54,701 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Inc\stm32f4xx_hal_conf.h_save
+2021-07-23 15:21:54,756 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Inc\stm32f4xx_hal_conf.h
+2021-07-23 15:21:54,801 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Inc\main.h_save
+2021-07-23 15:21:54,871 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Inc\main.h
+2021-07-23 15:21:54,875 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Src\main.c_save
+2021-07-23 15:21:54,969 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Src\main.c
+2021-07-23 15:21:55,799 [INFO] ProjectBuilder:2460 - Time for Copy HAL[1] : 136mS.
+2021-07-23 15:21:55,806 [INFO] ProjectBuilder:3418 - Project Generator version: 3.13.0-B3
+2021-07-23 15:21:56,221 [INFO] ConfigFileManager:1242 - The Die is : DIE413
+2021-07-23 15:21:56,257 [INFO] ApiDbMcu:458 - Load IP Config File for FATFS
+2021-07-23 15:21:56,284 [INFO] ApiDbMcu:458 - Load IP Config File for FREERTOS
+2021-07-23 15:21:56,290 [INFO] ApiDbMcu:458 - Load IP Config File for LIBJPEG
+2021-07-23 15:21:56,353 [INFO] ApiDbMcu:458 - Load IP Config File for LWIP
+2021-07-23 15:21:56,388 [INFO] ApiDbMcu:458 - Load IP Config File for MBEDTLS
+2021-07-23 15:21:56,419 [INFO] ApiDbMcu:458 - Load IP Config File for USB_DEVICE
+2021-07-23 15:21:56,429 [INFO] ApiDbMcu:458 - Load IP Config File for USB_HOST
+2021-07-23 15:22:00,788 [INFO] ProjectBuilder:3584 - Time for Generating toolchain IDE Files: 4982mS.
+2021-07-23 15:22:00,789 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 0mS.
+2021-07-23 15:22:00,791 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 0mS.
+2021-07-23 15:22:01,569 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Warning: NLS unused message: NewJavaProjectWizardPageOne_Module_group in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+2021-07-23 15:22:04,652 [INFO] ApiDb:276 - Save user favorites file C:\Users\86182/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2021-07-23 15:22:04,652 [INFO] ApiDb:280 - User favorites MCUs=[]
+2021-07-23 15:23:59,001 [INFO] Gpio:248 - dependency for GPIO [RCC, SPI3]
+2021-07-23 15:24:00,239 [INFO] Gpio:248 - dependency for GPIO [RCC, SPI3]
+2021-07-23 15:24:13,473 [INFO] Gpio:248 - dependency for GPIO [RCC, SPI3, SYS]
+2021-07-23 15:26:22,795 [INFO] NvicIntPanel:90 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-07-23 15:26:38,612 [INFO] NvicIntPanel:90 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-07-23 15:26:47,617 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Exception in thread "AWT-EventQueue-0" java.awt.IllegalComponentStateException: component must be showing on the screen to determine its location
+2021-07-23 15:26:47,618 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.getLocationOnScreen_NoTreeLock(Unknown Source)
+2021-07-23 15:26:47,619 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.getLocationOnScreen(Unknown Source)
+2021-07-23 15:26:47,620 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JPopupMenu.show(Unknown Source)
+2021-07-23 15:26:47,622 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.plaf.basic.BasicComboPopup.show(Unknown Source)
+2021-07-23 15:26:47,623 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.plaf.basic.BasicComboPopup.togglePopup(Unknown Source)
+2021-07-23 15:26:47,624 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.plaf.basic.BasicComboPopup$Handler.mousePressed(Unknown Source)
+2021-07-23 15:26:47,625 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processMouseEvent(Unknown Source)
+2021-07-23 15:26:47,627 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JComponent.processMouseEvent(Unknown Source)
+2021-07-23 15:26:47,628 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processEvent(Unknown Source)
+2021-07-23 15:26:47,629 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.processEvent(Unknown Source)
+2021-07-23 15:26:47,630 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEventImpl(Unknown Source)
+2021-07-23 15:26:47,631 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+2021-07-23 15:26:47,632 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+2021-07-23 15:26:47,633 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.plaf.basic.BasicTableUI$Handler.repostEvent(Unknown Source)
+2021-07-23 15:26:47,635 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.plaf.basic.BasicTableUI$Handler.adjustSelection(Unknown Source)
+2021-07-23 15:26:47,637 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.plaf.basic.BasicTableUI$Handler.mousePressed(Unknown Source)
+2021-07-23 15:26:47,638 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.AWTEventMulticaster.mousePressed(Unknown Source)
+2021-07-23 15:26:47,639 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.AWTEventMulticaster.mousePressed(Unknown Source)
+2021-07-23 15:26:47,640 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.AWTEventMulticaster.mousePressed(Unknown Source)
+2021-07-23 15:26:47,642 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.AWTEventMulticaster.mousePressed(Unknown Source)
+2021-07-23 15:26:47,643 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processMouseEvent(Unknown Source)
+2021-07-23 15:26:47,644 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JComponent.processMouseEvent(Unknown Source)
+2021-07-23 15:26:47,644 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processEvent(Unknown Source)
+2021-07-23 15:26:47,645 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.processEvent(Unknown Source)
+2021-07-23 15:26:47,646 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEventImpl(Unknown Source)
+2021-07-23 15:26:47,647 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+2021-07-23 15:26:47,648 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+2021-07-23 15:26:47,649 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+2021-07-23 15:26:47,650 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+2021-07-23 15:26:47,651 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+2021-07-23 15:26:47,652 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+2021-07-23 15:26:47,653 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+2021-07-23 15:26:47,654 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+2021-07-23 15:26:47,655 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+2021-07-23 15:26:47,656 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+2021-07-23 15:26:47,658 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2021-07-23 15:26:47,660 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+2021-07-23 15:26:47,661 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+2021-07-23 15:26:47,662 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(Unknown Source)
+2021-07-23 15:26:47,663 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(Unknown Source)
+2021-07-23 15:26:47,664 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2021-07-23 15:26:47,665 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+2021-07-23 15:26:47,666 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+2021-07-23 15:26:47,667 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+2021-07-23 15:26:47,668 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+2021-07-23 15:26:47,670 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+2021-07-23 15:26:47,670 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+2021-07-23 15:26:47,672 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+2021-07-23 15:26:47,672 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2021-07-23 15:26:54,578 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 923351960 Bytes (1073741824)
+2021-07-23 15:26:54,670 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 935934872 Bytes (1073741824)
+2021-07-23 15:26:56,011 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 804148544 Bytes (1073741824)
+2021-07-23 15:26:56,396 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SPI
+2021-07-23 15:26:56,396 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SYS
+2021-07-23 15:26:56,396 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: RCC
+2021-07-23 15:26:56,396 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: NVIC
+2021-07-23 15:26:56,397 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: USART
+2021-07-23 15:26:56,397 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: GPIO
+2021-07-23 15:26:56,400 [INFO] CodeGenerator:641 - code generatio: config db path: G:\cubeide\STM32CubeIDE_1.6.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.1.202103241236\\db\
+2021-07-23 15:26:57,069 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\MXTmpFiles\license.tmp_save
+2021-07-23 15:26:57,196 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\MXTmpFiles\license.tmp
+2021-07-23 15:26:57,233 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\MXTmpFiles\gpio.tmp_save
+2021-07-23 15:26:57,290 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\MXTmpFiles\gpio.tmp
+2021-07-23 15:26:57,386 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-23 15:26:57,387 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-23 15:26:57,407 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Src\stm32f4xx_it.c_save
+2021-07-23 15:26:57,536 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Src\stm32f4xx_it.c
+2021-07-23 15:26:57,542 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Inc\stm32f4xx_it.h_save
+2021-07-23 15:26:57,603 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Inc\stm32f4xx_it.h
+2021-07-23 15:26:57,614 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Src\stm32f4xx_hal_msp.c_save
+2021-07-23 15:26:57,734 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Src\stm32f4xx_hal_msp.c
+2021-07-23 15:26:57,738 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\MXTmpFiles\system.tmp_save
+2021-07-23 15:26:57,800 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\MXTmpFiles\system.tmp
+2021-07-23 15:26:57,811 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Inc\stm32f4xx_hal_conf.h_save
+2021-07-23 15:26:57,958 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Inc\stm32f4xx_hal_conf.h
+2021-07-23 15:26:58,012 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Inc\main.h_save
+2021-07-23 15:26:58,092 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Inc\main.h
+2021-07-23 15:26:58,098 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Src\main.c_save
+2021-07-23 15:26:58,203 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Src\main.c
+2021-07-23 15:26:59,127 [INFO] ProjectBuilder:2460 - Time for Copy HAL[1] : 156mS.
+2021-07-23 15:26:59,132 [INFO] ProjectBuilder:3418 - Project Generator version: 3.13.0-B3
+2021-07-23 15:26:59,550 [INFO] ConfigFileManager:1242 - The Die is : DIE413
+2021-07-23 15:27:01,697 [INFO] ProjectBuilder:3584 - Time for Generating toolchain IDE Files: 2565mS.
+2021-07-23 15:27:01,698 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 1mS.
+2021-07-23 15:27:01,700 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 0mS.
+2021-07-23 15:31:50,839 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Warning: NLS unused message: CommonTab_AttributeLabel_TerminateDescendants in: org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsMessages
+2021-07-23 15:33:59,061 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 830045048 Bytes (1073741824)
+2021-07-23 15:33:59,158 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 843057512 Bytes (1073741824)
+2021-07-23 15:33:59,979 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 837385104 Bytes (1073741824)
+2021-07-23 15:34:00,353 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SPI
+2021-07-23 15:34:00,353 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SYS
+2021-07-23 15:34:00,353 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: RCC
+2021-07-23 15:34:00,354 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: NVIC
+2021-07-23 15:34:00,354 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: USART
+2021-07-23 15:34:00,355 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: GPIO
+2021-07-23 15:34:00,357 [INFO] CodeGenerator:641 - code generatio: config db path: G:\cubeide\STM32CubeIDE_1.6.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.1.202103241236\\db\
+2021-07-23 15:34:00,947 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\MXTmpFiles\license.tmp_save
+2021-07-23 15:34:01,027 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\MXTmpFiles\license.tmp
+2021-07-23 15:34:01,073 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\MXTmpFiles\gpio.tmp_save
+2021-07-23 15:34:01,124 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\MXTmpFiles\gpio.tmp
+2021-07-23 15:34:01,209 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-23 15:34:01,210 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-23 15:34:01,237 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Src\stm32f4xx_it.c_save
+2021-07-23 15:34:01,323 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Src\stm32f4xx_it.c
+2021-07-23 15:34:01,328 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Inc\stm32f4xx_it.h_save
+2021-07-23 15:34:01,380 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Inc\stm32f4xx_it.h
+2021-07-23 15:34:01,390 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Src\stm32f4xx_hal_msp.c_save
+2021-07-23 15:34:01,505 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Src\stm32f4xx_hal_msp.c
+2021-07-23 15:34:01,508 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\MXTmpFiles\system.tmp_save
+2021-07-23 15:34:01,557 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\MXTmpFiles\system.tmp
+2021-07-23 15:34:01,566 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Inc\stm32f4xx_hal_conf.h_save
+2021-07-23 15:34:01,636 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Inc\stm32f4xx_hal_conf.h
+2021-07-23 15:34:01,684 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Inc\main.h_save
+2021-07-23 15:34:01,778 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Inc\main.h
+2021-07-23 15:34:01,783 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Src\main.c_save
+2021-07-23 15:34:01,901 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Src\main.c
+2021-07-23 15:34:02,691 [INFO] ProjectBuilder:2460 - Time for Copy HAL[1] : 129mS.
+2021-07-23 15:34:02,696 [INFO] ProjectBuilder:3418 - Project Generator version: 3.13.0-B3
+2021-07-23 15:34:03,120 [INFO] ConfigFileManager:1242 - The Die is : DIE413
+2021-07-23 15:34:05,177 [INFO] ProjectBuilder:3584 - Time for Generating toolchain IDE Files: 2481mS.
+2021-07-23 15:34:05,178 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 1mS.
+2021-07-23 15:34:05,180 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 0mS.
+2021-07-23 15:52:37,972 [INFO] NvicIntPanel:90 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,561x304,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-07-23 15:52:49,795 [INFO] NvicIntPanel:90 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-07-23 15:53:04,288 [INFO] NvicIntPanel:90 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-07-23 15:55:04,091 [INFO] NvicIntPanel:90 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,561x304,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-07-23 15:55:40,521 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 882669416 Bytes (1073741824)
+2021-07-23 15:55:40,630 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 895778664 Bytes (1073741824)
+2021-07-23 15:55:41,867 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 868655968 Bytes (1073741824)
+2021-07-23 15:55:42,342 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SPI
+2021-07-23 15:55:42,342 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: TIM1_8
+2021-07-23 15:55:42,342 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SYS
+2021-07-23 15:55:42,342 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: RCC
+2021-07-23 15:55:42,342 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: NVIC
+2021-07-23 15:55:42,343 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: USART
+2021-07-23 15:55:42,343 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: GPIO
+2021-07-23 15:55:42,345 [INFO] CodeGenerator:641 - code generatio: config db path: G:\cubeide\STM32CubeIDE_1.6.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.1.202103241236\\db\
+2021-07-23 15:55:43,174 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\MXTmpFiles\license.tmp_save
+2021-07-23 15:55:43,281 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\MXTmpFiles\license.tmp
+2021-07-23 15:55:43,307 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\MXTmpFiles\gpio.tmp_save
+2021-07-23 15:55:43,361 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\MXTmpFiles\gpio.tmp
+2021-07-23 15:55:43,575 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-23 15:55:43,575 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-23 15:55:43,578 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-23 15:55:43,590 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Src\stm32f4xx_it.c_save
+2021-07-23 15:55:43,679 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Src\stm32f4xx_it.c
+2021-07-23 15:55:43,684 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Inc\stm32f4xx_it.h_save
+2021-07-23 15:55:43,745 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Inc\stm32f4xx_it.h
+2021-07-23 15:55:43,759 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Src\stm32f4xx_hal_msp.c_save
+2021-07-23 15:55:43,871 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Src\stm32f4xx_hal_msp.c
+2021-07-23 15:55:43,875 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\MXTmpFiles\system.tmp_save
+2021-07-23 15:55:43,946 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\MXTmpFiles\system.tmp
+2021-07-23 15:55:43,955 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Inc\stm32f4xx_hal_conf.h_save
+2021-07-23 15:55:44,075 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Inc\stm32f4xx_hal_conf.h
+2021-07-23 15:55:44,144 [WARN] IPConfigManager:2976 - IP not found : TIM
+2021-07-23 15:55:44,145 [WARN] CodeGenerator:3191 - IP not found : null
+2021-07-23 15:55:44,153 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Inc\main.h_save
+2021-07-23 15:55:44,226 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Inc\main.h
+2021-07-23 15:55:44,231 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Src\main.c_save
+2021-07-23 15:55:44,410 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Src\main.c
+2021-07-23 15:55:45,262 [INFO] ProjectBuilder:2460 - Time for Copy HAL[1] : 151mS.
+2021-07-23 15:55:45,267 [INFO] ProjectBuilder:3418 - Project Generator version: 3.13.0-B3
+2021-07-23 15:55:45,736 [INFO] ConfigFileManager:1242 - The Die is : DIE413
+2021-07-23 15:55:48,702 [INFO] ProjectBuilder:3584 - Time for Generating toolchain IDE Files: 3435mS.
+2021-07-23 15:55:48,704 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 1mS.
+2021-07-23 15:55:48,708 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 0mS.
+2021-07-23 21:09:32,275 [INFO] Gpio:248 - dependency for GPIO [RCC, SPI3, SYS, USART1]
+2021-07-23 21:09:48,311 [INFO] Gpio:248 - dependency for GPIO [RCC, SPI3, SYS, USART1]
+2021-07-23 21:10:02,814 [INFO] Gpio:248 - dependency for GPIO [RCC, SPI3, SYS, USART1]
+2021-07-23 21:10:28,307 [INFO] Gpio:248 - dependency for GPIO [RCC, SPI3, SYS, USART1]
+2021-07-23 21:10:37,912 [INFO] Gpio:248 - dependency for GPIO [RCC, SPI3, SYS, USART1]
+2021-07-23 21:11:11,101 [INFO] Gpio:248 - dependency for GPIO [RCC, SPI3, SYS, USART1]
+2021-07-23 21:11:14,091 [INFO] Gpio:248 - dependency for GPIO [RCC, SPI3, SYS, USART1]
+2021-07-23 21:11:22,985 [INFO] Gpio:248 - dependency for GPIO [RCC, SPI3, SYS, USART1]
+2021-07-23 21:11:25,230 [INFO] Gpio:248 - dependency for GPIO [RCC, SPI3, SYS, USART1]
+2021-07-23 21:11:42,933 [INFO] Gpio:248 - dependency for GPIO [RCC, SPI3, SYS, USART1]
+2021-07-23 21:11:44,983 [INFO] Gpio:248 - dependency for GPIO [RCC, SPI3, SYS, USART1]
+2021-07-23 21:11:47,201 [INFO] Gpio:248 - dependency for GPIO [RCC, SPI3, SYS, USART1]
+2021-07-23 21:11:47,330 [INFO] Gpio:248 - dependency for GPIO [RCC, SPI3, SYS, USART1]
+2021-07-23 21:11:51,631 [INFO] Gpio:248 - dependency for GPIO [RCC, SPI3, SYS, USART1]
+2021-07-23 21:12:04,093 [INFO] Gpio:248 - dependency for GPIO [RCC, SPI3, SYS, USART1]
+2021-07-23 21:12:09,601 [INFO] Gpio:248 - dependency for GPIO [RCC, SPI3, SYS, USART1]
+2021-07-23 21:15:24,251 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 883581008 Bytes (1073741824)
+2021-07-23 21:15:24,375 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 897800344 Bytes (1073741824)
+2021-07-23 21:15:26,274 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 911569080 Bytes (1073741824)
+2021-07-23 21:15:26,718 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SPI
+2021-07-23 21:15:26,718 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: TIM1_8
+2021-07-23 21:15:26,718 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SYS
+2021-07-23 21:15:26,719 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: RCC
+2021-07-23 21:15:26,719 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: NVIC
+2021-07-23 21:15:26,719 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: USART
+2021-07-23 21:15:26,719 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: GPIO
+2021-07-23 21:15:26,721 [INFO] CodeGenerator:641 - code generatio: config db path: G:\cubeide\STM32CubeIDE_1.6.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.1.202103241236\\db\
+2021-07-23 21:15:27,600 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\MXTmpFiles\license.tmp_save
+2021-07-23 21:15:27,716 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\MXTmpFiles\license.tmp
+2021-07-23 21:15:27,775 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\MXTmpFiles\gpio.tmp_save
+2021-07-23 21:15:27,848 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\MXTmpFiles\gpio.tmp
+2021-07-23 21:15:28,208 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-23 21:15:28,210 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-23 21:15:28,211 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-23 21:15:28,226 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Src\stm32f4xx_it.c_save
+2021-07-23 21:15:28,335 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Src\stm32f4xx_it.c
+2021-07-23 21:15:28,341 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Inc\stm32f4xx_it.h_save
+2021-07-23 21:15:28,416 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Inc\stm32f4xx_it.h
+2021-07-23 21:15:28,428 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Src\stm32f4xx_hal_msp.c_save
+2021-07-23 21:15:28,559 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Src\stm32f4xx_hal_msp.c
+2021-07-23 21:15:28,563 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\MXTmpFiles\system.tmp_save
+2021-07-23 21:15:28,608 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\MXTmpFiles\system.tmp
+2021-07-23 21:15:28,616 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Inc\stm32f4xx_hal_conf.h_save
+2021-07-23 21:15:28,684 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Inc\stm32f4xx_hal_conf.h
+2021-07-23 21:15:28,734 [WARN] IPConfigManager:2976 - IP not found : TIM
+2021-07-23 21:15:28,735 [WARN] CodeGenerator:3191 - IP not found : null
+2021-07-23 21:15:28,742 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Inc\main.h_save
+2021-07-23 21:15:28,799 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Inc\main.h
+2021-07-23 21:15:28,804 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Src\main.c_save
+2021-07-23 21:15:28,926 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Src\main.c
+2021-07-23 21:15:29,796 [INFO] ProjectBuilder:2460 - Time for Copy HAL[1] : 130mS.
+2021-07-23 21:15:29,802 [INFO] ProjectBuilder:3418 - Project Generator version: 3.13.0-B3
+2021-07-23 21:15:30,633 [INFO] ConfigFileManager:1242 - The Die is : DIE413
+2021-07-23 21:15:33,854 [INFO] ProjectBuilder:3584 - Time for Generating toolchain IDE Files: 4052mS.
+2021-07-23 21:15:33,855 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 1mS.
+2021-07-23 21:15:33,857 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 0mS.
+2021-07-23 21:23:14,707 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 897365536 Bytes (1073741824)
+2021-07-23 21:23:14,854 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 910997024 Bytes (1073741824)
+2021-07-23 21:23:16,868 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 936134856 Bytes (1073741824)
+2021-07-23 21:23:17,579 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SPI
+2021-07-23 21:23:17,579 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: TIM1_8
+2021-07-23 21:23:17,579 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SYS
+2021-07-23 21:23:17,579 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: RCC
+2021-07-23 21:23:17,580 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: NVIC
+2021-07-23 21:23:17,580 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: USART
+2021-07-23 21:23:17,581 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: GPIO
+2021-07-23 21:23:17,583 [INFO] CodeGenerator:641 - code generatio: config db path: G:\cubeide\STM32CubeIDE_1.6.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.1.202103241236\\db\
+2021-07-23 21:23:18,430 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\MXTmpFiles\license.tmp_save
+2021-07-23 21:23:18,590 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\MXTmpFiles\license.tmp
+2021-07-23 21:23:18,655 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\MXTmpFiles\gpio.tmp_save
+2021-07-23 21:23:18,715 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\MXTmpFiles\gpio.tmp
+2021-07-23 21:23:19,059 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-23 21:23:19,062 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-23 21:23:19,064 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-23 21:23:19,086 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Src\stm32f4xx_it.c_save
+2021-07-23 21:23:19,234 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Src\stm32f4xx_it.c
+2021-07-23 21:23:19,241 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Inc\stm32f4xx_it.h_save
+2021-07-23 21:23:19,331 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Inc\stm32f4xx_it.h
+2021-07-23 21:23:19,343 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Src\stm32f4xx_hal_msp.c_save
+2021-07-23 21:23:19,476 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Src\stm32f4xx_hal_msp.c
+2021-07-23 21:23:19,480 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\MXTmpFiles\system.tmp_save
+2021-07-23 21:23:19,526 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\MXTmpFiles\system.tmp
+2021-07-23 21:23:19,535 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Inc\stm32f4xx_hal_conf.h_save
+2021-07-23 21:23:19,606 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Inc\stm32f4xx_hal_conf.h
+2021-07-23 21:23:19,636 [WARN] IPConfigManager:2976 - IP not found : TIM
+2021-07-23 21:23:19,636 [WARN] CodeGenerator:3191 - IP not found : null
+2021-07-23 21:23:19,644 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Inc\main.h_save
+2021-07-23 21:23:19,708 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Inc\main.h
+2021-07-23 21:23:19,712 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Src\main.c_save
+2021-07-23 21:23:19,813 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Src\main.c
+2021-07-23 21:23:20,703 [INFO] ProjectBuilder:2460 - Time for Copy HAL[1] : 130mS.
+2021-07-23 21:23:20,708 [INFO] ProjectBuilder:3418 - Project Generator version: 3.13.0-B3
+2021-07-23 21:23:21,384 [INFO] ConfigFileManager:1242 - The Die is : DIE413
+2021-07-23 21:23:24,412 [INFO] ProjectBuilder:3584 - Time for Generating toolchain IDE Files: 3704mS.
+2021-07-23 21:23:24,413 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 0mS.
+2021-07-23 21:23:24,416 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 0mS.
+2021-07-23 21:24:37,405 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 920804592 Bytes (1073741824)
+2021-07-23 21:24:37,540 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 937252992 Bytes (1073741824)
+2021-07-23 21:24:39,289 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 936621136 Bytes (1073741824)
+2021-07-23 21:24:39,737 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SPI
+2021-07-23 21:24:39,737 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: TIM1_8
+2021-07-23 21:24:39,738 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SYS
+2021-07-23 21:24:39,738 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: RCC
+2021-07-23 21:24:39,738 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: NVIC
+2021-07-23 21:24:39,738 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: USART
+2021-07-23 21:24:39,738 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: GPIO
+2021-07-23 21:24:39,739 [INFO] CodeGenerator:641 - code generatio: config db path: G:\cubeide\STM32CubeIDE_1.6.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.1.202103241236\\db\
+2021-07-23 21:24:40,522 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\MXTmpFiles\license.tmp_save
+2021-07-23 21:24:40,589 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\MXTmpFiles\license.tmp
+2021-07-23 21:24:40,651 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\MXTmpFiles\gpio.tmp_save
+2021-07-23 21:24:40,697 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\MXTmpFiles\gpio.tmp
+2021-07-23 21:24:41,004 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-23 21:24:41,006 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-23 21:24:41,007 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-23 21:24:41,022 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Src\stm32f4xx_it.c_save
+2021-07-23 21:24:41,123 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Src\stm32f4xx_it.c
+2021-07-23 21:24:41,128 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Inc\stm32f4xx_it.h_save
+2021-07-23 21:24:41,201 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Inc\stm32f4xx_it.h
+2021-07-23 21:24:41,213 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Src\stm32f4xx_hal_msp.c_save
+2021-07-23 21:24:41,310 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Src\stm32f4xx_hal_msp.c
+2021-07-23 21:24:41,313 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\MXTmpFiles\system.tmp_save
+2021-07-23 21:24:41,367 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\MXTmpFiles\system.tmp
+2021-07-23 21:24:41,377 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Inc\stm32f4xx_hal_conf.h_save
+2021-07-23 21:24:41,444 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Inc\stm32f4xx_hal_conf.h
+2021-07-23 21:24:41,475 [WARN] IPConfigManager:2976 - IP not found : TIM
+2021-07-23 21:24:41,476 [WARN] CodeGenerator:3191 - IP not found : null
+2021-07-23 21:24:41,482 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Inc\main.h_save
+2021-07-23 21:24:41,536 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Inc\main.h
+2021-07-23 21:24:41,541 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Src\main.c_save
+2021-07-23 21:24:41,647 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Src\main.c
+2021-07-23 21:24:42,485 [INFO] ProjectBuilder:2460 - Time for Copy HAL[1] : 128mS.
+2021-07-23 21:24:42,490 [INFO] ProjectBuilder:3418 - Project Generator version: 3.13.0-B3
+2021-07-23 21:24:43,172 [INFO] ConfigFileManager:1242 - The Die is : DIE413
+2021-07-23 21:24:45,968 [INFO] ProjectBuilder:3584 - Time for Generating toolchain IDE Files: 3478mS.
+2021-07-23 21:24:45,969 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 1mS.
+2021-07-23 21:24:45,972 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 0mS.
+2021-07-23 22:11:37,073 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Exception in thread "AWT-EventQueue-0" java.awt.IllegalComponentStateException: component must be showing on the screen to determine its location
+2021-07-23 22:11:37,074 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.getLocationOnScreen_NoTreeLock(Unknown Source)
+2021-07-23 22:11:37,075 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.getLocationOnScreen(Unknown Source)
+2021-07-23 22:11:37,076 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JPopupMenu.show(Unknown Source)
+2021-07-23 22:11:37,077 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.plaf.basic.BasicComboPopup.show(Unknown Source)
+2021-07-23 22:11:37,079 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.plaf.basic.BasicComboPopup.togglePopup(Unknown Source)
+2021-07-23 22:11:37,081 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.plaf.basic.BasicComboPopup$Handler.mousePressed(Unknown Source)
+2021-07-23 22:11:37,082 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processMouseEvent(Unknown Source)
+2021-07-23 22:11:37,083 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JComponent.processMouseEvent(Unknown Source)
+2021-07-23 22:11:37,084 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processEvent(Unknown Source)
+2021-07-23 22:11:37,085 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.processEvent(Unknown Source)
+2021-07-23 22:11:37,087 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEventImpl(Unknown Source)
+2021-07-23 22:11:37,088 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+2021-07-23 22:11:37,089 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+2021-07-23 22:11:37,090 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.plaf.basic.BasicTableUI$Handler.repostEvent(Unknown Source)
+2021-07-23 22:11:37,092 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.plaf.basic.BasicTableUI$Handler.adjustSelection(Unknown Source)
+2021-07-23 22:11:37,093 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.plaf.basic.BasicTableUI$Handler.mousePressed(Unknown Source)
+2021-07-23 22:11:37,094 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.AWTEventMulticaster.mousePressed(Unknown Source)
+2021-07-23 22:11:37,095 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.AWTEventMulticaster.mousePressed(Unknown Source)
+2021-07-23 22:11:37,097 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.AWTEventMulticaster.mousePressed(Unknown Source)
+2021-07-23 22:11:37,098 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.AWTEventMulticaster.mousePressed(Unknown Source)
+2021-07-23 22:11:37,099 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processMouseEvent(Unknown Source)
+2021-07-23 22:11:37,100 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JComponent.processMouseEvent(Unknown Source)
+2021-07-23 22:11:37,101 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processEvent(Unknown Source)
+2021-07-23 22:11:37,102 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.processEvent(Unknown Source)
+2021-07-23 22:11:37,104 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEventImpl(Unknown Source)
+2021-07-23 22:11:37,105 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+2021-07-23 22:11:37,106 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+2021-07-23 22:11:37,107 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+2021-07-23 22:11:37,108 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+2021-07-23 22:11:37,109 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+2021-07-23 22:11:37,110 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+2021-07-23 22:11:37,111 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+2021-07-23 22:11:37,112 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+2021-07-23 22:11:37,113 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+2021-07-23 22:11:37,114 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+2021-07-23 22:11:37,115 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2021-07-23 22:11:37,116 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+2021-07-23 22:11:37,117 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+2021-07-23 22:11:37,118 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(Unknown Source)
+2021-07-23 22:11:37,119 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(Unknown Source)
+2021-07-23 22:11:37,120 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2021-07-23 22:11:37,121 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+2021-07-23 22:11:37,122 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+2021-07-23 22:11:37,124 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+2021-07-23 22:11:37,125 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+2021-07-23 22:11:37,126 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+2021-07-23 22:11:37,127 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+2021-07-23 22:11:37,128 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+2021-07-23 22:11:37,129 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2021-07-23 22:11:39,525 [INFO] NvicIntPanel:90 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,561x284,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-07-23 22:11:51,330 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 954902504 Bytes (1073741824)
+2021-07-23 22:11:51,467 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 892989576 Bytes (1073741824)
+2021-07-23 22:11:53,094 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 900440032 Bytes (1073741824)
+2021-07-23 22:11:53,557 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SPI
+2021-07-23 22:11:53,558 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: TIM1_8
+2021-07-23 22:11:53,558 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SYS
+2021-07-23 22:11:53,558 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: RCC
+2021-07-23 22:11:53,558 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: NVIC
+2021-07-23 22:11:53,558 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: USART
+2021-07-23 22:11:53,559 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: GPIO
+2021-07-23 22:11:53,560 [INFO] CodeGenerator:641 - code generatio: config db path: G:\cubeide\STM32CubeIDE_1.6.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.1.202103241236\\db\
+2021-07-23 22:11:54,325 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\MXTmpFiles\license.tmp_save
+2021-07-23 22:11:54,430 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\MXTmpFiles\license.tmp
+2021-07-23 22:11:54,528 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\MXTmpFiles\gpio.tmp_save
+2021-07-23 22:11:54,589 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\MXTmpFiles\gpio.tmp
+2021-07-23 22:11:54,931 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-23 22:11:54,932 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-23 22:11:54,934 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-23 22:11:54,947 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Src\stm32f4xx_it.c_save
+2021-07-23 22:11:55,038 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Src\stm32f4xx_it.c
+2021-07-23 22:11:55,043 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Inc\stm32f4xx_it.h_save
+2021-07-23 22:11:55,097 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Inc\stm32f4xx_it.h
+2021-07-23 22:11:55,107 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Src\stm32f4xx_hal_msp.c_save
+2021-07-23 22:11:55,224 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Src\stm32f4xx_hal_msp.c
+2021-07-23 22:11:55,229 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\MXTmpFiles\system.tmp_save
+2021-07-23 22:11:55,280 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\MXTmpFiles\system.tmp
+2021-07-23 22:11:55,291 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Inc\stm32f4xx_hal_conf.h_save
+2021-07-23 22:11:55,367 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Inc\stm32f4xx_hal_conf.h
+2021-07-23 22:11:55,411 [WARN] IPConfigManager:2976 - IP not found : TIM
+2021-07-23 22:11:55,412 [WARN] CodeGenerator:3191 - IP not found : null
+2021-07-23 22:11:55,419 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Inc\main.h_save
+2021-07-23 22:11:55,484 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Inc\main.h
+2021-07-23 22:11:55,490 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Src\main.c_save
+2021-07-23 22:11:55,617 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Src\main.c
+2021-07-23 22:11:56,450 [INFO] ProjectBuilder:2460 - Time for Copy HAL[1] : 146mS.
+2021-07-23 22:11:56,457 [INFO] ProjectBuilder:3418 - Project Generator version: 3.13.0-B3
+2021-07-23 22:11:56,894 [INFO] ConfigFileManager:1242 - The Die is : DIE413
+2021-07-23 22:12:00,012 [INFO] ProjectBuilder:3584 - Time for Generating toolchain IDE Files: 3555mS.
+2021-07-23 22:12:00,013 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 0mS.
+2021-07-23 22:12:00,016 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 0mS.
+2021-07-23 22:23:56,384 [INFO] Gpio:248 - dependency for GPIO [RCC, SPI3, SYS, USART6]
+2021-07-23 22:24:25,019 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 930245768 Bytes (1073741824)
+2021-07-23 22:24:25,156 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 945448072 Bytes (1073741824)
+2021-07-23 22:24:27,007 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 975267208 Bytes (1073741824)
+2021-07-23 22:24:27,403 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SPI
+2021-07-23 22:24:27,403 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: TIM1_8
+2021-07-23 22:24:27,404 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SYS
+2021-07-23 22:24:27,404 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: RCC
+2021-07-23 22:24:27,404 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: NVIC
+2021-07-23 22:24:27,404 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: USART
+2021-07-23 22:24:27,404 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: GPIO
+2021-07-23 22:24:27,406 [INFO] CodeGenerator:641 - code generatio: config db path: G:\cubeide\STM32CubeIDE_1.6.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.1.202103241236\\db\
+2021-07-23 22:24:28,178 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\MXTmpFiles\license.tmp_save
+2021-07-23 22:24:28,280 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\MXTmpFiles\license.tmp
+2021-07-23 22:24:28,337 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\MXTmpFiles\gpio.tmp_save
+2021-07-23 22:24:28,398 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\MXTmpFiles\gpio.tmp
+2021-07-23 22:24:28,837 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-23 22:24:28,840 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-23 22:24:28,842 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-23 22:24:28,883 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Src\stm32f4xx_it.c_save
+2021-07-23 22:24:28,976 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Src\stm32f4xx_it.c
+2021-07-23 22:24:28,981 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Inc\stm32f4xx_it.h_save
+2021-07-23 22:24:29,037 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Inc\stm32f4xx_it.h
+2021-07-23 22:24:29,055 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Src\stm32f4xx_hal_msp.c_save
+2021-07-23 22:24:29,164 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Src\stm32f4xx_hal_msp.c
+2021-07-23 22:24:29,169 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\MXTmpFiles\system.tmp_save
+2021-07-23 22:24:29,223 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\MXTmpFiles\system.tmp
+2021-07-23 22:24:29,232 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Inc\stm32f4xx_hal_conf.h_save
+2021-07-23 22:24:29,300 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Inc\stm32f4xx_hal_conf.h
+2021-07-23 22:24:29,332 [WARN] IPConfigManager:2976 - IP not found : TIM
+2021-07-23 22:24:29,333 [WARN] CodeGenerator:3191 - IP not found : null
+2021-07-23 22:24:29,340 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Inc\main.h_save
+2021-07-23 22:24:29,395 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Inc\main.h
+2021-07-23 22:24:29,400 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Src\main.c_save
+2021-07-23 22:24:29,513 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Src\main.c
+2021-07-23 22:24:30,469 [INFO] ProjectBuilder:2460 - Time for Copy HAL[1] : 166mS.
+2021-07-23 22:24:30,474 [INFO] ProjectBuilder:3418 - Project Generator version: 3.13.0-B3
+2021-07-23 22:24:31,210 [INFO] ConfigFileManager:1242 - The Die is : DIE413
+2021-07-23 22:24:34,375 [INFO] ProjectBuilder:3584 - Time for Generating toolchain IDE Files: 3901mS.
+2021-07-23 22:24:34,376 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 0mS.
+2021-07-23 22:24:34,378 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 0mS.
+2021-07-23 22:28:00,602 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 905519256 Bytes (1073741824)
+2021-07-23 22:28:01,034 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SPI
+2021-07-23 22:28:01,034 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: TIM1_8
+2021-07-23 22:28:01,034 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SYS
+2021-07-23 22:28:01,034 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: RCC
+2021-07-23 22:28:01,034 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: NVIC
+2021-07-23 22:28:01,034 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: USART
+2021-07-23 22:28:01,035 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: GPIO
+2021-07-23 22:28:01,037 [INFO] CodeGenerator:641 - code generatio: config db path: G:\cubeide\STM32CubeIDE_1.6.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.1.202103241236\\db\
+2021-07-23 22:28:01,854 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\MXTmpFiles\license.tmp_save
+2021-07-23 22:28:01,975 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\MXTmpFiles\license.tmp
+2021-07-23 22:28:02,038 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\MXTmpFiles\gpio.tmp_save
+2021-07-23 22:28:02,095 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\MXTmpFiles\gpio.tmp
+2021-07-23 22:28:02,460 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-23 22:28:02,463 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-23 22:28:02,467 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-23 22:28:02,490 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Src\stm32f4xx_it.c_save
+2021-07-23 22:28:02,612 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Src\stm32f4xx_it.c
+2021-07-23 22:28:02,619 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Inc\stm32f4xx_it.h_save
+2021-07-23 22:28:02,697 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Inc\stm32f4xx_it.h
+2021-07-23 22:28:02,711 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Src\stm32f4xx_hal_msp.c_save
+2021-07-23 22:28:02,865 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Src\stm32f4xx_hal_msp.c
+2021-07-23 22:28:02,869 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\MXTmpFiles\system.tmp_save
+2021-07-23 22:28:02,908 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\MXTmpFiles\system.tmp
+2021-07-23 22:28:02,916 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Inc\stm32f4xx_hal_conf.h_save
+2021-07-23 22:28:02,975 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Inc\stm32f4xx_hal_conf.h
+2021-07-23 22:28:03,012 [WARN] IPConfigManager:2976 - IP not found : TIM
+2021-07-23 22:28:03,013 [WARN] CodeGenerator:3191 - IP not found : null
+2021-07-23 22:28:03,020 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Inc\main.h_save
+2021-07-23 22:28:03,082 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Inc\main.h
+2021-07-23 22:28:03,087 [INFO] CodeEngine:229 - oldGeneratedFile, G:\CubeProject\diansai_19_C\Core\Src\main.c_save
+2021-07-23 22:28:03,199 [INFO] CodeEngine:247 - Generated code: G:\CubeProject\diansai_19_C\Core\Src\main.c
+2021-07-23 22:28:04,485 [INFO] ProjectBuilder:2460 - Time for Copy HAL[1] : 160mS.
+2021-07-23 22:28:04,492 [INFO] ProjectBuilder:3418 - Project Generator version: 3.13.0-B3
+2021-07-23 22:28:04,981 [INFO] ConfigFileManager:1242 - The Die is : DIE413
+2021-07-23 22:28:08,220 [INFO] ProjectBuilder:3584 - Time for Generating toolchain IDE Files: 3728mS.
+2021-07-23 22:28:08,221 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 1mS.
+2021-07-23 22:28:08,223 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 0mS.
+2021-07-24 00:22:05,651 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 

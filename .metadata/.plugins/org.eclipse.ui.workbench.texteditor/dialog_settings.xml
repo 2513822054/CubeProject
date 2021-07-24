@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="ADS"/>
+		<item key="selection" value="GPIO_Init("/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="GPIO_Init("/>
 			<item value="ads"/>
 			<item value="ADS8688"/>
 			<item value="RECEIVE"/>
@@ -15,7 +16,6 @@
 			<item value="return 11"/>
 			<item value="tft_text(0,11,"/>
 			<item value="mode1Times"/>
-			<item value="showError();"/>
 		</list>
 		<list key="replacehistory">
 		</list>

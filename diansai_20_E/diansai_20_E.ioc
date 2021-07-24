@@ -45,6 +45,7 @@ RCC.FamilyName=M
 RCC.SYSCLKSource=RCC_SYSCLKSOURCE_PLLCLK
 ProjectManager.StackSize=0x400
 PD0.GPIO_Speed=GPIO_SPEED_FREQ_HIGH
+NVIC.USART6_IRQn=true\:0\:0\:false\:false\:true\:true\:true
 PA13.Signal=SYS_JTMS-SWDIO
 Mcu.IP4=TIM1
 RCC.FCLKCortexFreq_Value=168000000

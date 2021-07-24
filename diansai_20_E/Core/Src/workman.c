@@ -35,7 +35,7 @@ void DosomethingTim1()
 {
 	uint32_t i,j;
 	uint8_t dataOutput[2048];
-	float THD;
+	float THD=0;
 	float THD_data[6];
 	float Vpp;
 	float max=-32768,min=32768;
@@ -70,7 +70,10 @@ void DosomethingTim1()
 //	OutputAll(1,dataCh1FFT,2048);
 //	OutputAll(2,dataCh1,2048);
 
-	tft_form(0, 1, dataOutput,600, 0);
+	if(isShow)
+	{
+		tft_form(0, 1, dataOutput,600, 0);
+	}
 
 
 	arm_rfft_fast_f32(&S, dataCh1, dataCh1FFT, 0);
@@ -79,8 +82,10 @@ void DosomethingTim1()
 	{
 		dataOutput[i] = dataCh1[i]/162000;
 	}
-	tft_form(0, 1, dataOutput,600, 1);
-
+	if(isShow)
+	{
+		tft_form(0, 1, dataOutput,600, 1);
+	}
 
 	if(++showtimes>=10)
 	{
@@ -91,7 +96,7 @@ void DosomethingTim1()
 		{
 			THD_data[i]= dataCh1[32*(i+1)]/3200;
 		}
-		arm_power_f32(&THD_data[1],5,&THD);
+		arm_power_f32(&THD_data[1],4,&THD);
 		arm_sqrt_f32(THD, &THD);
 		THD/=THD_data[0];
 		THD*=100;
@@ -116,12 +121,6 @@ void DosomethingTim1()
 			uint8_t fangbo[6]={0xC8,0xFD,0xBD,0xC7,0xB2,0xA8};
 			tft_text(0, 10, fangbo, 6);
 		}
-//		//三角波
-//		else if(THD_data[2]*9.0<THD_data[0] && THD_data[2]*9.3>THD_data[0] && THD_data[4]*25<THD_data[0] && THD_data[4]*28>THD_data[0])
-//		{
-//			uint8_t fangbo[6]={0xC8,0xFD,0xBD,0xC7,0xB2,0xA8};
-//			tft_text(0, 10, fangbo, 6);
-//		}
 
 		//标准正弦波
 		else if(THD<1)

@@ -28,11 +28,12 @@
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
 
-//本函数对长为N的实数数组先进⾏FFT计算，由于只计算了前�??半幅频，故输出结果仍为N，频率截⽌到Fs/2�??.
+//本函数对长为N的实数数组先进⾏FFT计算，由于只计算了前�???半幅频，故输出结果仍为N，频率截⽌到Fs/2�???.
 arm_rfft_fast_instance_f32 S;
 
+uint8_t isShow=0;
 
-//ch1采样�?????
+//ch1采样�??????
 float dataCh1[2048];
 
 //FFT
@@ -41,7 +42,7 @@ float dataCh1FFT[2048];
 //显示次数
 uint32_t showtimes=0;
 
-//失真类型    0  无失真     1
+//失真类型    0  无失�?     1
 uint8_t Dtype=0;
 
 
@@ -126,7 +127,7 @@ int main(void)
 
   arm_rfft_fast_init_f32(&S,FFT_SIZE);//初始化该结构
   HAL_TIM_Base_Start_IT(&htim1);
-
+  HAL_UART_Receive_IT(TFT_RECEIVE, (uint8_t *)&R_onedata, 1);
 
   /* USER CODE END 2 */
 

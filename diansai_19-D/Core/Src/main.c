@@ -71,41 +71,41 @@ static void MX_TIM2_Init(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 //void arm_rfft_fast_f32(arm_rfft_fast_instance_f32 *s,float *p,float *pOut,u8 ifftflag);
-#define FFT_SIZE 1024 //实数序列的长�?
+#define FFT_SIZE 1024 //实数序列的长�??
 float Input[1024];
-float Output[1024], Real_Output[1024]; //�?终幅值结果数�?
-arm_rfft_fast_instance_f32 S;//结构�?
+float Output[1024], Real_Output[1024]; //�??终幅值结果数�??
+arm_rfft_fast_instance_f32 S;//结构�??
 //
 //
-//arm_rfft_fast_f32(&S, Input, Output, 0);//ifft_flag=0是正变换�? �?1则是�? 变换
+//arm_rfft_fast_f32(&S, Input, Output, 0);//ifft_flag=0是正变换�?? �??1则是�?? 变换
 ////再对复数结果求模
 //arm_cmplx_mag_f32(Output, Real_Output, 1024);
 
 
 
 
-//设置状�?�机模式     0 测试模式  1幅频特�?�模�?   2故障�?测模�?
+//设置状�?�机模式     0 测试模式  1幅频特�?�模�??   2故障�??测模�??
 uint8_t stateMode=0;
 
 
-//PE0电平状�??           �?1则输出继电器相连，输出带�?        0为空�?
+//PE0电平状�??           �??1则输出继电器相连，输出带�??        0为空�??
 uint8_t PE0=0;
 
 //定时器计数器
 uint16_t count3=0,count4=0,count5=0;
 
-//采样�?  和buf
+//采样�??  和buf
 uint16_t ads_data[8];
 uint8_t txbuf[4] = {0};
 uint8_t rxbuf[4] = {0};
 
 ADS8688 ads;
 
-//各个通道的最大�?�和�?小�??
+//各个通道的最大�?�和�??小�??
 uint16_t ch1max,ch2max,ch3max,ch4max,ch1min,ch2min,ch3min,ch4min;
-//�?大�?�最小�?�和各种值的浮点�?
+//�??大�?�最小�?�和各种值的浮点�??
 float ch1max_f,ch2max_f,ch3max_f,ch4max_f,ch1min_f,ch2min_f,ch3min_f,ch4min_f;
-//峰峰�? 平均�?
+//峰峰�?? 平均�??
 float Vpp1,Vpp2,Vdc1,Vdc2;
 float Vpp3Noload,Vpp3Load,Vdc3Noload,Vdc3Load;
 //输入输出电阻
@@ -121,7 +121,7 @@ float c2DoubleMin;
 
 
 
-//幅频特�?�采样数�?
+//幅频特�?�采样数�??
 uint16_t AF[400];
 uint16_t AF_max=0,AF_place;
 uint8_t AF_print[400];
@@ -165,7 +165,7 @@ int main(void)
   MX_TIM5_Init();
   MX_TIM2_Init();
   /* USER CODE BEGIN 2 */
-  arm_rfft_fast_init_f32(&S,1024);//初始化该结构�?
+  arm_rfft_fast_init_f32(&S,1024);//初始化该结构�??
 
 
   ADS8688_Init(&ads,&hspi3,SPI3_CS_GPIO_Port, SPI3_CS_Pin);
@@ -193,15 +193,15 @@ int main(void)
   //FFT test
   /*
   功能：计算FFT
-  (结构体，输⼊，输出，ifft标志�?)
+  (结构体，输⼊，输出，ifft标志�??)
   */
   //void arm_rfft_fast_f32(arm_rfft_fast_instance_f32 *s,float *p,float *pOut,u8 ifftflag);
-  //本函数对长为N的实数数组先进⾏FFT计算，由于只计算了前�?半幅频，故输出结果仍为N，频率截⽌到Fs/2�?.
-//  #define FFT_SIZE 1024 //实数序列的长�?
-//  float Output[1024], Real_Output[1024]; //�?终幅值结果数�?
-//  arm_rfft_fast_instance_f32 S;//结构�?
-//  arm_rfft_fast_init_f32(&S,FFT_SIZE);//初始化该结构�?
-//  arm_rfft_fast_f32(&S, Input, Output, 0);//ifft_flag=0是正变换�? �?1则是�? 变换
+  //本函数对长为N的实数数组先进⾏FFT计算，由于只计算了前�??半幅频，故输出结果仍为N，频率截⽌到Fs/2�??.
+//  #define FFT_SIZE 1024 //实数序列的长�??
+//  float Output[1024], Real_Output[1024]; //�??终幅值结果数�??
+//  arm_rfft_fast_instance_f32 S;//结构�??
+//  arm_rfft_fast_init_f32(&S,FFT_SIZE);//初始化该结构�??
+//  arm_rfft_fast_f32(&S, Input, Output, 0);//ifft_flag=0是正变换�?? �??1则是�?? 变换
 //  //再对复数结果求模
 //  arm_cmplx_mag_f32(Output, Real_Output, 1024);
 
@@ -239,18 +239,14 @@ void SystemClock_Config(void)
   /** Configure the main internal regulator output voltage
   */
   __HAL_RCC_PWR_CLK_ENABLE();
-  __HAL_PWR_VOLTAGESCALING_CONFIG(PWR_REGULATOR_VOLTAGE_SCALE1);
+  __HAL_PWR_VOLTAGESCALING_CONFIG(PWR_REGULATOR_VOLTAGE_SCALE2);
   /** Initializes the RCC Oscillators according to the specified parameters
   * in the RCC_OscInitTypeDef structure.
   */
-  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSE;
-  RCC_OscInitStruct.HSEState = RCC_HSE_ON;
-  RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
-  RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSE;
-  RCC_OscInitStruct.PLL.PLLM = 4;
-  RCC_OscInitStruct.PLL.PLLN = 168;
-  RCC_OscInitStruct.PLL.PLLP = RCC_PLLP_DIV2;
-  RCC_OscInitStruct.PLL.PLLQ = 4;
+  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSI;
+  RCC_OscInitStruct.HSIState = RCC_HSI_ON;
+  RCC_OscInitStruct.HSICalibrationValue = RCC_HSICALIBRATION_DEFAULT;
+  RCC_OscInitStruct.PLL.PLLState = RCC_PLL_NONE;
   if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
   {
     Error_Handler();
@@ -259,12 +255,12 @@ void SystemClock_Config(void)
   */
   RCC_ClkInitStruct.ClockType = RCC_CLOCKTYPE_HCLK|RCC_CLOCKTYPE_SYSCLK
                               |RCC_CLOCKTYPE_PCLK1|RCC_CLOCKTYPE_PCLK2;
-  RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_PLLCLK;
+  RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_HSI;
   RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
-  RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV4;
-  RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV2;
+  RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV1;
+  RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV1;
 
-  if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_5) != HAL_OK)
+  if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_0) != HAL_OK)
   {
     Error_Handler();
   }
@@ -576,7 +572,7 @@ static void MX_GPIO_Init(void)
   HAL_GPIO_WritePin(SPI3_CS_GPIO_Port, SPI3_CS_Pin, GPIO_PIN_SET);
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOD, GPIO_PIN_4|GPIO_PIN_5, GPIO_PIN_SET);
+  HAL_GPIO_WritePin(GPIOD, GPIO_PIN_2|GPIO_PIN_3|GPIO_PIN_4|GPIO_PIN_5, GPIO_PIN_SET);
 
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(Relay_In_GPIO_Port, Relay_In_Pin, GPIO_PIN_RESET);
@@ -588,10 +584,17 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
   HAL_GPIO_Init(SPI3_CS_GPIO_Port, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : PD4 PD5 */
-  GPIO_InitStruct.Pin = GPIO_PIN_4|GPIO_PIN_5;
+  /*Configure GPIO pins : PD2 PD4 PD5 */
+  GPIO_InitStruct.Pin = GPIO_PIN_2|GPIO_PIN_4|GPIO_PIN_5;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_PULLUP;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_MEDIUM;
+  HAL_GPIO_Init(GPIOD, &GPIO_InitStruct);
+
+  /*Configure GPIO pin : PD3 */
+  GPIO_InitStruct.Pin = GPIO_PIN_3;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_MEDIUM;
   HAL_GPIO_Init(GPIOD, &GPIO_InitStruct);
 
