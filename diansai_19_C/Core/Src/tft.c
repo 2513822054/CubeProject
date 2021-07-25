@@ -51,10 +51,10 @@ void tft_text_float(uint8_t screen,uint8_t id,float num)
 {
 	uint8_t head[7]={0xEE,0xB1,0x10,0x00,screen,0x00,id};
 	uint8_t end[4]={0xFF,0xFC,0xFF,0xFF};
-	uint8_t	body[9];
-	sprintf(body,"%.3f",num);
+	uint8_t	body[13];
+	sprintf(body,"%.6f",num);
 	HAL_UART_Transmit(TFT_SEND, head, 7, 5);
-	HAL_UART_Transmit(TFT_SEND, body,9, 5);
+	HAL_UART_Transmit(TFT_SEND, body,13, 5);
 	HAL_UART_Transmit(TFT_SEND, end, 4, 5);
 }
 

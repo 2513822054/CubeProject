@@ -13,8 +13,8 @@ uint8_t RDW_DATA[4]     = {0x00, 0x00, 0x00, 0x00};                          // 
 uint8_t FDW_DATA[4]     = {0x00, 0x00, 0x00, 0x00};                          // default Value = 0x--------
 
 uint32_t SinFre[4]      = {1000, 1000, 200000000, 40000};
-uint32_t SinAmp[4]      = {9215, 9215, 9215, 9215};
-uint32_t SinPhr[4]      = {0, 4095, 4095 * 3, 4095 * 2};
+uint32_t SinAmp[4]      = {180, 9215, 9215, 9215};
+uint32_t SinPhr[4]      = {0, 4095*2, 4095 * 3, 4095 * 2};
 
 /**
   * @brief  Initializing IO port and reset device
@@ -54,18 +54,18 @@ void Init_AD9959(void)
     WriteData_AD9959(FR1_ADD, 3, FR1_DATA, 1);
 
     Write_frequence(0, SinFre[0]);
-    Write_frequence(1, SinFre[1]);
+//    Write_frequence(1, SinFre[1]);
 //    Write_frequence(2, SinFre[2]);
 //    Write_frequence(3, SinFre[3]);
 
 //    Write_Phase(3, SinPhr[3]);
     Write_Phase(0, SinPhr[0]);
-    Write_Phase(1, SinPhr[1]);
+//    Write_Phase(1, SinPhr[1]);
 //    Write_Phase(2, SinPhr[2]);
 
 //    Write_Amplitude(3, SinAmp[3]);
     Write_Amplitude(0, SinAmp[0]);
-    Write_Amplitude(1, SinAmp[1]);
+//    Write_Amplitude(1, SinAmp[1]);
 //    Write_Amplitude(2, SinAmp[2]);
 
 }

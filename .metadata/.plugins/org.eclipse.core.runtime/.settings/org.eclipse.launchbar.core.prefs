@@ -1,7 +1,7 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:diansai_19-D Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:diansai_19_C Debug
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:diansai_19_C Debug
 eclipse.preferences.version=1
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:ADS8688_444444444444444444444444444444444444444\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:ADS8688_444444444444444444444444444444444444444\ Debug/activeLaunchTarget=null\:---
@@ -17,7 +17,8 @@ org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:ad9959_spi_test\ Debug/activeLa
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:ads8688_5555555555555555555\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:diansai_19-D\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:diansai_19-D\ Debug/activeLaunchTarget=null\:---
-org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:diansai_19_C\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:diansai_19_C\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:diansai_19_C\ Debug/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:diansai_20_E\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:fault_detection\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:fault_detection\ Debug/activeLaunchTarget=null\:---

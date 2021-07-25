@@ -9,7 +9,7 @@ void ResTim1();
 //Tim1功能完成函数
 void DosomethingTim1();
 
-
+void resButton();
 
 
 #endif

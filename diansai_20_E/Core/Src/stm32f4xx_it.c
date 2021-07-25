@@ -247,15 +247,16 @@ void USART6_IRQHandler(void)
   /* USER CODE BEGIN USART6_IRQn 1 */
   if(tft_receive()==1)
   {
-	  if(controlbuf.controlid==0x07)
-	  {
-		  isShow = !isShow;
-		  if(isShow==0)
-		  {
-			  tft_form_delete(0, 1, 0);
-			  tft_form_delete(0, 1, 1);
-		  }
-	  }
+//	  if(controlbuf.controlid==0x07)
+//	  {
+//		  isShow = !isShow;
+//		  if(isShow==0)
+//		  {
+//			  tft_form_delete(0, 1, 0);
+//			  tft_form_delete(0, 1, 1);
+//		  }
+//	  }
+	  resButton();
   }
 
   /* USER CODE END USART6_IRQn 1 */

@@ -161,7 +161,6 @@ void ReadData_9959(uint8_t RegisterAddress, uint8_t NumberofRegisters, uint8_t *
     GPIO_InitStructure.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
     GPIO_InitStructure.Mode = GPIO_MODE_OUTPUT_PP;
     GPIO_Init(GPIOG, &GPIO_InitStructure);
-
     delay_9959(0x20);
     //Write out the control word
     for(i = 0; i < 8; i++)

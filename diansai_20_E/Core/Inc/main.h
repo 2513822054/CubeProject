@@ -40,7 +40,7 @@ extern "C" {
 
 /* Exported types ------------------------------------------------------------*/
 /* USER CODE BEGIN ET */
-#define FFT_SIZE 2048 //实数序列的长�??
+#define FFT_SIZE 2048 //实数序列的长�???
 
 
 extern uint32_t count1;
@@ -80,6 +80,14 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define KEY1_Pin GPIO_PIN_0
+#define KEY1_GPIO_Port GPIOC
+#define KEY2_Pin GPIO_PIN_1
+#define KEY2_GPIO_Port GPIOC
+#define KEY3_Pin GPIO_PIN_2
+#define KEY3_GPIO_Port GPIOC
+#define KEY4_Pin GPIO_PIN_3
+#define KEY4_GPIO_Port GPIOC
 #define SPI3_CS_Pin GPIO_PIN_15
 #define SPI3_CS_GPIO_Port GPIOA
 /* USER CODE BEGIN Private defines */

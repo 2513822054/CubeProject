@@ -42,7 +42,7 @@ extern "C" {
 /* Exported types ------------------------------------------------------------*/
 /* USER CODE BEGIN ET */
 extern SPI_HandleTypeDef hspi3;
-
+extern TIM_HandleTypeDef htim3;
 extern TIM_HandleTypeDef htim1;
 extern UART_HandleTypeDef huart6;
 extern UART_HandleTypeDef huart1;
@@ -51,7 +51,10 @@ extern UART_HandleTypeDef huart1;
 
 /* Exported constants --------------------------------------------------------*/
 /* USER CODE BEGIN EC */
-extern arm_rfft_fast_instance_f32 S;//结构体
+extern arm_rfft_fast_instance_f32 S;//结构�?
+
+extern uint32_t count3;
+extern float onedataCh1[512],onedataCh2[512];
 /* USER CODE END EC */
 
 /* Exported macro ------------------------------------------------------------*/

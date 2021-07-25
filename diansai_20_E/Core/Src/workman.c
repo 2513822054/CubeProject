@@ -179,12 +179,65 @@ void DosomethingTim1()
 //
 //	OutputAll(0,dataCh1,2048);
 	HAL_TIM_Base_Start_IT(&htim1);
-
-
-
 }
 
 
+
+
+void resButton()
+{
+	// 显示曲线按钮被按下
+		  if(controlbuf.controlid==0x07)
+		  {
+			  isShow = !isShow;
+			  if(isShow==0)
+			  {
+				  tft_form_delete(0, 1, 0);
+				  tft_form_delete(0, 1, 1);
+			  }
+		  }
+		  //正常模式  0001
+		  if(controlbuf.controlid==0x08)
+		  {
+			  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_0, RESET);
+			  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_1, RESET);
+			  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_2, RESET);
+			  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_3, SET);
+		  }
+		  //顶部失真 0101
+		  if(controlbuf.controlid==0x09)
+		  {
+			  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_0, RESET);
+			  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_1, SET);
+			  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_2, RESET);
+			  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_3, SET);
+		  }
+		  //底部失真  0111
+		  if(controlbuf.controlid==11)
+		  {
+			  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_0, RESET);
+			  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_1, SET);
+			  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_2, SET);
+			  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_3, SET);
+		  }
+		  //双向失真失真  1111
+		  if(controlbuf.controlid==12)
+		  {
+			  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_0, SET);
+			  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_1, SET);
+			  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_2, SET);
+			  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_3, SET);
+		  }
+		  //交越失真   0000
+		  if(controlbuf.controlid==13)
+		  {
+			  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_0, RESET);
+			  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_1, RESET);
+			  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_2, RESET);
+			  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_3, RESET);
+		  }
+
+}
 
 
 
