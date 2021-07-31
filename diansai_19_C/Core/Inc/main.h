@@ -36,11 +36,12 @@ extern "C" {
 #include "tft.h"
 #include "arm_math.h"
 #include "outputdata.h"
-#include "math.h"
+#include "DAC8563.h"
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/
 /* USER CODE BEGIN ET */
+extern TIM_HandleTypeDef htim4;
 extern SPI_HandleTypeDef hspi3;
 extern TIM_HandleTypeDef htim3;
 extern TIM_HandleTypeDef htim1;
@@ -51,10 +52,18 @@ extern UART_HandleTypeDef huart1;
 
 /* Exported constants --------------------------------------------------------*/
 /* USER CODE BEGIN EC */
-extern arm_rfft_fast_instance_f32 S;//结构�?
-
+extern arm_rfft_fast_instance_f32 S;//结构�????
+extern uint32_t count4;
 extern uint32_t count3;
+
 extern float onedataCh1[512],onedataCh2[512];
+
+extern float DACTest[20];
+
+
+extern float Z[201];
+extern float sweepCh1[201],sweepCh2[201];
+extern float Z500,Z500K;
 /* USER CODE END EC */
 
 /* Exported macro ------------------------------------------------------------*/
@@ -70,6 +79,16 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define DAC8563_CLR_Pin GPIO_PIN_14
+#define DAC8563_CLR_GPIO_Port GPIOB
+#define DAC8563_SYN_Pin GPIO_PIN_9
+#define DAC8563_SYN_GPIO_Port GPIOD
+#define DAC8563_SCK_Pin GPIO_PIN_11
+#define DAC8563_SCK_GPIO_Port GPIOD
+#define DAC8563_DIN_Pin GPIO_PIN_13
+#define DAC8563_DIN_GPIO_Port GPIOD
+#define DAC8563_LD_Pin GPIO_PIN_15
+#define DAC8563_LD_GPIO_Port GPIOD
 #define SPI3_CS_Pin GPIO_PIN_15
 #define SPI3_CS_GPIO_Port GPIOA
 #define AD9959_PS0_Pin GPIO_PIN_5

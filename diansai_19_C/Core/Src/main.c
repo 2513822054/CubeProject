@@ -36,11 +36,23 @@
 
 /* Private macro -------------------------------------------------------------*/
 /* USER CODE BEGIN PM */
-arm_rfft_fast_instance_f32 S;//结构�??
-
+arm_rfft_fast_instance_f32 S;//结构�???????
+uint32_t count4=0;
 uint32_t count3=0;
 //float catch3[500];
 float onedataCh1[512],onedataCh2[512];
+float Z[201];
+float sweepCh1[201],sweepCh2[201];
+float Z500,Z500K;
+
+
+
+
+float DACTest[20] = {0.0,1.545084971874737,2.938926261462366,4.045084971874737,4.755282581475767,5.0,4.755282581475768,4.045084971874737,2.9389262614623664,1.5450849718747375,6.123233995736766e-16,-1.5450849718747346,-2.938926261462365,-4.045084971874736,-4.755282581475767,-5.0,-4.755282581475768,-4.045084971874738,-2.938926261462367,-1.5450849718747384};
+
+
+
+
 /* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
@@ -48,6 +60,7 @@ SPI_HandleTypeDef hspi3;
 
 TIM_HandleTypeDef htim1;
 TIM_HandleTypeDef htim3;
+TIM_HandleTypeDef htim4;
 
 UART_HandleTypeDef huart6;
 
@@ -62,6 +75,7 @@ static void MX_SPI3_Init(void);
 static void MX_TIM1_Init(void);
 static void MX_USART6_UART_Init(void);
 static void MX_TIM3_Init(void);
+static void MX_TIM4_Init(void);
 /* USER CODE BEGIN PFP */
 
 /* USER CODE END PFP */
@@ -87,7 +101,7 @@ int main(void)
   HAL_Init();
 
   /* USER CODE BEGIN Init */
-  arm_rfft_fast_init_f32(&S,1024);//初始化该结构�??
+  arm_rfft_fast_init_f32(&S,1024);//初始化该结构�???????
   /* USER CODE END Init */
 
   /* Configure the system clock */
@@ -103,14 +117,20 @@ int main(void)
   MX_TIM1_Init();
   MX_USART6_UART_Init();
   MX_TIM3_Init();
+  MX_TIM4_Init();
   /* USER CODE BEGIN 2 */
   ADS8688_Init(&ads, &hspi3, SPI3_CS_GPIO_Port, SPI3_CS_Pin);
   Init_AD9959();
   HAL_Delay(21);
   //HAL_TIM_Base_Start_IT(&htim1);
+  //TIM4->ARR = 39999;
+  //HAL_UART_Receive_IT(TFT_RECEIVE, (uint8_t *)&R_onedata, 1);
+  //HAL_TIM_Base_Start_IT(&htim4);
+  //Write_frequence(0, 50000);
 
-  HAL_UART_Receive_IT(TFT_RECEIVE, (uint8_t *)&R_onedata, 1);
-  HAL_TIM_Base_Start_IT(&htim3);
+  DAC8563_Init();
+  //HAL_TIM_Base_Start_IT(&htim3);
+  DAC_OutAB(-10000, -10000);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -297,6 +317,51 @@ static void MX_TIM3_Init(void)
 }
 
 /**
+  * @brief TIM4 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_TIM4_Init(void)
+{
+
+  /* USER CODE BEGIN TIM4_Init 0 */
+
+  /* USER CODE END TIM4_Init 0 */
+
+  TIM_ClockConfigTypeDef sClockSourceConfig = {0};
+  TIM_MasterConfigTypeDef sMasterConfig = {0};
+
+  /* USER CODE BEGIN TIM4_Init 1 */
+
+  /* USER CODE END TIM4_Init 1 */
+  htim4.Instance = TIM4;
+  htim4.Init.Prescaler = 83;
+  htim4.Init.CounterMode = TIM_COUNTERMODE_UP;
+  htim4.Init.Period = 9999;
+  htim4.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
+  htim4.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
+  if (HAL_TIM_Base_Init(&htim4) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sClockSourceConfig.ClockSource = TIM_CLOCKSOURCE_INTERNAL;
+  if (HAL_TIM_ConfigClockSource(&htim4, &sClockSourceConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sMasterConfig.MasterOutputTrigger = TIM_TRGO_RESET;
+  sMasterConfig.MasterSlaveMode = TIM_MASTERSLAVEMODE_DISABLE;
+  if (HAL_TIMEx_MasterConfigSynchronization(&htim4, &sMasterConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN TIM4_Init 2 */
+
+  /* USER CODE END TIM4_Init 2 */
+
+}
+
+/**
   * @brief USART6 Initialization Function
   * @param None
   * @retval None
@@ -340,11 +405,18 @@ static void MX_GPIO_Init(void)
 
   /* GPIO Ports Clock Enable */
   __HAL_RCC_GPIOH_CLK_ENABLE();
+  __HAL_RCC_GPIOB_CLK_ENABLE();
+  __HAL_RCC_GPIOD_CLK_ENABLE();
   __HAL_RCC_GPIOC_CLK_ENABLE();
   __HAL_RCC_GPIOA_CLK_ENABLE();
-  __HAL_RCC_GPIOD_CLK_ENABLE();
   __HAL_RCC_GPIOG_CLK_ENABLE();
-  __HAL_RCC_GPIOB_CLK_ENABLE();
+
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(GPIOB, DAC8563_CLR_Pin|AD9959_SDIO1_Pin|AD9959_SDIO3_Pin|AD9959_SDIO2_Pin, GPIO_PIN_RESET);
+
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(GPIOD, DAC8563_SYN_Pin|DAC8563_SCK_Pin|DAC8563_DIN_Pin|DAC8563_LD_Pin
+                          |AD9959_PS0_Pin|AD9959_PWR_Pin|AD9959_PS0D7_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(SPI3_CS_GPIO_Port, SPI3_CS_Pin, GPIO_PIN_SET);
@@ -353,17 +425,27 @@ static void MX_GPIO_Init(void)
   HAL_GPIO_WritePin(GPIOD, GPIO_PIN_0|GPIO_PIN_1, GPIO_PIN_SET);
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOD, AD9959_PS0_Pin|AD9959_PWR_Pin|AD9959_PS0D7_Pin, GPIO_PIN_RESET);
-
-  /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(GPIOG, AD9959_RESET_Pin|AD9959_PS2_Pin|AD9959_UPDATE_Pin|AD9959_PS3_Pin
                           |AD9959_SDIO0_Pin|AD9959_SCLK_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(AD9959_CS_GPIO_Port, AD9959_CS_Pin, GPIO_PIN_SET);
 
-  /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOB, AD9959_SDIO1_Pin|AD9959_SDIO3_Pin|AD9959_SDIO2_Pin, GPIO_PIN_RESET);
+  /*Configure GPIO pins : DAC8563_CLR_Pin AD9959_SDIO1_Pin AD9959_SDIO3_Pin AD9959_SDIO2_Pin */
+  GPIO_InitStruct.Pin = DAC8563_CLR_Pin|AD9959_SDIO1_Pin|AD9959_SDIO3_Pin|AD9959_SDIO2_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
+  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+
+  /*Configure GPIO pins : DAC8563_SYN_Pin DAC8563_SCK_Pin DAC8563_DIN_Pin DAC8563_LD_Pin
+                           AD9959_PS0_Pin AD9959_PWR_Pin AD9959_PS0D7_Pin */
+  GPIO_InitStruct.Pin = DAC8563_SYN_Pin|DAC8563_SCK_Pin|DAC8563_DIN_Pin|DAC8563_LD_Pin
+                          |AD9959_PS0_Pin|AD9959_PWR_Pin|AD9959_PS0D7_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
+  HAL_GPIO_Init(GPIOD, &GPIO_InitStruct);
 
   /*Configure GPIO pin : SPI3_CS_Pin */
   GPIO_InitStruct.Pin = SPI3_CS_Pin;
@@ -376,13 +458,6 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Pin = GPIO_PIN_0|GPIO_PIN_1;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_PULLUP;
-  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_HIGH;
-  HAL_GPIO_Init(GPIOD, &GPIO_InitStruct);
-
-  /*Configure GPIO pins : AD9959_PS0_Pin AD9959_PWR_Pin AD9959_PS0D7_Pin */
-  GPIO_InitStruct.Pin = AD9959_PS0_Pin|AD9959_PWR_Pin|AD9959_PS0D7_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
   HAL_GPIO_Init(GPIOD, &GPIO_InitStruct);
 
@@ -394,13 +469,6 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
   HAL_GPIO_Init(GPIOG, &GPIO_InitStruct);
-
-  /*Configure GPIO pins : AD9959_SDIO1_Pin AD9959_SDIO3_Pin AD9959_SDIO2_Pin */
-  GPIO_InitStruct.Pin = AD9959_SDIO1_Pin|AD9959_SDIO3_Pin|AD9959_SDIO2_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
-  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
 }
 

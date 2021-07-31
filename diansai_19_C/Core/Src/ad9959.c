@@ -13,7 +13,7 @@ uint8_t RDW_DATA[4]     = {0x00, 0x00, 0x00, 0x00};                          // 
 uint8_t FDW_DATA[4]     = {0x00, 0x00, 0x00, 0x00};                          // default Value = 0x--------
 
 uint32_t SinFre[4]      = {1000, 1000, 200000000, 40000};
-uint32_t SinAmp[4]      = {180, 9215, 9215, 9215};
+uint32_t SinAmp[4]      = {545, 545, 9215, 9215};
 uint32_t SinPhr[4]      = {0, 4095*2, 4095 * 3, 4095 * 2};
 
 /**
@@ -26,7 +26,7 @@ uint32_t SinPhr[4]      = {0, 4095*2, 4095 * 3, 4095 * 2};
 void Init_AD9959(void)
 {
     uint8_t FR1_DATA[3] = {0xD3, 0x00, 0x00};                                  //20 frequency doubling
-    GPIO_InitTypeDef  GPIO_InitStructure;
+    //GPIO_InitTypeDef  GPIO_InitStructure;
 
 //    __HAL_RCC_GPIOA_CLK_ENABLE();                   //PD port clock enable
 //    __HAL_RCC_GPIOC_CLK_ENABLE();                   //PD port clock enable
@@ -64,7 +64,7 @@ void Init_AD9959(void)
 //    Write_Phase(2, SinPhr[2]);
 
 //    Write_Amplitude(3, SinAmp[3]);
-    Write_Amplitude(0, SinAmp[0]);
+    Write_Amplitude(0 , SinAmp[0]);
 //    Write_Amplitude(1, SinAmp[1]);
 //    Write_Amplitude(2, SinAmp[2]);
 

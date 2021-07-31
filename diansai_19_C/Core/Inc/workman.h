@@ -16,5 +16,7 @@ void resTim3();
 void DosomethingTim3();
 
 
+void resTim4();
+
 
 #endif
