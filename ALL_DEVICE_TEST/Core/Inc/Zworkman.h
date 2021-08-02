@@ -1,6 +1,15 @@
 #ifndef __WORKMAN_H_
 #define __WORKMAN_H_
+#include "ad9959.h"
+#include "ADS8688.h"
+#include "DAC8563.h"
+#include "outputdata.h"
+#include "tft.h"
+#include "Zdosomething.h"
+#include "Zresponse.h"
+#include "W25Q128.h"
 #include "main.h"
+
 
 extern SPI_HandleTypeDef hspi1;
 extern SPI_HandleTypeDef hspi3;

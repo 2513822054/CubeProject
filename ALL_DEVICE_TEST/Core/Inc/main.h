@@ -32,13 +32,8 @@ extern "C" {
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include "ad9959.h"
-#include "ADS8688.h"
-#include "DAC8563.h"
-#include "outputdata.h"
-#include "tft.h"
-#include "Zdosomething.h"
-#include "Zresponse.h"
+
+
 #include "Zworkman.h"
 /* USER CODE END Includes */
 
